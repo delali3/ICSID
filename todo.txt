@@ -1,0 +1,349 @@
+Build a Clean, Non-AI-Looking Conference Website
+Brand & Style
+
+Organization: University of Mines and Technology (UMaT) – SRID
+
+Primary palette: deep green, gold accent, charcoal, off-white
+
+Primary Green: #0B6B3A
+
+Gold Accent: #C7A008
+
+Charcoal/Dark Gray: #1F2937
+
+Off-White: #F8FAF9
+
+Typography: modern, humanist sans for body (e.g., Inter/Work Sans), strong serif or geometric sans for headings (e.g., Source Serif/Outfit). Clear visual hierarchy. No AI-ish gradients or gimmicks; keep it editorial, crisp, and accessible (WCAG AA).
+
+Components: roomy whitespace, simple cards, soft rounded corners (8–12px), subtle shadows, clear buttons (solid primary, ghost secondary).
+
+Imagery: subtle campus and sustainability visuals (infrastructure, green materials, smart cities). Avoid stocky clichés; use soft overlays (5–10% green tint).
+
+Site Purpose
+
+Build the official website for:
+International Conference on Sustainable Science and Infrastructure Development (ICSID)
+Venue: UMaT-SRID, Sekondi–Takoradi, Ghana
+
+Tone: Professional, academic, welcoming. Clean and human—no AI phrasing.
+
+Global Requirements
+
+Responsive, fast, SEO-ready (title/description per page; Open Graph + Twitter Card).
+
+Accessible navigation (skip links, focus states, alt text).
+
+Clear CTAs: “Submit Paper”, “Register”, “Download CFP”, “Contact LOC”.
+
+Sticky top nav with anchor links. Footer with contact, venue map, and quick links.
+
+Add a “Nearby Hotels” directory (filterable and searchable).
+
+Add structured data (JSON-LD) for Event (Conference), Organization.
+
+Navigation (top)
+
+Home
+
+About
+
+Themes
+
+Key Dates
+
+Committees
+
+Call for Papers
+
+Registration
+
+Venue
+
+Nearby Hotels
+
+Contact
+
+PAGE/SECTION CONTENT
+HERO (Home)
+
+Title: International Conference on Sustainable Science and Infrastructure Development (ICSID)
+
+Theme (subtitle): Advancing Sustainability Science and Infrastructure Innovation for a Resilient Future
+
+Date & Venue pill: 30 July – 1 Aug, 2026 • UMaT-SRID, Sekondi–Takoradi, Ghana
+
+Primary CTA: Submit Paper (link placeholder: /call-for-papers)
+
+Secondary CTA: Register (link placeholder: /registration)
+
+Small link: Download CFP (PDF)
+
+ABOUT (Home or About page)
+
+Background and Information
+The International Conference on Sustainable Science and Infrastructure Development (ICSID) is an interdisciplinary, double-blind, peer-reviewed event that provides a global platform for advancing research and practice in sustainability science, resilient infrastructure, and emerging technologies. The conference aims to tackle urgent global challenges by integrating scientific research, engineering solutions, and policy frameworks to foster long-term sustainable development.
+
+ICSID covers a broad range of thematic areas, including:
+
+Sustainability Science: climate-resilient urban planning, green materials, circular economy, and energy-efficient systems across environmental, economic, and social dimensions.
+
+Infrastructure Development: sustainable transport, smart cities, renewable energy systems, infrastructure finance, governance, and inclusive policy approaches.
+
+Technical Innovation & Cross-Disciplinary Methods: AI, IoT, smart grids, and digital twin technologies applied to sustainable infrastructure systems.
+
+Proceedings & Indexing
+ICSID proceedings provide a platform for researchers, practitioners, policymakers, industry experts, and students to exchange knowledge. Selected papers are considered for publication in the Journal of Sustainability Science and Infrastructure Development (JSSID) and the Ghana Journal of Technology (GJT). The proceedings are indexed in IEEE Xplore and Scopus.
+
+THEMES (grid of cards)
+
+Three cards or accordions summarizing the three domains above. Each with bullet examples and a “Submit under this theme” deep link to CFP.
+
+KEY DATES (clean timeline)
+
+Deadline for full papers submission: 30 May 2026
+
+Extended Deadline: 30 June 2026
+
+Notification of acceptance: 1 July 2026
+
+Camera-Ready Copy: 20 July 2026
+
+Early Bird Registration: 25 – 29 July 2026
+
+Late / On-site Registration: 30 – 31 July 2026
+
+Conference registration: 25 July – 30 Aug 2026
+
+Conference Date: 30 July – 1 Aug 2026
+
+Venue: UMaT-SRID, Sekondi–Takoradi, Ghana
+
+COMMITTEES (accordion by committee)
+
+Conference Chair: Prof Richard Amankwah
+Conference Vice Chairperson: Ing. Prof. Issaka Yakubu
+
+A. Local Organising Committee (LOC)
+
+Engr Dr Ezekiel Mensah Martey, MIEEE (Head)
+
+Dr Ebenezer Ashun (UMaT)
+
+Dr Richmond Amoah
+
+Dr Anafo
+
+Engr Sitti Mensah (UMaT)
+
+B. Finance & Sponsorship Committee (FSC)
+
+Ezekiel Adu Mensah (Head)
+
+Foster O. Adutwum
+
+Mrs Comfort Dakuefi
+
+Mabel Peggy Anku
+
+C. Technical Programs Committee (TPC)
+
+Ing Prof Issaka Yakubu (Head)
+
+Prof Joseph Acquah
+
+Dr Naa Dede
+
+Dr Clement Komolafe
+
+Engr Dr Albert K Ansah
+
+Dr Abdullah Zeib Anafo
+
+Dr Obed Appiah (WASCAL, UENR)
+
+Dr. Godfrey A. Mills (UG)
+
+Dr Daniel Adu-Gyamfi (CK-Tadem)
+
+Dr Seth Alornyo (KTU)
+
+Dr Shadrack Nusenu (KTU)
+
+Dr Eric Opoku (KNUST)
+
+Eng Dr Albert Kwansah Ansah (UMaT)
+
+Dr Anokye Acheampong Amponsah (UENR)
+
+Dr Paul Anane (UK)
+
+Dr Umar Farouk (CAUC)
+
+Engr Dr Felix Aryeh (UMaT)
+
+Dr. David Aboagye-Darko
+
+Dr Emmanuel Effah (UMaT)
+
+Dr Ivy Botchway (UMaT)
+
+Dr Eric Opoku (KNUST)
+
+D. Publicity Committee (PC)
+
+Dr Ernest K Ampomah (Head)
+
+Engr Madina Seidu Adams, MIEEE
+
+Dr Emmanuel Bosiako (GIMPA)
+
+Dr Alfred A. Amponsah (UMaT)
+
+Dr Kwabena Adu (UENR)
+
+Dr Ernest K. Ampomah (CSUC)
+
+Engr Dr Millicent Akotam Agangiba (UPSA)
+
+Dr. Anita Antwiwaa (All Nations University, Ghana)
+
+Dr Rose-Mary O. M. Gyenning (KNUST)
+
+Dr Eldad Antwi-Bekoe (AAMUSTED)
+
+Dr Ernest Amponsah (UMaT)
+
+Dr Emmanuel Dortey Tetteh (UCC)
+
+Dr Kwesi Hughes Lartey (KTU)
+
+Ing Franklin Kumassah, SMIEEE (TTU)
+
+E. Logistics/Registration Committee
+
+Moses Ako Hayford (Head)
+
+Mr Foster O. Adutwum
+
+Mrs Comfort Dakuefi
+
+CALL FOR PAPERS
+
+Double-blind peer review process overview.
+
+Submission categories (full papers).
+
+Formatting guidelines & templates (links).
+
+Submission portal button: Submit Paper.
+
+Note on proceedings and post-conference journal options (JSSID, GJT; IEEE Xplore & Scopus indexing).
+
+REGISTRATION
+
+Ticket tiers: Early Bird (25–29 July 2026), Late/On-site (30–31 July 2026).
+
+Pricing table placeholders.
+
+“Register Now” CTA (form or external link).
+
+Policy notes (refunds, student rates, group rates) placeholders.
+
+VENUE
+
+Location: UMaT-SRID, Sekondi–Takoradi, Ghana
+
+Embedded map, brief travel guidance (airport, transport), on-campus directions.
+
+Accessibility info and on-site support.
+
+NEARBY HOTELS (filterable directory)
+
+Search + filters: Price range, distance to venue, rating, amenities (Wi-Fi, breakfast, shuttle).
+
+Card layout with name, distance, price range, rating, short description, CTA to website/booking.
+
+Add a small note: “Listings are informational; confirm availability and rates with the hotel.”
+
+Hotels Data Schema (JSON to seed the directory):
+
+[
+  {
+    "name": "Takoradi Royal Hotel",
+    "distance_km_from_venue": 3.2,
+    "price_category": "$$",
+    "rating": 4.3,
+    "amenities": ["Wi-Fi", "Breakfast", "Airport Shuttle"],
+    "website": "https://example.com/takoradi-royal",
+    "notes": "Ask for conference rate; limited shuttle seats."
+  },
+  {
+    "name": "Sekondi Beachfront Lodge",
+    "distance_km_from_venue": 5.8,
+    "price_category": "$$",
+    "rating": 4.1,
+    "amenities": ["Wi-Fi", "Breakfast"],
+    "website": "https://example.com/sekondi-beachfront",
+    "notes": "Quiet area; 15–20 mins to venue by taxi."
+  },
+  {
+    "name": "Harbor View Suites",
+    "distance_km_from_venue": 7.5,
+    "price_category": "$$$",
+    "rating": 4.5,
+    "amenities": ["Wi-Fi", "Breakfast", "Gym", "Pool"],
+    "website": "https://example.com/harbor-view",
+    "notes": "Business-friendly; request early check-in if arriving same day."
+  }
+]
+
+CONTACT
+
+General inquiries email + phone placeholders.
+
+“Contact LOC” form (name, email, affiliation, message).
+
+Social/media placeholders.
+
+CTAs & Buttons (use throughout)
+
+Submit Paper → /call-for-papers
+
+Register → /registration
+
+Download CFP (PDF)
+
+View Key Dates
+
+Contact LOC
+
+Footer
+
+Conference title + short one-line mission.
+
+Venue address, dates.
+
+Quick links: CFP, Registration, Key Dates, Venue, Hotels.
+
+Copyright.
+
+TECHNICAL IMPLEMENTATION NOTES FOR THE AI
+
+Generate semantic HTML, ARIA labels, and keyboard-navigable menus.
+
+Use a restrained green + gold accent; never overpower text contrast.
+
+Keep headings short; avoid boilerplate “AI” phrases.
+
+Add JSON-LD for an “Event” (Conference) including name, startDate, endDate, location (UMaT-SRID), organizer, and url.
+
+Create a Hotels list component that reads from the JSON schema above, with client-side filter/search.
+
+Prepare placeholders for submission/registration links and the CFP PDF.
+
+Optimize Lighthouse scores (performance, accessibility, SEO ≥ 90).
+
+Do not use stocky, over-processed hero images; prefer subtle geometric textures or soft campus shots with green overlay.
+
+Deliverables
+A complete, production-ready, multi-page site with the sections above, styled with the given palette and tone, including the hotels directory and all conference data populated.

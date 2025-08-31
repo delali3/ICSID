@@ -1,0 +1,142 @@
+{
+  "conference": {
+    "name": "ICSID 2026",
+    "fullName": "International Conference on Sustainable Science and Infrastructure Development",
+    "email": "info@ICSID2026.com",
+    "phone": "+233 XX XXX XXXX",
+    "website": "https://ICSID2026.com",
+    "address": {
+      "organization": "University of Mines and Technology (UMaT) - SRID",
+      "street": "University Campus",
+      "city": "Sekondi-Takoradi",
+      "region": "Western Region",
+      "country": "Ghana",
+      "postalCode": "00233"
+    }
+  },
+  "organizers": [
+    {
+      "name": "Prof. John Mensah",
+      "title": "Conference Chair",
+      "email": "chair@ICSID2026.com",
+      "phone": "+233 XX XXX XXXX",
+      "department": "Sustainable Research and Innovation Department",
+      "institution": "University of Mines and Technology"
+    },
+    {
+      "name": "Dr. Sarah Johnson",
+      "title": "Program Chair",
+      "email": "program@ICSID2026.com",
+      "phone": "+233 XX XXX XXXX",
+      "department": "Civil Engineering",
+      "institution": "University of Mines and Technology"
+    },
+    {
+      "name": "Mr. David Osei",
+      "title": "Local Organizing Committee Chair",
+      "email": "local@ICSID2026.com",
+      "phone": "+233 XX XXX XXXX",
+      "department": "Conference Management",
+      "institution": "University of Mines and Technology"
+    }
+  ],
+  "departments": [
+    {
+      "name": "General Inquiries",
+      "email": "info@ICSID2026.com",
+      "description": "General questions about the conference, registration, and participation",
+      "responseTime": "Within 24-48 hours"
+    },
+    {
+      "name": "Technical Support",
+      "email": "tech@ICSID2026.com",
+      "description": "Website issues, online registration problems, and technical assistance",
+      "responseTime": "Within 12-24 hours"
+    },
+    {
+      "name": "Paper Submissions",
+      "email": "papers@ICSID2026.com",
+      "description": "Abstract and paper submission questions, review process inquiries",
+      "responseTime": "Within 24-48 hours"
+    },
+    {
+      "name": "Registration & Payments",
+      "email": "registration@ICSID2026.com",
+      "description": "Registration fees, payment issues, and confirmation letters",
+      "responseTime": "Within 24-48 hours"
+    },
+    {
+      "name": "Venue & Accommodation",
+      "email": "venue@ICSID2026.com",
+      "description": "Venue information, hotel bookings, and local arrangements",
+      "responseTime": "Within 24-48 hours"
+    },
+    {
+      "name": "Sponsorship & Exhibition",
+      "email": "sponsors@ICSID2026.com",
+      "description": "Sponsorship opportunities, exhibition spaces, and partnership inquiries",
+      "responseTime": "Within 48-72 hours"
+    }
+  ],
+  "officeHours": {
+    "weekdays": "Monday - Friday: 8:00 AM - 5:00 PM GMT",
+    "timezone": "Greenwich Mean Time (GMT)",
+    "note": "Emails received outside office hours will be responded to on the next business day"
+  },
+  "emergencyContacts": [
+    {
+      "name": "Conference Emergency Hotline",
+      "phone": "+233 XX XXX XXXX",
+      "description": "For urgent matters during the conference period",
+      "availability": "July 29 - August 2, 2026"
+    },
+    {
+      "name": "Venue Security",
+      "phone": "+233 XX XXX XXXX",
+      "description": "Security and safety concerns at the venue",
+      "availability": "24/7 during conference"
+    }
+  ],
+  "socialMedia": [
+    {
+      "platform": "Twitter",
+      "handle": "@ICSID2026",
+      "url": "https://twitter.com/ICSID2026",
+      "description": "Follow us for updates and announcements"
+    },
+    {
+      "platform": "LinkedIn",
+      "handle": "ICSID 2026",
+      "url": "https://linkedin.com/company/ICSID2026",
+      "description": "Professional network and industry connections"
+    },
+    {
+      "platform": "Facebook",
+      "handle": "ICSID2026",
+      "url": "https://facebook.com/ICSID2026",
+      "description": "Community discussions and event photos"
+    }
+  ],
+  "faq": [
+    {
+      "question": "How do I register for the conference?",
+      "answer": "Visit our registration page and follow the online registration process. You can pay by credit card, bank transfer, or other accepted payment methods."
+    },
+    {
+      "question": "What is the deadline for paper submissions?",
+      "answer": "The deadline for abstract submission is March 31, 2026. Full paper submissions are due by May 15, 2026. Check our key dates page for the most current information."
+    },
+    {
+      "question": "Are there accommodation options near the venue?",
+      "answer": "Yes, we have partnered with several hotels in Sekondi-Takoradi. Visit our hotels page for recommended options and special conference rates."
+    },
+    {
+      "question": "What is the conference language?",
+      "answer": "The official language of the conference is English. All presentations, papers, and discussions will be conducted in English."
+    },
+    {
+      "question": "Can I get a visa letter for conference attendance?",
+      "answer": "Yes, registered participants can request an official invitation letter for visa purposes. Please contact our registration department after completing your registration."
+    }
+  ]
+}

@@ -1,0 +1,394 @@
+{
+  "stats": {
+    "daysToConference": "30",
+    "conferenceDates": "July 30-31",
+    "edition": "2026"
+  },
+  "timeline": [
+    {
+      "date": "2025-09-01",
+      "title": "Call for Papers Opens",
+      "description": "Official opening of the call for papers for ICSID 2026",
+      "details": "Authors can now submit their research papers, case studies, and innovative solutions in sustainability science, infrastructure, and innovation.",
+      "status": "completed"
+    },
+    {
+      "date": "2025-11-15",
+      "title": "Abstract Submission Deadline",
+      "description": "Deadline for submitting paper abstracts",
+      "details": "Submit a 250-500 word abstract outlining your research objectives, methodology, and expected outcomes.",
+      "status": "completed"
+    },
+    {
+      "date": "2025-12-01",
+      "title": "Abstract Review Results",
+      "description": "Notification of abstract acceptance",
+      "details": "Authors will receive notification of abstract acceptance and instructions for full paper submission.",
+      "status": "completed"
+    },
+    {
+      "date": "2026-01-31",
+      "title": "Full Paper Submission Deadline",
+      "description": "Deadline for submitting complete research papers",
+      "details": "Submit your complete manuscript (6,000-8,000 words) following the IEEE formatting guidelines.",
+      "status": "completed"
+    },
+    {
+      "date": "2026-03-15",
+      "title": "Paper Review Results",
+      "description": "Notification of paper acceptance",
+      "details": "Authors will receive detailed review feedback and final acceptance decisions.",
+      "status": "completed"
+    },
+    {
+      "date": "2026-04-15",
+      "title": "Camera Ready Submission",
+      "description": "Final paper submission with revisions",
+      "details": "Submit your final camera-ready paper incorporating reviewer feedback and following all formatting requirements.",
+      "status": "completed"
+    },
+    {
+      "date": "2026-05-01",
+      "title": "Early Bird Registration Opens",
+      "description": "Opening of early bird registration period",
+      "details": "Take advantage of discounted registration rates available until June 15, 2026.",
+      "status": "completed"
+    },
+    {
+      "date": "2026-06-15",
+      "title": "Early Bird Registration Closes",
+      "description": "End of early bird registration period",
+      "details": "Regular registration rates apply after this date. Student and developing country discounts still available.",
+      "status": "current"
+    },
+    {
+      "date": "2026-07-01",
+      "title": "Regular Registration Closes",
+      "description": "Final registration deadline",
+      "details": "Last day to register for the conference. On-site registration will be available but at higher rates.",
+      "status": "upcoming"
+    },
+    {
+      "date": "2026-07-15",
+      "title": "Hotel Booking Deadline",
+      "description": "Recommended hotel booking deadline",
+      "details": "Book your accommodation at conference rates. Limited rooms available after this date.",
+      "status": "upcoming"
+    },
+    {
+      "date": "2026-07-25",
+      "title": "Pre-Conference Workshops",
+      "description": "Pre-conference workshops and tutorials",
+      "details": "Optional workshops covering emerging topics in sustainability and infrastructure innovation.",
+      "status": "upcoming"
+    },
+    {
+      "date": "2026-07-30",
+      "title": "Conference Day 1",
+      "description": "First day of ICSID 2026",
+      "details": "Opening ceremony, keynote speeches, and technical sessions begin.",
+      "status": "upcoming"
+    },
+    {
+      "date": "2026-07-31",
+      "title": "Conference Day 2",
+      "description": "Second day of ICSID 2026",
+      "details": "Technical sessions, panel discussions, and closing ceremony.",
+      "status": "upcoming"
+    }
+  ],
+  "registration": [
+    {
+      "title": "Early Bird Registration",
+      "date": "2026-06-15",
+      "price": "$250",
+      "description": "Take advantage of our early bird discount for the first 200 registrants.",
+      "benefits": [
+        "20% discount on registration fee",
+        "Priority paper presentation scheduling",
+        "Complimentary conference dinner",
+        "Access to all workshops and sessions"
+      ],
+      "status": "current"
+    },
+    {
+      "title": "Regular Registration",
+      "date": "2026-07-01",
+      "price": "$350",
+      "description": "Standard registration rate for regular attendees.",
+      "benefits": [
+        "Access to all conference sessions",
+        "Conference proceedings and materials",
+        "Networking opportunities",
+        "Certificate of attendance"
+      ],
+      "status": "upcoming"
+    },
+    {
+      "title": "Student Registration",
+      "date": "2026-07-01",
+      "price": "$150",
+      "description": "Special discounted rate for full-time students.",
+      "benefits": [
+        "50% discount for students",
+        "Access to student networking events",
+        "Mentorship opportunities",
+        "Student paper competition eligibility"
+      ],
+      "status": "upcoming"
+    },
+    {
+      "title": "On-site Registration",
+      "date": "2026-07-30",
+      "price": "$450",
+      "description": "Registration available at the conference venue.",
+      "benefits": [
+        "Walk-in registration",
+        "Same access as regular registration",
+        "Limited availability",
+        "Cash or card payment"
+      ],
+      "status": "upcoming"
+    }
+  ],
+  "submission": [
+    {
+      "date": "2025-09-01",
+      "title": "Call for Papers Opens",
+      "description": "Official opening of paper submission system",
+      "requirements": [
+        "Create account on submission portal",
+        "Review submission guidelines",
+        "Prepare abstract (250-500 words)",
+        "Identify appropriate conference theme"
+      ],
+      "status": "completed"
+    },
+    {
+      "date": "2025-11-15",
+      "title": "Abstract Submission",
+      "description": "Submit paper abstract for initial review",
+      "requirements": [
+        "Abstract must be 250-500 words",
+        "Include research objectives and methodology",
+        "Follow IEEE formatting guidelines",
+        "Submit through online portal only"
+      ],
+      "status": "completed"
+    },
+    {
+      "date": "2025-12-01",
+      "title": "Abstract Review Notification",
+      "description": "Receive feedback on abstract submission",
+      "requirements": [
+        "Check email for review results",
+        "Address any reviewer concerns",
+        "Prepare for full paper submission",
+        "Contact program committee if needed"
+      ],
+      "status": "completed"
+    },
+    {
+      "date": "2026-01-31",
+      "title": "Full Paper Submission",
+      "description": "Submit complete research manuscript",
+      "requirements": [
+        "Paper length: 6,000-8,000 words",
+        "Include all figures and tables",
+        "Follow IEEE double-column format",
+        "Include keywords and abstract"
+      ],
+      "status": "completed"
+    },
+    {
+      "date": "2026-03-15",
+      "title": "Paper Review Results",
+      "description": "Receive peer review feedback",
+      "requirements": [
+        "Review detailed reviewer comments",
+        "Address all required revisions",
+        "Prepare response to reviewers",
+        "Plan for camera-ready submission"
+      ],
+      "status": "completed"
+    },
+    {
+      "date": "2026-04-15",
+      "title": "Camera Ready Submission",
+      "description": "Final paper submission with revisions",
+      "requirements": [
+        "Incorporate all reviewer feedback",
+        "Final proofreading and formatting",
+        "Submit copyright form",
+        "Confirm author registration"
+      ],
+      "status": "completed"
+    }
+  ],
+  "schedule": [
+    {
+      "date": "July 30, 2026",
+      "theme": "Sustainability & Innovation",
+      "events": [
+        {
+          "time": "08:00 - 09:00",
+          "title": "Registration & Welcome Coffee",
+          "description": "Registration desk opens and networking breakfast",
+          "speaker": null
+        },
+        {
+          "time": "09:00 - 09:30",
+          "title": "Opening Ceremony",
+          "description": "Welcome address and conference overview",
+          "speaker": "Conference Chair"
+        },
+        {
+          "time": "09:30 - 10:30",
+          "title": "Keynote: Sustainable Infrastructure for Future Generations",
+          "description": "Exploring innovative approaches to sustainable infrastructure development",
+          "speaker": "Dr. Sarah Johnson, World Bank"
+        },
+        {
+          "time": "10:30 - 11:00",
+          "title": "Coffee Break & Networking",
+          "description": "Refreshments and informal networking",
+          "speaker": null
+        },
+        {
+          "time": "11:00 - 12:30",
+          "title": "Technical Session 1: Green Infrastructure Solutions",
+          "description": "Presentations on sustainable infrastructure technologies",
+          "speaker": "Session Chair: Prof. Michael Chen"
+        },
+        {
+          "time": "12:30 - 14:00",
+          "title": "Lunch & Poster Session",
+          "description": "Networking lunch and poster presentations",
+          "speaker": null
+        },
+        {
+          "time": "14:00 - 15:30",
+          "title": "Technical Session 2: Innovation in Construction",
+          "description": "Emerging technologies in construction and building",
+          "speaker": "Session Chair: Dr. Maria Rodriguez"
+        },
+        {
+          "time": "15:30 - 16:00",
+          "title": "Afternoon Break",
+          "description": "Refreshments and networking",
+          "speaker": null
+        },
+        {
+          "time": "16:00 - 17:30",
+          "title": "Panel Discussion: Policy & Implementation",
+          "description": "Discussion on policy frameworks for sustainable development",
+          "speaker": "Panel Moderator: Prof. David Thompson"
+        },
+        {
+          "time": "18:00 - 20:00",
+          "title": "Welcome Reception",
+          "description": "Cocktail reception and cultural performance",
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "date": "July 31, 2026",
+      "theme": "Infrastructure & Technology",
+      "events": [
+        {
+          "time": "08:30 - 09:00",
+          "title": "Morning Coffee",
+          "description": "Breakfast and networking",
+          "speaker": null
+        },
+        {
+          "time": "09:00 - 10:00",
+          "title": "Keynote: Digital Transformation in Infrastructure",
+          "description": "How technology is reshaping infrastructure development",
+          "speaker": "Prof. James Wilson, MIT"
+        },
+        {
+          "time": "10:00 - 10:30",
+          "title": "Coffee Break",
+          "description": "Refreshments and networking",
+          "speaker": null
+        },
+        {
+          "time": "10:30 - 12:00",
+          "title": "Technical Session 3: Smart Cities & IoT",
+          "description": "Internet of Things applications in urban infrastructure",
+          "speaker": "Session Chair: Dr. Lisa Park"
+        },
+        {
+          "time": "12:00 - 13:30",
+          "title": "Lunch & Awards Ceremony",
+          "description": "Lunch and recognition of outstanding contributions",
+          "speaker": null
+        },
+        {
+          "time": "13:30 - 15:00",
+          "title": "Technical Session 4: Climate Resilience",
+          "description": "Building infrastructure resilient to climate change",
+          "speaker": "Session Chair: Prof. Ahmed Hassan"
+        },
+        {
+          "time": "15:00 - 15:30",
+          "title": "Afternoon Break",
+          "description": "Final refreshments and networking",
+          "speaker": null
+        },
+        {
+          "time": "15:30 - 17:00",
+          "title": "Closing Session & Future Directions",
+          "description": "Conference summary and future research directions",
+          "speaker": "Conference Chair"
+        },
+        {
+          "time": "17:00 - 17:30",
+          "title": "Closing Ceremony",
+          "description": "Farewell and announcement of ICSID 2027",
+          "speaker": "Conference Organizing Committee"
+        }
+      ]
+    }
+  ],
+  "notices": [
+    {
+      "title": "Registration System Update",
+      "content": "Our online registration system has been updated with improved security features and mobile responsiveness. All existing registrations remain valid.",
+      "date": "2025-08-15",
+      "priority": "medium"
+    },
+    {
+      "title": "Paper Submission Extension",
+      "content": "Due to popular demand, we have extended the full paper submission deadline to January 31, 2026. Take advantage of this additional time to perfect your manuscript.",
+      "date": "2025-12-20",
+      "priority": "high"
+    },
+    {
+      "title": "Visa Information for International Attendees",
+      "content": "Ghana offers visa-free entry for many countries. Check our website for specific visa requirements and application procedures for your country.",
+      "date": "2025-09-01",
+      "priority": "medium"
+    },
+    {
+      "title": "Student Travel Grants Available",
+      "content": "Limited travel grants are available for outstanding student papers. Applications are due by March 1, 2026. Contact the organizing committee for details.",
+      "date": "2025-10-01",
+      "priority": "medium"
+    },
+    {
+      "title": "COVID-19 Safety Measures",
+      "content": "ICSID 2026 will follow all current health and safety guidelines. Vaccination requirements and testing protocols will be communicated closer to the event date.",
+      "date": "2025-08-01",
+      "priority": "high"
+    },
+    {
+      "title": "Accommodation Booking Reminder",
+      "content": "Early booking is recommended for conference hotels. Special rates are available until July 15, 2026. Visit our hotels page for booking information.",
+      "date": "2026-01-15",
+      "priority": "medium"
+    }
+  ]
+}

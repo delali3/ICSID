@@ -1,0 +1,30 @@
+<svg width="800" height="400" viewBox="0 0 800 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="400" fill="#f0f9ff"/>
+  <!-- Sky -->
+  <rect x="0" y="0" width="800" height="200" fill="#87ceeb"/>
+  <!-- Ground -->
+  <rect x="0" y="200" width="800" height="200" fill="#90EE90"/>
+  <!-- University Buildings -->
+  <rect x="100" y="150" width="150" height="100" fill="#4a5568" stroke="#2d3748" stroke-width="2"/>
+  <rect x="120" y="170" width="30" height="30" fill="#63b3ed"/>
+  <rect x="160" y="170" width="30" height="30" fill="#63b3ed"/>
+  <rect x="200" y="170" width="30" height="30" fill="#63b3ed"/>
+  <rect x="300" y="120" width="200" height="130" fill="#2d3748" stroke="#1a202c" stroke-width="2"/>
+  <rect x="320" y="140" width="40" height="40" fill="#3182ce"/>
+  <rect x="380" y="140" width="40" height="40" fill="#3182ce"/>
+  <rect x="440" y="140" width="40" height="40" fill="#3182ce"/>
+  <rect x="500" y="180" width="120" height="70" fill="#4a5568" stroke="#2d3748" stroke-width="2"/>
+  <rect x="520" y="200" width="25" height="25" fill="#63b3ed"/>
+  <rect x="555" y="200" width="25" height="25" fill="#63b3ed"/>
+  <rect x="590" y="200" width="25" height="25" fill="#63b3ed"/>
+  <!-- Trees -->
+  <circle cx="50" cy="180" r="20" fill="#228B22"/>
+  <rect x="45" y="200" width="10" height="30" fill="#8B4513"/>
+  <circle cx="750" cy="180" r="20" fill="#228B22"/>
+  <rect x="745" y="200" width="10" height="30" fill="#8B4513"/>
+  <!-- Path -->
+  <rect x="0" y="280" width="800" height="20" fill="#D2B48C"/>
+  <!-- Title -->
+  <text x="400" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#1a202c">University of Mines and Technology</text>
+  <text x="400" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#4a5568">Sekondi-Takoradi, Ghana</text>
+</svg>

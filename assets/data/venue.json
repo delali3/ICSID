@@ -1,0 +1,100 @@
+{
+  "name": "University of Mines and Technology - Sustainable Research and Innovation Department",
+  "shortName": "UMaT-SRID",
+  "address": {
+    "street": "University Campus",
+    "city": "Sekondi-Takoradi",
+    "region": "Western Region",
+    "country": "Ghana",
+    "postalCode": "00233"
+  },
+  "coordinates": {
+    "latitude": 4.9147,
+    "longitude": -1.7644
+  },
+  "description": "The University of Mines and Technology (UMaT) is Ghana's premier mining and technology university, renowned for excellence in education, research, and innovation. The Sustainable Research and Innovation Department (SRID) focuses on cutting-edge research in sustainability science, infrastructure development, and emerging technologies.",
+  "facilities": [
+    {
+      "name": "Main Auditorium",
+      "capacity": 500,
+      "description": "State-of-the-art auditorium with modern AV equipment, perfect for keynote presentations and plenary sessions",
+      "amenities": ["Projectors", "Sound System", "Microphones", "Stage Lighting", "Wi-Fi"]
+    },
+    {
+      "name": "Conference Rooms",
+      "capacity": 100,
+      "description": "Multiple well-equipped conference rooms for parallel sessions and workshops",
+      "amenities": ["Whiteboards", "Projectors", "Video Conferencing", "Wi-Fi", "Catering Access"]
+    },
+    {
+      "name": "Exhibition Hall",
+      "capacity": 200,
+      "description": "Spacious hall for poster presentations, exhibitions, and networking events",
+      "amenities": ["Display Boards", "Power Outlets", "Wi-Fi", "Refreshment Area"]
+    },
+    {
+      "name": "Research Laboratories",
+      "capacity": 50,
+      "description": "Advanced laboratories for technical demonstrations and hands-on workshops",
+      "amenities": ["Equipment Access", "Safety Gear", "Technical Support", "Wi-Fi"]
+    }
+  ],
+  "transportation": {
+    "airport": {
+      "name": "Takoradi Airport (TKD)",
+      "distance": "15 km",
+      "travelTime": "20-30 minutes by taxi",
+      "services": ["Taxi", "Ride-sharing", "Airport Shuttle"]
+    },
+    "publicTransport": {
+      "bus": "Local bus services connect the city center to UMaT campus",
+      "taxi": "Widely available taxi services throughout the city",
+      "rideSharing": "Uber and Bolt operate in Takoradi"
+    },
+    "parking": {
+      "available": true,
+      "description": "On-campus parking available for all attendees",
+      "cost": "Free for conference participants"
+    }
+  },
+  "nearbyAttractions": [
+    {
+      "name": "Takoradi Harbour",
+      "description": "One of West Africa's busiest ports, offering scenic views and maritime history",
+      "distance": "8 km"
+    },
+    {
+      "name": "Ananta Village Resort",
+      "description": "Cultural village showcasing Ghanaian traditions and heritage",
+      "distance": "12 km"
+    },
+    {
+      "name": "Busua Beach",
+      "description": "Beautiful beach known for surfing and coastal relaxation",
+      "distance": "25 km"
+    },
+    {
+      "name": "Cape Coast Castle",
+      "description": "UNESCO World Heritage Site with rich historical significance",
+      "distance": "45 km"
+    }
+  ],
+  "accommodation": {
+    "onCampus": false,
+    "description": "While UMaT does not provide on-campus accommodation, numerous hotels are available within short distances. See our hotels page for recommended options."
+  },
+  "contact": {
+    "venueManager": "Conference Venue Coordinator",
+    "phone": "+233 XX XXX XXXX",
+    "email": "venue@ICSID2026.com",
+    "emergency": "+233 XX XXX XXXX"
+  },
+  "accessibility": {
+    "wheelchair": true,
+    "description": "The venue is wheelchair accessible with ramps, elevators, and accessible restrooms"
+  },
+  "catering": {
+    "available": true,
+    "description": "On-site catering services available for coffee breaks, lunches, and special events"
+  }
+}

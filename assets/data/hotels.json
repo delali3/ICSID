@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Takoradi Royal Hotel",
+    "distance_km_from_venue": 3.2,
+    "price_category": "$$",
+    "rating": 4.3,
+    "amenities": ["Wi-Fi", "Breakfast", "Airport Shuttle"],
+    "website": "https://example.com/takoradi-royal",
+    "notes": "Ask for conference rate; limited shuttle seats.",
+    "image": "assets/images/takoradi-royal-hotel.svg"
+  },
+  {
+    "name": "Sekondi Beachfront Lodge",
+    "distance_km_from_venue": 5.8,
+    "price_category": "$$",
+    "rating": 4.1,
+    "amenities": ["Wi-Fi", "Breakfast"],
+    "website": "https://example.com/sekondi-beachfront",
+    "notes": "Quiet area; 15–20 mins to venue by taxi.",
+    "image": "assets/images/sekondi-beachfront-lodge.svg"
+  },
+  {
+    "name": "Harbor View Suites",
+    "distance_km_from_venue": 7.5,
+    "price_category": "$$$",
+    "rating": 4.5,
+    "amenities": ["Wi-Fi", "Breakfast", "Gym", "Pool"],
+    "website": "https://example.com/harbor-view",
+    "notes": "Business-friendly; request early check-in if arriving same day.",
+    "image": "assets/images/harbor-view-suites.svg"
+  },
+  {
+    "name": "Golden Palm Resort",
+    "distance_km_from_venue": 4.1,
+    "price_category": "$$$",
+    "rating": 4.6,
+    "amenities": ["Wi-Fi", "Breakfast", "Pool", "Spa", "Conference Rooms"],
+    "website": "https://example.com/golden-palm",
+    "notes": "Premium location with conference facilities.",
+    "image": "assets/images/golden-palm-resort.svg"
+  },
+  {
+    "name": "Coastal Inn Takoradi",
+    "distance_km_from_venue": 2.8,
+    "price_category": "$",
+    "rating": 3.9,
+    "amenities": ["Wi-Fi", "Parking"],
+    "website": "https://example.com/coastal-inn",
+    "notes": "Budget-friendly option, basic amenities.",
+    "image": "assets/images/coastal-inn-takoradi.svg"
+  },
+  {
+    "name": "Atlantic Business Hotel",
+    "distance_km_from_venue": 6.2,
+    "price_category": "$$",
+    "rating": 4.2,
+    "amenities": ["Wi-Fi", "Breakfast", "Business Center", "Gym"],
+    "website": "https://example.com/atlantic-business",
+    "notes": "Popular with business travelers and conference attendees.",
+    "image": "assets/images/atlantic-business-hotel.svg"
+  }
+]
