@@ -1,0 +1,28 @@
+items:
+  - title: "Home"
+    url: "/"
+    active: true
+  - title: "About"
+    url: "/about.html"
+    active: false
+  - title: "Themes"
+    url: "/themes.html"
+    active: false
+  - title: "Key Dates"
+    url: "/keydates.html"
+    active: false
+  - title: "Call for Papers"
+    url: "/call-for-papers.html"
+    active: false
+  - title: "Registration"
+    url: "/registration.html"
+    active: false
+  - title: "Hotels"
+    url: "/hotels.html"
+    active: false
+  - title: "Venue"
+    url: "/venue.html"
+    active: false
+  - title: "Contact"
+    url: "/contact.html"
+    active: false

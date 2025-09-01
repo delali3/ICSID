@@ -1,0 +1,97 @@
+---
+title: "ICSSII 2026 Conference"
+description: "International Conference on Sustainability Science, Infrastructure and Innovation"
+url: "https://icssii2026.com"
+baseurl: ""
+markdown: kramdown
+highlighter: rouge
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Collections
+collections:
+  pages:
+    output: true
+    permalink: /:name/
+  posts:
+    output: true
+    permalink: /blog/:year/:month/:day/:title/
+
+# Build settings
+sass:
+  sass_dir: assets/css
+  style: compressed
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
+  - .bundle/
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - .bundle
+
+# Include files
+include:
+  - _pages
+
+# Collections settings
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+# Netlify CMS
+admin:
+  name: ICSSII 2026 Admin
+  backend:
+    name: git-gateway
+    branch: main
+  media_folder: "assets/images"
+  public_folder: "/assets/images"
+  collections:
+    - name: "pages"
+      label: "Pages"
+      files:
+        - file: "_data/conference.yml"
+          label: "Conference Information"
+          name: "conference"
+          fields:
+            - {label: "Conference Name", name: "name", widget: "string"}
+            - {label: "Full Name", name: "full_name", widget: "string"}
+            - {label: "Date", name: "date", widget: "string"}
+            - {label: "Location", name: "location", widget: "string"}
+            - {label: "Description", name: "description", widget: "text"}
+        - file: "_data/navigation.yml"
+          label: "Navigation"
+          name: "navigation"
+          fields:
+            - {label: "Menu Items", name: "items", widget: "list", fields: [
+                {label: "Title", name: "title", widget: "string"},
+                {label: "URL", name: "url", widget: "string"},
+                {label: "Active", name: "active", widget: "boolean"}
+              ]}
+    - name: "blog"
+      label: "Blog Posts"
+      folder: "_posts/"
+      create: true
+      slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+      fields:
+        - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
+        - {label: "Title", name: "title", widget: "string"}
+        - {label: "Publish Date", name: "date", widget: "datetime"}
+        - {label: "Description", name: "description", widget: "string"}
+        - {label: "Body", name: "body", widget: "markdown"}
+        - {label: "Featured Image", name: "image", widget: "image"}
+        - {label: "Tags", name: "tags", widget: "list", default: []}

@@ -1,0 +1,123 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "assets/images"
+public_folder: "/assets/images"
+
+collections:
+  - name: "conference"
+    label: "Conference Information"
+    files:
+      - file: "_data/conference.yml"
+        label: "Conference Information"
+        name: "conference"
+        fields:
+          - {label: "Conference Name", name: "name", widget: "string"}
+          - {label: "Full Name", name: "full_name", widget: "string"}
+          - {label: "Date", name: "date", widget: "string"}
+          - {label: "Location", name: "location", widget: "string"}
+          - {label: "Description", name: "description", widget: "text"}
+
+  - name: "navigation"
+    label: "Navigation"
+    files:
+      - file: "_data/navigation.yml"
+        label: "Navigation"
+        name: "navigation"
+        fields:
+          - {label: "Menu Items", name: "items", widget: "list", fields: [
+              {label: "Title", name: "title", widget: "string"},
+              {label: "URL", name: "url", widget: "string"},
+              {label: "Active", name: "active", widget: "boolean"}
+            ]}
+
+  - name: "pages"
+    label: "Pages"
+    files:
+      - file: "index.html"
+        label: "Home Page"
+        name: "home"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Hero Title", name: "hero_title", widget: "string"}
+          - {label: "Hero Subtitle", name: "hero_subtitle", widget: "string"}
+          - {label: "Hero Image", name: "hero_image", widget: "image"}
+          - {label: "Content", name: "content", widget: "markdown"}
+
+      - file: "about.html"
+        label: "About Page"
+        name: "about"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Content", name: "content", widget: "markdown"}
+
+      - file: "themes.html"
+        label: "Themes Page"
+        name: "themes"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Content", name: "content", widget: "markdown"}
+
+      - file: "keydates.html"
+        label: "Key Dates Page"
+        name: "keydates"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Content", name: "content", widget: "markdown"}
+
+      - file: "committees.html"
+        label: "Committees Page"
+        name: "committees"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Content", name: "content", widget: "markdown"}
+
+      - file: "call-for-papers.html"
+        label: "Call for Papers Page"
+        name: "cfp"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Content", name: "content", widget: "markdown"}
+
+      - file: "registration.html"
+        label: "Registration Page"
+        name: "registration"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Content", name: "content", widget: "markdown"}
+
+      - file: "venue.html"
+        label: "Venue Page"
+        name: "venue"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Content", name: "content", widget: "markdown"}
+
+      - file: "hotels.html"
+        label: "Hotels Page"
+        name: "hotels"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Content", name: "content", widget: "markdown"}
+
+      - file: "contact.html"
+        label: "Contact Page"
+        name: "contact"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Content", name: "content", widget: "markdown"}
+
+  - name: "blog"
+    label: "Blog Posts"
+    folder: "_posts/"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Description", name: "description", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Featured Image", name: "image", widget: "image"}
+      - {label: "Tags", name: "tags", widget: "list", default: []}
