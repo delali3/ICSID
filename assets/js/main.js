@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
   // Mobile Navigation Toggle
-  const navbarToggle = document.querySelector('.navbar-toggle');
-  const navbarMenu = document.querySelector('.navbar-menu');
+  const navbarToggle = document.querySelector('.mobile-toggle');
+  const navbarMenu = document.querySelector('.nav-menu');
   
   function toggleMobileMenu() {
     const isExpanded = navbarToggle.getAttribute('aria-expanded') === 'true';
@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
     navbarMenu.classList.toggle('open', newState);
     
     // Animate toggle lines
-    const toggleLines = navbarToggle.querySelectorAll('.toggle-line');
+    const toggleLines = navbarToggle.querySelectorAll('.hamburger-line');
     if (newState) {
       toggleLines[0].style.transform = 'rotate(45deg) translate(5px, 5px)';
       toggleLines[1].style.opacity = '0';
@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Close menu when nav link is clicked (mobile)
     navbarMenu.addEventListener('click', (e) => {
-      if (e.target.classList.contains('nav-link') && window.innerWidth <= 768) {
+      if ((e.target.classList.contains('nav-link') || e.target.classList.contains('dropdown-link')) && window.innerWidth <= 768) {
         toggleMobileMenu();
       }
     });
@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', function() {
         navbarToggle.setAttribute('aria-expanded', 'false');
         navbarMenu.classList.remove('open');
         // Reset toggle lines
-        const toggleLines = navbarToggle.querySelectorAll('.toggle-line');
+        const toggleLines = navbarToggle.querySelectorAll('.hamburger-line');
         toggleLines.forEach(line => {
           line.style.transform = 'none';
           line.style.opacity = '1';
@@ -250,6 +250,99 @@ document.addEventListener('DOMContentLoaded', function() {
   
   // Initialize dropdown functionality
   initDropdowns();
+  
+  // Hero Slideshow Functionality
+  const heroSlides = document.querySelectorAll('.hero-slide');
+  const heroDots = document.querySelectorAll('.hero-dot');
+  const prevBtn = document.querySelector('.hero-nav-btn.prev');
+  const nextBtn = document.querySelector('.hero-nav-btn.next');
+  const totalSlides = heroSlides.length;
+  let currentSlide = 0;
+  let slideshowInterval;
+
+  function showSlide(index) {
+    // Remove active class from all slides and dots
+    heroSlides.forEach(slide => slide.classList.remove('active'));
+    heroDots.forEach(dot => dot.classList.remove('active'));
+    
+    // Add active class to current slide and dot
+    heroSlides[index].classList.add('active');
+    heroDots[index].classList.add('active');
+    
+    currentSlide = index;
+  }
+
+  function nextSlide() {
+    const nextIndex = (currentSlide + 1) % totalSlides;
+    showSlide(nextIndex);
+  }
+
+  function prevSlide() {
+    const prevIndex = (currentSlide - 1 + totalSlides) % totalSlides;
+    showSlide(prevIndex);
+  }
+
+  function startSlideshow() {
+    slideshowInterval = setInterval(nextSlide, 5000); // Change slide every 5 seconds
+  }
+
+  function stopSlideshow() {
+    clearInterval(slideshowInterval);
+  }
+
+  // Initialize slideshow
+  if (heroSlides.length > 0) {
+    showSlide(0); // Show first slide
+    startSlideshow();
+
+    // Navigation button event listeners
+    if (nextBtn) {
+      nextBtn.addEventListener('click', () => {
+        nextSlide();
+        stopSlideshow();
+        startSlideshow();
+      });
+    }
+
+    if (prevBtn) {
+      prevBtn.addEventListener('click', () => {
+        prevSlide();
+        stopSlideshow();
+        startSlideshow();
+      });
+    }
+
+    // Dot navigation event listeners
+    heroDots.forEach((dot, index) => {
+      dot.addEventListener('click', () => {
+        showSlide(index);
+        stopSlideshow();
+        startSlideshow();
+      });
+    });
+
+    // Pause slideshow on hover
+    const heroSection = document.querySelector('.hero');
+    if (heroSection) {
+      heroSection.addEventListener('mouseenter', stopSlideshow);
+      heroSection.addEventListener('mouseleave', startSlideshow);
+    }
+
+    // Add keyboard navigation for slideshow
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'ArrowLeft') {
+        e.preventDefault();
+        prevSlide();
+        stopSlideshow();
+        startSlideshow();
+      } else if (e.key === 'ArrowRight') {
+        e.preventDefault();
+        nextSlide();
+        stopSlideshow();
+        startSlideshow();
+      }
+    });
+  }
 });
 
 // Homepage specific functionality
