@@ -10,13 +10,13 @@
       "title": "Call for Papers Opens",
       "description": "Official opening of the call for papers for ICSID 2026",
       "details": "Authors are now invited to submit their research papers, case studies, and innovative solutions in fields, including, but not limited to, sustainability science, infrastructure, and innovation.",
-      "status": "completed"
+      "status": "upcoming"
     },
     {
       "date": "2026-01-31",
       "title": "Abstract Submission Deadline",
       "description": "Deadline for submitting paper abstracts",
-      "details": "Submit a 250-500 word abstract outlining your research objectives, methodology, and expected outcomes.",
+      "details": "Please submit a 250-300 word abstract that describes your research objectives, methodology, and anticipated outcomes.",
       "status": "upcoming"
     },
     {
@@ -48,11 +48,11 @@
       "status": "upcoming"
     },
     {
-      "date": "2026-05-01",
+      "date": "2026-06-01", 
       "title": "Early Bird Registration Opens",
       "description": "Opening of early bird registration period",
       "details": "Take advantage of discounted registration rates available until June 15, 2026.",
-      "status": "completed"
+      "status": "upcoming"
     },
     {
       "date": "2026-06-15",
@@ -93,7 +93,14 @@
       "date": "2026-06-19",
       "title": "Conference Day 2",
       "description": "Second day of ICSID 2026",
-      "details": "Technical sessions, panel discussions, and closing ceremony.",
+      "details": "Technical sessions, panel discussions.",
+      "status": "upcoming"
+    },
+    {
+      "date": "2026-06-20",
+      "title": "Conference Day 3",
+      "description": "Third day of ICSID 2026",
+      "details": "Technical virtual sessions and closing ceremony.",
       "status": "upcoming"
     }
   ],
