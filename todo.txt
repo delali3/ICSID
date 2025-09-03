@@ -22,7 +22,7 @@ Imagery: subtle campus and sustainability visuals (infrastructure, green materia
 Site Purpose
 
 Build the official website for:
-International Conference on Sustainable Science and Infrastructure Development (ICSID)
+International Conference on Sustainable Science and Infrastructure Development (ICSSID)
 Venue: UMaT-SRID, Sekondi–Takoradi, Ghana
 
 Tone: Professional, academic, welcoming. Clean and human—no AI phrasing.
@@ -66,7 +66,7 @@ Contact
 PAGE/SECTION CONTENT
 HERO (Home)
 
-Title: International Conference on Sustainable Science and Infrastructure Development (ICSID)
+Title: International Conference on Sustainable Science and Infrastructure Development (ICSSID)
 
 Theme (subtitle): Advancing Sustainability Science and Infrastructure Innovation for a Resilient Future
 
@@ -81,9 +81,9 @@ Small link: Download CFP (PDF)
 ABOUT (Home or About page)
 
 Background and Information
-The International Conference on Sustainable Science and Infrastructure Development (ICSID) is an interdisciplinary, double-blind, peer-reviewed event that provides a global platform for advancing research and practice in sustainability science, resilient infrastructure, and emerging technologies. The conference aims to tackle urgent global challenges by integrating scientific research, engineering solutions, and policy frameworks to foster long-term sustainable development.
+The International Conference on Sustainable Science and Infrastructure Development (ICSSID) is an interdisciplinary, double-blind, peer-reviewed event that provides a global platform for advancing research and practice in sustainability science, resilient infrastructure, and emerging technologies. The conference aims to tackle urgent global challenges by integrating scientific research, engineering solutions, and policy frameworks to foster long-term sustainable development.
 
-ICSID covers a broad range of thematic areas, including:
+ICSSID covers a broad range of thematic areas, including:
 
 Sustainability Science: climate-resilient urban planning, green materials, circular economy, and energy-efficient systems across environmental, economic, and social dimensions.
 
@@ -92,7 +92,7 @@ Infrastructure Development: sustainable transport, smart cities, renewable energ
 Technical Innovation & Cross-Disciplinary Methods: AI, IoT, smart grids, and digital twin technologies applied to sustainable infrastructure systems.
 
 Proceedings & Indexing
-ICSID proceedings provide a platform for researchers, practitioners, policymakers, industry experts, and students to exchange knowledge. Selected papers are considered for publication in the Journal of Sustainability Science and Infrastructure Development (JSSID) and the Ghana Journal of Technology (GJT). The proceedings are indexed in IEEE Xplore and Scopus.
+ICSSID proceedings provide a platform for researchers, practitioners, policymakers, industry experts, and students to exchange knowledge. Selected papers are considered for publication in the Journal of Sustainability Science and Infrastructure Development (JSSID) and the Ghana Journal of Technology (GJT). The proceedings are indexed in IEEE Xplore and Scopus.
 
 THEMES (grid of cards)
 

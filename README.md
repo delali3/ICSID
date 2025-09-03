@@ -1,4 +1,4 @@
-ICSID 2026 — CMS-Enabled Conference Site
+ICSSID 2026 — CMS-Enabled Conference Site
 
 What I built
 - A complete static site scaffold implementing the sections requested in `todo.txt` (Home, About, Themes, Key Dates, Committees, CFP, Registration, Venue, Nearby Hotels, Contact).
@@ -14,11 +14,11 @@ What I built
 - **Live Preview:** See changes before publishing
 
 ## How to run locally (Windows / XAMPP)
-1. Using XAMPP: copy the folder into your Apache `htdocs` (already placed at the repo root). Open: http://localhost/ICSID%20Conference/index.html
+1. Using XAMPP: copy the folder into your Apache `htdocs` (already placed at the repo root). Open: http://localhost/ICSSID%20Conference/index.html
 2. Or use PHP built-in server (from PowerShell) for quick test:
 
 ```powershell
-cd 'c:\xampp\htdocs\ieee\ICSID Conference'
+cd 'c:\xampp\htdocs\ieee\ICSSID Conference'
 php -S localhost:8000
 ```
 
@@ -36,7 +36,7 @@ gem install jekyll bundler
 
 2. Install dependencies:
 ```powershell
-cd 'c:\xampp\htdocs\ieee\ICSID Conference'
+cd 'c:\xampp\htdocs\ieee\ICSSID Conference'
 bundle install
 ```
 

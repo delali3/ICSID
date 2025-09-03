@@ -8,7 +8,7 @@
     {
       "date": "2025-09-30",
       "title": "Call for Papers Opens",
-      "description": "Official opening of the call for papers for ICSID 2026",
+      "description": "Official opening of the call for papers for ICSSID 2026",
       "details": "Authors are now invited to submit their research papers, case studies, and innovative solutions in fields, including, but not limited to, sustainability science, infrastructure, and innovation.",
       "status": "upcoming"
     },
@@ -85,21 +85,21 @@
     {
       "date": "2026-06-18",
       "title": "Conference Day 1",
-      "description": "First day of ICSID 2026",
+      "description": "First day of ICSSID 2026",
       "details": "Opening ceremony, keynote speeches, and technical sessions begin.",
       "status": "upcoming"
     },
     {
       "date": "2026-06-19",
       "title": "Conference Day 2",
-      "description": "Second day of ICSID 2026",
+      "description": "Second day of ICSSID 2026",
       "details": "Technical sessions, panel discussions.",
       "status": "upcoming"
     },
     {
       "date": "2026-06-20",
       "title": "Conference Day 3",
-      "description": "Third day of ICSID 2026",
+      "description": "Third day of ICSSID 2026",
       "details": "Technical virtual sessions and closing ceremony.",
       "status": "upcoming"
     }
@@ -354,7 +354,7 @@
         {
           "time": "17:00 - 17:30",
           "title": "Closing Ceremony",
-          "description": "Farewell and announcement of ICSID 2027",
+          "description": "Farewell and announcement of ICSSID 2027",
           "speaker": "Conference Organizing Committee"
         }
       ]

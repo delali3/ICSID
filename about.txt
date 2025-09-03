@@ -1,12 +1,12 @@
-Conference Title:  International Conference on Sustainable Science and Infrastructure Development (ICSID)
+Conference Title:  International Conference on Sustainable Science and Infrastructure Development (ICSSID)
 Theme: Advancing Sustainability Science and Infrastructure Infrastructure Development for a Resilient Future
 
 Background and Information
-The International Conference on Sustainability Science Infrastructure Development (ICSID) is an interdisciplinary, double-blind, peer-reviewed event that provides a global platform for advancing research and practice in sustainability science, resilient infrastructure, and emerging technologies. The conference aims to tackle urgent global challenges by integrating scientific research, engineering solutions, and policy frameworks to foster long-term sustainable development. ICSID covers a broad range of thematic areas, including:
+The International Conference on Sustainability Science Infrastructure Development (ICSSID) is an interdisciplinary, double-blind, peer-reviewed event that provides a global platform for advancing research and practice in sustainability science, resilient infrastructure, and emerging technologies. The conference aims to tackle urgent global challenges by integrating scientific research, engineering solutions, and policy frameworks to foster long-term sustainable development. ICSSID covers a broad range of thematic areas, including:
 • Sustainability Science: climate-resilient urban planning, green materials, circular economy, and energy-efficient systems across environmental, economic, and social dimensions.
 • Infrastructure Development: sustainable transport, smart cities, renewable energy systems, infrastructure finance, governance, and inclusive policy approaches.
 • Technical Innovation and Cross-Disciplinary Methods: artificial intelligence, Internet of Things (IoT), smart grids, and digital twin technologies applied to sustainable infrastructure systems.
-ICSID proceedings provide a platform for researchers, practitioners, policymakers, industry experts, and students to exchange knowledge. Selected papers are considered for publication in the Journal of Sustainability Science and Infrastructure Development (JSSID) and the Ghana Journal of Technology (GJT). The proceedings are indexed in IEEE Xplore and Scopus. 
+ICSSID proceedings provide a platform for researchers, practitioners, policymakers, industry experts, and students to exchange knowledge. Selected papers are considered for publication in the Journal of Sustainability Science and Infrastructure Development (JSSID) and the Ghana Journal of Technology (GJT). The proceedings are indexed in IEEE Xplore and Scopus. 
 
 Key Dates
 Deadline for full papers submission: 30th May 2026

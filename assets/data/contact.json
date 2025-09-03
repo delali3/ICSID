@@ -1,10 +1,10 @@
 {
   "conference": {
-    "name": "ICSID 2026",
+    "name": "ICSSID 2026",
     "fullName": "International Conference on Sustainable Science and Infrastructure Development",
-    "email": "info@ICSID2026.com",
+    "email": "info@ICSSID2026.com",
     "phone": "+233 24 965 3242",
-    "website": "https://ICSID2026.com",
+    "website": "https://ICSSID2026.com",
     "address": {
       "organization": "University of Mines and Technology (UMaT) - SRID",
       "street": "University Campus",
@@ -18,7 +18,7 @@
     {
       "name": "Prof. John Mensah",
       "title": "Conference Chair",
-      "email": "chair@ICSID2026.com",
+      "email": "chair@ICSSID2026.com",
       "phone": "+233 24 965 3242",
       "department": "Sustainable Research and Innovation Department",
       "institution": "University of Mines and Technology"
@@ -26,7 +26,7 @@
     {
       "name": "Dr. Sarah Johnson",
       "title": "Program Chair",
-      "email": "program@ICSID2026.com",
+      "email": "program@ICSSID2026.com",
       "phone": "+233 24 965 3242",
       "department": "Civil Engineering",
       "institution": "University of Mines and Technology"
@@ -34,7 +34,7 @@
     {
       "name": "Mr. David Osei",
       "title": "Local Organizing Committee Chair",
-      "email": "local@ICSID2026.com",
+      "email": "local@ICSSID2026.com",
       "phone": "+233 24 965 3242",
       "department": "Conference Management",
       "institution": "University of Mines and Technology"
@@ -43,37 +43,37 @@
   "departments": [
     {
       "name": "General Inquiries",
-      "email": "info@ICSID2026.com",
+      "email": "info@ICSSID2026.com",
       "description": "General questions about the conference, registration, and participation",
       "responseTime": "Within 24-48 hours"
     },
     {
       "name": "Technical Support",
-      "email": "tech@ICSID2026.com",
+      "email": "tech@ICSSID2026.com",
       "description": "Website issues, online registration problems, and technical assistance",
       "responseTime": "Within 12-24 hours"
     },
     {
       "name": "Paper Submissions",
-      "email": "papers@ICSID2026.com",
+      "email": "papers@ICSSID2026.com",
       "description": "Abstract and paper submission questions, review process inquiries",
       "responseTime": "Within 24-48 hours"
     },
     {
       "name": "Registration & Payments",
-      "email": "registration@ICSID2026.com",
+      "email": "registration@ICSSID2026.com",
       "description": "Registration fees, payment issues, and confirmation letters",
       "responseTime": "Within 24-48 hours"
     },
     {
       "name": "Venue & Accommodation",
-      "email": "venue@ICSID2026.com",
+      "email": "venue@ICSSID2026.com",
       "description": "Venue information, hotel bookings, and local arrangements",
       "responseTime": "Within 24-48 hours"
     },
     {
       "name": "Sponsorship & Exhibition",
-      "email": "sponsors@ICSID2026.com",
+      "email": "sponsors@ICSSID2026.com",
       "description": "Sponsorship opportunities, exhibition spaces, and partnership inquiries",
       "responseTime": "Within 48-72 hours"
     }
@@ -100,20 +100,20 @@
   "socialMedia": [
     {
       "platform": "Twitter",
-      "handle": "@ICSID2026",
-      "url": "https://twitter.com/ICSID2026",
+      "handle": "@ICSSID2026",
+      "url": "https://twitter.com/ICSSID2026",
       "description": "Follow us for updates and announcements"
     },
     {
       "platform": "LinkedIn",
-      "handle": "ICSID 2026",
-      "url": "https://linkedin.com/company/ICSID2026",
+      "handle": "ICSSID 2026",
+      "url": "https://linkedin.com/company/ICSSID2026",
       "description": "Professional network and industry connections"
     },
     {
       "platform": "Facebook",
-      "handle": "ICSID2026",
-      "url": "https://facebook.com/ICSID2026",
+      "handle": "ICSSID2026",
+      "url": "https://facebook.com/ICSSID2026",
       "description": "Community discussions and event photos"
     }
   ],
