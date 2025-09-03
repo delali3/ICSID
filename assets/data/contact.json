@@ -3,7 +3,7 @@
     "name": "ICSID 2026",
     "fullName": "International Conference on Sustainable Science and Infrastructure Development",
     "email": "info@ICSID2026.com",
-    "phone": "+233 XX XXX XXXX",
+    "phone": "+233 24 965 3242",
     "website": "https://ICSID2026.com",
     "address": {
       "organization": "University of Mines and Technology (UMaT) - SRID",
@@ -19,7 +19,7 @@
       "name": "Prof. John Mensah",
       "title": "Conference Chair",
       "email": "chair@ICSID2026.com",
-      "phone": "+233 XX XXX XXXX",
+      "phone": "+233 24 965 3242",
       "department": "Sustainable Research and Innovation Department",
       "institution": "University of Mines and Technology"
     },
@@ -27,7 +27,7 @@
       "name": "Dr. Sarah Johnson",
       "title": "Program Chair",
       "email": "program@ICSID2026.com",
-      "phone": "+233 XX XXX XXXX",
+      "phone": "+233 24 965 3242",
       "department": "Civil Engineering",
       "institution": "University of Mines and Technology"
     },
@@ -35,7 +35,7 @@
       "name": "Mr. David Osei",
       "title": "Local Organizing Committee Chair",
       "email": "local@ICSID2026.com",
-      "phone": "+233 XX XXX XXXX",
+      "phone": "+233 24 965 3242",
       "department": "Conference Management",
       "institution": "University of Mines and Technology"
     }
@@ -86,13 +86,13 @@
   "emergencyContacts": [
     {
       "name": "Conference Emergency Hotline",
-      "phone": "+233 XX XXX XXXX",
+      "phone": "+233 24 965 3242",
       "description": "For urgent matters during the conference period",
-      "availability": "July 29 - August 2, 2026"
+      "availability": "January 01 - August 2, 2026"
     },
     {
       "name": "Venue Security",
-      "phone": "+233 XX XXX XXXX",
+      "phone": "+233 24 965 3242",
       "description": "Security and safety concerns at the venue",
       "availability": "24/7 during conference"
     }
