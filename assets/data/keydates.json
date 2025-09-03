@@ -1,7 +1,7 @@
 {
   "stats": {
-    "daysToConference": "30",
-    "conferenceDates": "July 30-31",
+    "daysToConference": "288",
+    "conferenceDates": "June 18-20",
     "edition": "2026"
   },
   "timeline": [
@@ -13,39 +13,39 @@
       "status": "completed"
     },
     {
-      "date": "2025-11-15",
+      "date": "2026-01-31",
       "title": "Abstract Submission Deadline",
       "description": "Deadline for submitting paper abstracts",
       "details": "Submit a 250-500 word abstract outlining your research objectives, methodology, and expected outcomes.",
-      "status": "completed"
+      "status": "upcoming"
     },
     {
-      "date": "2025-12-01",
+      "date": "2026-02-15",
       "title": "Abstract Review Results",
       "description": "Notification of abstract acceptance",
       "details": "Authors will receive notification of abstract acceptance and instructions for full paper submission.",
-      "status": "completed"
+      "status": "upcoming"
     },
     {
-      "date": "2026-01-31",
+      "date": "2026-03-31",
       "title": "Full Paper Submission Deadline",
       "description": "Deadline for submitting complete research papers",
       "details": "Submit your complete manuscript (6,000-8,000 words) following the IEEE formatting guidelines.",
-      "status": "completed"
+      "status": "upcoming"
     },
     {
-      "date": "2026-03-15",
+      "date": "2026-04-30",
       "title": "Paper Review Results",
       "description": "Notification of paper acceptance",
       "details": "Authors will receive detailed review feedback and final acceptance decisions.",
-      "status": "completed"
+      "status": "upcoming"
     },
     {
-      "date": "2026-04-15",
+      "date": "2026-05-15",
       "title": "Camera Ready Submission",
       "description": "Final paper submission with revisions",
       "details": "Submit your final camera-ready paper incorporating reviewer feedback and following all formatting requirements.",
-      "status": "completed"
+      "status": "upcoming"
     },
     {
       "date": "2026-05-01",
@@ -62,35 +62,35 @@
       "status": "current"
     },
     {
-      "date": "2026-07-01",
+      "date": "2026-06-01",
       "title": "Regular Registration Closes",
       "description": "Final registration deadline",
       "details": "Last day to register for the conference. On-site registration will be available but at higher rates.",
       "status": "upcoming"
     },
     {
-      "date": "2026-07-15",
+      "date": "2026-06-01",
       "title": "Hotel Booking Deadline",
       "description": "Recommended hotel booking deadline",
       "details": "Book your accommodation at conference rates. Limited rooms available after this date.",
       "status": "upcoming"
     },
     {
-      "date": "2026-07-25",
+      "date": "2026-06-17",
       "title": "Pre-Conference Workshops",
       "description": "Pre-conference workshops and tutorials",
       "details": "Optional workshops covering emerging topics in sustainability and infrastructure innovation.",
       "status": "upcoming"
     },
     {
-      "date": "2026-07-30",
+      "date": "2026-06-18",
       "title": "Conference Day 1",
       "description": "First day of ICSID 2026",
       "details": "Opening ceremony, keynote speeches, and technical sessions begin.",
       "status": "upcoming"
     },
     {
-      "date": "2026-07-31",
+      "date": "2026-06-19",
       "title": "Conference Day 2",
       "description": "Second day of ICSID 2026",
       "details": "Technical sessions, panel discussions, and closing ceremony.",
@@ -113,7 +113,7 @@
     },
     {
       "title": "Regular Registration",
-      "date": "2026-07-01",
+      "date": "2026-06-01",
       "price": "$350",
       "description": "Standard registration rate for regular attendees.",
       "benefits": [
@@ -126,7 +126,7 @@
     },
     {
       "title": "Student Registration",
-      "date": "2026-07-01",
+      "date": "2026-06-01",
       "price": "$150",
       "description": "Special discounted rate for full-time students.",
       "benefits": [
@@ -139,7 +139,7 @@
     },
     {
       "title": "On-site Registration",
-      "date": "2026-07-30",
+      "date": "2026-06-18",
       "price": "$450",
       "description": "Registration available at the conference venue.",
       "benefits": [
@@ -165,7 +165,7 @@
       "status": "completed"
     },
     {
-      "date": "2025-11-15",
+      "date": "2026-01-31",
       "title": "Abstract Submission",
       "description": "Submit paper abstract for initial review",
       "requirements": [
@@ -174,10 +174,10 @@
         "Follow IEEE formatting guidelines",
         "Submit through online portal only"
       ],
-      "status": "completed"
+      "status": "upcoming"
     },
     {
-      "date": "2025-12-01",
+      "date": "2026-02-15",
       "title": "Abstract Review Notification",
       "description": "Receive feedback on abstract submission",
       "requirements": [
@@ -186,10 +186,10 @@
         "Prepare for full paper submission",
         "Contact program committee if needed"
       ],
-      "status": "completed"
+      "status": "upcoming"
     },
     {
-      "date": "2026-01-31",
+      "date": "2026-03-31",
       "title": "Full Paper Submission",
       "description": "Submit complete research manuscript",
       "requirements": [
@@ -198,10 +198,10 @@
         "Follow IEEE double-column format",
         "Include keywords and abstract"
       ],
-      "status": "completed"
+      "status": "upcoming"
     },
     {
-      "date": "2026-03-15",
+      "date": "2026-04-30",
       "title": "Paper Review Results",
       "description": "Receive peer review feedback",
       "requirements": [
@@ -210,10 +210,10 @@
         "Prepare response to reviewers",
         "Plan for camera-ready submission"
       ],
-      "status": "completed"
+      "status": "upcoming"
     },
     {
-      "date": "2026-04-15",
+      "date": "2026-05-15",
       "title": "Camera Ready Submission",
       "description": "Final paper submission with revisions",
       "requirements": [
@@ -222,12 +222,12 @@
         "Submit copyright form",
         "Confirm author registration"
       ],
-      "status": "completed"
+      "status": "upcoming"
     }
   ],
   "schedule": [
     {
-      "date": "July 30, 2026",
+      "date": "June 18, 2026",
       "theme": "Sustainability & Innovation",
       "events": [
         {
@@ -293,7 +293,7 @@
       ]
     },
     {
-      "date": "July 31, 2026",
+      "date": "June 19, 2026",
       "theme": "Infrastructure & Technology",
       "events": [
         {
@@ -362,7 +362,7 @@
     },
     {
       "title": "Paper Submission Extension",
-      "content": "Due to popular demand, we have extended the full paper submission deadline to January 31, 2026. Take advantage of this additional time to perfect your manuscript.",
+      "content": "Due to popular demand, we have extended the abstract submission deadline to January 31, 2026. Take advantage of this additional time to perfect your manuscript.",
       "date": "2025-12-20",
       "priority": "high"
     },
@@ -386,7 +386,7 @@
     },
     {
       "title": "Accommodation Booking Reminder",
-      "content": "Early booking is recommended for conference hotels. Special rates are available until July 15, 2026. Visit our hotels page for booking information.",
+      "content": "Early booking is recommended for conference hotels. Special rates are available until June 1, 2026. Visit our hotels page for booking information.",
       "date": "2026-01-15",
       "priority": "medium"
     }
