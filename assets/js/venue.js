@@ -139,8 +139,7 @@ function initMap(coordinates) {
         <p><strong>Coordinates:</strong> ${coordinates.latitude}°N, ${coordinates.longitude}°W</p>
         <p><strong>Address:</strong> University of Mines and Technology, Sekondi-Takoradi, Ghana</p>
         <div class="map-actions">
-          <a href="https://maps.google.com/?q=${coordinates.latitude},${coordinates.longitude}" target="_blank" class="btn btn-primary">View on Google Maps</a>
-          <a href="https://www.openstreetmap.org/?mlat=${coordinates.latitude}&mlon=${coordinates.longitude}" target="_blank" class="btn btn-secondary">View on OpenStreetMap</a>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3974.9547324602877!2d-1.7186027227442664!3d4.9471811822113105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sUMaT%20Essikado%20Campus%20(Railways%20School)!5e0!3m2!1sen!2sgh!4v1756922782761!5m2!1sen!2sgh" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
       </div>
     </div>
