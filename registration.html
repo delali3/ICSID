@@ -6,6 +6,8 @@
     <title>Registration | ICSSID 2026 - International Conference on Sustainability Science &amp; Infrastructure</title>
     <meta name="description" content="Register for ICSSID 2026 conference. Early bird rates available until June 15, 2026. Student discounts and group rates offered.">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
 </head>
 <body>
     <!-- Skip Link -->
@@ -176,61 +178,51 @@
         <section class="registration-pricing">
             <div class="container">
                 <h2>Registration Fees</h2>
-                <div class="pricing-grid">
-                    <div class="pricing-card">
-                        <h3>Student</h3>
-                        <div class="price">
-                            <span class="early-bird">150</span>
-                            <span class="regular">$200</span>
+                <div class="row">
+                    <!-- Early Registration -->
+                    <div class="col-lg-6">
+                        <div class="card mb-5 mb-lg-0">
+                            <div class="card-body">
+                                <h5 class="card-title text-muted text-uppercase text-center">Early Registration</h5>
+                                <hr>
+                                <ul class="fa-ul">
+                                    <li><span class="fa-li"><i class="fa fa-check"></i></span>IEEE - $100 USD (GHS1600)</li>
+                                    <li><span class="fa-li"><i class="fa fa-check"></i></span>IEEE Student Member - $50 USD (GHS800)</li>
+                                    <li><span class="fa-li"><i class="fa fa-check"></i></span>Non-IEEE Member - $150 USD (GHS2400)</li>
+                                    <li><span class="fa-li"><i class="fa fa-check"></i></span>Student Non-IEEE Member - $75 USD (GHS1200)</li>
+                                </ul>
+                                <div class="text-center">
+                                    <button id="purchaseBtnEarly" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#accountDetailsModal">Purchase Early</button>
+                                </div>
+                            </div>
                         </div>
-                        <ul class="pricing-features">
-                            <li>Full conference access</li>
-                            <li>Conference materials</li>
-                            <li>Lunch & refreshments</li>
-                            <li>Certificate of participation</li>
-                            <li><em>Valid student ID required</em></li>
-                        </ul>
                     </div>
-                    
-                    <div class="pricing-card featured">
-                        <div class="popular-badge">Most Popular</div>
-                        <h3>Academic/Faculty</h3>
-                        <div class="price">
-                            <span class="early-bird">250</span>
-                            <span class="regular">$350</span>
+
+                    <!-- Late Registration -->
+                    <div class="col-lg-6">
+                        <div class="card mb-5 mb-lg-0">
+                            <div class="card-body">
+                                <h5 class="card-title text-muted text-uppercase text-center">Late Registration</h5>
+                                <hr>
+                                <ul class="fa-ul">
+                                    <li><span class="fa-li"><i class="fa fa-check"></i></span>IEEE - $150 USD (GHS2400)</li>
+                                    <li><span class="fa-li"><i class="fa fa-check"></i></span>IEEE Student Member - $60 USD (GHS 960)</li>
+                                    <li><span class="fa-li"><i class="fa fa-check"></i></span>Non-IEEE Member - $200 USD (GHS3190)</li>
+                                    <li><span class="fa-li"><i class="fa fa-check"></i></span>Student Non-IEEE Member - $85 USD (GHS1360)</li>
+                                </ul>
+                                <div class="text-center">
+                                    <button id="purchaseBtnLate" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#accountDetailsModal">Purchase Late</button>
+                                </div>
+                            </div>
                         </div>
-                        <ul class="pricing-features">
-                            <li>Full conference access</li>
-                            <li>Conference materials</li>
-                            <li>All meals included</li>
-                            <li>Networking events</li>
-                            <li>Certificate of participation</li>
-                            <li>Digital proceedings</li>
-                        </ul>
-                    </div>
-                    
-                    <div class="pricing-card">
-                        <h3>Industry</h3>
-                        <div class="price">
-                            <span class="early-bird">400</span>
-                            <span class="regular">$500</span>
-                        </div>
-                        <ul class="pricing-features">
-                            <li>Full conference access</li>
-                            <li>Premium conference materials</li>
-                            <li>All meals included</li>
-                            <li>VIP networking events</li>
-                            <li>Certificate of participation</li>
-                            <li>Digital proceedings</li>
-                            <li>Exhibition access</li>
-                        </ul>
                     </div>
                 </div>
                 
                 <div class="pricing-notes">
                     <p><strong>Early Bird Rates:</strong> Available until June 15, 2026</p>
-                    <p><strong>Group Discounts:</strong> 10% discount for 5+ registrations from the same organization</p>
-                    <p><strong>Local Participants:</strong> Special rates for participants from Ghana and West Africa</p>
+                    <p><strong>IEEE Members:</strong> Must provide valid IEEE membership number</p>
+                    <p><strong>Students:</strong> Valid student ID required for student rates</p>
+                    <p><strong>Currency:</strong> Payments accepted in USD or GHS (Ghana Cedis) at current exchange rates</p>
                 </div>
             </div>
         </section>
@@ -320,13 +312,22 @@
                                     <label for="category">Registration Category *</label>
                                     <select id="category" name="category" required aria-describedby="category-error">
                                         <option value="">Select your category...</option>
-                                        <option value="student">Student ($150 early / $200 regular)</option>
-                                        <option value="academic">Academic/Faculty ($250 early / $350 regular)</option>
-                                        <option value="industry">Industry Professional ($400 early / $500 regular)</option>
-                                        <option value="government">Government Employee ($250 early / $350 regular)</option>
+                                        <option value="ieee-member">IEEE Member ($100 early / $150 late)</option>
+                                        <option value="ieee-student">IEEE Student Member ($50 early / $60 late)</option>
+                                        <option value="non-ieee">Non-IEEE Member ($150 early / $200 late)</option>
+                                        <option value="student-non-ieee">Student Non-IEEE Member ($75 early / $85 late)</option>
                                     </select>
                                     <div class="error-message" id="category-error">Please select your registration category</div>
                                 </div>
+                            </div>
+                            
+                            <div class="form-group" id="ieee-membership-group" style="display: none;">
+                                <label for="ieee-number">IEEE Membership Number *</label>
+                                <input type="text" id="ieee-number" name="ieee-number" 
+                                       placeholder="Enter your IEEE membership number"
+                                       aria-describedby="ieee-number-error">
+                                <div class="error-message" id="ieee-number-error">Please enter your IEEE membership number</div>
+                                <small class="form-help">Required for IEEE member rates. Must be a valid current membership.</small>
                             </div>
                         </div>
                         
@@ -580,13 +581,96 @@
         </div>
     </footer>
     
+    <!-- Account Details Modal -->
+    <div class="modal fade" id="accountDetailsModal" tabindex="-1" role="dialog" aria-labelledby="accountDetailsModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="accountDetailsModalLabel">Payment Account Details</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="payment-account-details">
+                        <div class="alert alert-info">
+                            <strong>Payment Instructions:</strong> Please use the following account details to complete your registration payment.
+                        </div>
+                        
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="payment-method-detail">
+                                    <h6><i class="fa fa-university"></i> Bank Transfer (USD)</h6>
+                                    <div class="account-info">
+                                        <p><strong>Bank Name:</strong> Ghana Commercial Bank</p>
+                                        <p><strong>Account Name:</strong> ICSSID 2026 Conference</p>
+                                        <p><strong>Account Number:</strong> 123456789012</p>
+                                        <p><strong>Swift Code:</strong> GCBLGHAC</p>
+                                        <p><strong>Branch:</strong> Takoradi Main Branch</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-6">
+                                <div class="payment-method-detail">
+                                    <h6><i class="fa fa-mobile"></i> Mobile Money (GHS)</h6>
+                                    <div class="account-info">
+                                        <p><strong>MTN Mobile Money:</strong> 0244-123-456</p>
+                                        <p><strong>Vodafone Cash:</strong> 0209-123-456</p>
+                                        <p><strong>AirtelTigo Money:</strong> 0277-123-456</p>
+                                        <p><strong>Reference:</strong> Include your full name</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="payment-notes mt-4">
+                            <div class="alert alert-warning">
+                                <h6><i class="fa fa-exclamation-triangle"></i> Important Notes:</h6>
+                                <ul class="mb-0">
+                                    <li>Please include your full name and email address in the payment reference</li>
+                                    <li>IEEE members must provide valid membership number during registration</li>
+                                    <li>Students must provide valid student ID for student rates</li>
+                                    <li>Send payment confirmation to: <strong>payments@icssid2026.com</strong></li>
+                                    <li>Registration is confirmed only after payment verification</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary" onclick="copyAccountDetails()">
+                        <i class="fa fa-copy"></i> Copy Account Details
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
     
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/main.js"></script>
     <script>
         // Registration form validation and enhancement
         document.addEventListener('DOMContentLoaded', function() {
             const form = document.querySelector('.registration-form');
             const successMessage = document.getElementById('success-message');
+            const categorySelect = document.getElementById('category');
+            const ieeeGroup = document.getElementById('ieee-membership-group');
+            const ieeeNumberInput = document.getElementById('ieee-number');
+            
+            // Show/hide IEEE membership field based on category selection
+            categorySelect.addEventListener('change', function() {
+                const selectedCategory = this.value;
+                if (selectedCategory === 'ieee-member' || selectedCategory === 'ieee-student') {
+                    ieeeGroup.style.display = 'block';
+                    ieeeNumberInput.required = true;
+                } else {
+                    ieeeGroup.style.display = 'none';
+                    ieeeNumberInput.required = false;
+                    ieeeNumberInput.value = '';
+                    const formGroup = ieeeNumberInput.closest('.form-group');
+                    formGroup.classList.remove('error', 'success');
+                }
+            });
             
             // Real-time validation
             const inputs = form.querySelectorAll('input[required], select[required]');
@@ -600,7 +684,8 @@
                 e.preventDefault();
                 
                 let isValid = true;
-                inputs.forEach(input => {
+                const currentInputs = form.querySelectorAll('input[required], select[required]');
+                currentInputs.forEach(input => {
                     if (!validateField.call(input)) {
                         isValid = false;
                     }
@@ -648,6 +733,16 @@
                     }
                 }
                 
+                // IEEE membership number validation
+                if (this.id === 'ieee-number' && this.value) {
+                    const ieeeRegex = /^\d{8,9}$/;
+                    if (!ieeeRegex.test(this.value.replace(/\D/g, ''))) {
+                        formGroup.classList.add('error');
+                        errorMessage.textContent = 'IEEE membership number must be 8-9 digits';
+                        return false;
+                    }
+                }
+                
                 if (this.value.trim()) {
                     formGroup.classList.add('success');
                 }
@@ -671,6 +766,62 @@
                         value = value.replace(/(\d{3})(\d{3})(\d{4})/, '($1) $2-$3');
                     }
                     e.target.value = value;
+                });
+            }
+        });
+        
+        // Modal functionality for account details
+        function copyAccountDetails() {
+            const accountText = `
+ICSSID 2026 Conference Payment Details
+
+Bank Transfer (USD):
+Bank Name: Ghana Commercial Bank
+Account Name: ICSSID 2026 Conference
+Account Number: 123456789012
+Swift Code: GCBLGHAC
+Branch: Takoradi Main Branch
+
+Mobile Money (GHS):
+MTN Mobile Money: 0244-123-456
+Vodafone Cash: 0209-123-456
+AirtelTigo Money: 0277-123-456
+
+Important: Include your full name and email in payment reference
+Send confirmation to: payments@icssid2026.com
+            `;
+            
+            navigator.clipboard.writeText(accountText).then(function() {
+                alert('Account details copied to clipboard!');
+            }, function(err) {
+                console.error('Could not copy text: ', err);
+                // Fallback for older browsers
+                const textArea = document.createElement('textarea');
+                textArea.value = accountText;
+                document.body.appendChild(textArea);
+                textArea.select();
+                document.execCommand('copy');
+                document.body.removeChild(textArea);
+                alert('Account details copied to clipboard!');
+            });
+        }
+        
+        // Purchase button handlers
+        document.addEventListener('DOMContentLoaded', function() {
+            const purchaseBtnEarly = document.getElementById('purchaseBtnEarly');
+            const purchaseBtnLate = document.getElementById('purchaseBtnLate');
+            
+            if (purchaseBtnEarly) {
+                purchaseBtnEarly.addEventListener('click', function() {
+                    // You can add specific logic for early registration here
+                    console.log('Early registration selected');
+                });
+            }
+            
+            if (purchaseBtnLate) {
+                purchaseBtnLate.addEventListener('click', function() {
+                    // You can add specific logic for late registration here
+                    console.log('Late registration selected');
                 });
             }
         });

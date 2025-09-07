@@ -7389,3 +7389,167 @@ button:focus,
     background-size: 400px 400px, 300px 300px, 50px 50px;
   }
 }
+
+/* IEEE Registration Pricing Cards */
+.registration-pricing .card {
+  border: 2px solid #e9ecef;
+  border-radius: var(--radius-lg);
+  transition: all 0.3s ease;
+  height: 100%;
+}
+
+.registration-pricing .card:hover {
+  border-color: var(--primary-green);
+  box-shadow: var(--shadow-elevated);
+  transform: translateY(-4px);
+}
+
+.registration-pricing .card-body {
+  padding: 2rem;
+}
+
+.registration-pricing .card-title {
+  color: var(--text-secondary);
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+}
+
+.registration-pricing .fa-ul {
+  margin-left: 0;
+  padding-left: 2rem;
+}
+
+.registration-pricing .fa-ul li {
+  margin-bottom: 0.75rem;
+  color: var(--charcoal);
+  font-weight: 500;
+}
+
+.registration-pricing .fa-li {
+  color: var(--primary-green);
+  width: 1.5rem;
+}
+
+.registration-pricing .text-center {
+  margin-top: 2rem;
+}
+
+.registration-pricing .btn {
+  padding: 0.75rem 2rem;
+  font-weight: 600;
+  border-radius: var(--radius);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* Modal Styles */
+.modal {
+  z-index: 1050;
+}
+
+.modal-content {
+  border-radius: var(--radius-lg);
+  border: none;
+  box-shadow: var(--shadow-elevated);
+}
+
+.modal-header {
+  border-bottom: 2px solid #e9ecef;
+  padding: 1.5rem 2rem;
+  background-color: var(--off-white);
+}
+
+.modal-title {
+  color: var(--charcoal);
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+
+.modal-body {
+  padding: 2rem;
+}
+
+.payment-account-details .alert {
+  border-radius: var(--radius);
+  border: none;
+  font-weight: 500;
+}
+
+.payment-account-details .alert-info {
+  background-color: #e3f2fd;
+  color: #1565c0;
+}
+
+.payment-account-details .alert-warning {
+  background-color: #fff3e0;
+  color: #ef6c00;
+}
+
+.payment-method-detail {
+  background-color: var(--off-white);
+  padding: 1.5rem;
+  border-radius: var(--radius);
+  margin-bottom: 1rem;
+  border-left: 4px solid var(--primary-green);
+}
+
+.payment-method-detail h6 {
+  color: var(--primary-green);
+  font-weight: 600;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+.payment-method-detail .account-info p {
+  margin-bottom: 0.5rem;
+  color: var(--charcoal);
+  font-size: 0.9rem;
+}
+
+.payment-method-detail .account-info strong {
+  color: var(--charcoal);
+  font-weight: 600;
+  display: inline-block;
+  min-width: 120px;
+}
+
+.modal-footer {
+  border-top: 2px solid #e9ecef;
+  padding: 1.5rem 2rem;
+  background-color: var(--off-white);
+}
+
+/* IEEE Membership Field */
+#ieee-membership-group {
+  margin-top: 1rem;
+  padding: 1.5rem;
+  background-color: #f0f8f4;
+  border-radius: var(--radius);
+  border-left: 4px solid var(--primary-green);
+}
+
+#ieee-membership-group label {
+  color: var(--primary-green);
+  font-weight: 600;
+}
+
+#ieee-membership-group .form-help {
+  color: var(--text-secondary);
+  font-style: italic;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .registration-pricing .card-body {
+    padding: 1.5rem;
+  }
+  
+  .modal-body {
+    padding: 1.5rem;
+  }
+  
+  .payment-method-detail {
+    padding: 1rem;
+  }
+}
