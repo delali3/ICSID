@@ -186,13 +186,13 @@
                                 <h5 class="card-title text-muted text-uppercase text-center">Early Registration</h5>
                                 <hr>
                                 <ul class="fa-ul">
-                                    <li><span class="fa-li"><i class="fa fa-check"></i></span>IEEE - $100 USD (GHS1600)</li>
-                                    <li><span class="fa-li"><i class="fa fa-check"></i></span>IEEE Student Member - $50 USD (GHS800)</li>
-                                    <li><span class="fa-li"><i class="fa fa-check"></i></span>Non-IEEE Member - $150 USD (GHS2400)</li>
-                                    <li><span class="fa-li"><i class="fa fa-check"></i></span>Student Non-IEEE Member - $75 USD (GHS1200)</li>
+                                    <li><span class="fa-li"><i class="fa fa-check"></i></span>IEEE - $130 USD (GHS1600)</li>
+                                    <li><span class="fa-li"><i class="fa fa-check"></i></span>IEEE Student Member - $70 USD (GHS800)</li>
+                                    <li><span class="fa-li"><i class="fa fa-check"></i></span>Non-IEEE Member - $200 USD (GHS2400)</li>
+                                    <li><span class="fa-li"><i class="fa fa-check"></i></span>Student Non-IEEE Member - $100 USD (GHS1200)</li>
                                 </ul>
                                 <div class="text-center">
-                                    <button id="purchaseBtnEarly" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#accountDetailsModal">Purchase Early</button>
+                                    <button id="purchaseBtnEarly" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#accountDetailsModal">Register Early</button>
                                 </div>
                             </div>
                         </div>
@@ -205,13 +205,13 @@
                                 <h5 class="card-title text-muted text-uppercase text-center">Late Registration</h5>
                                 <hr>
                                 <ul class="fa-ul">
-                                    <li><span class="fa-li"><i class="fa fa-check"></i></span>IEEE - $150 USD (GHS2400)</li>
-                                    <li><span class="fa-li"><i class="fa fa-check"></i></span>IEEE Student Member - $60 USD (GHS 960)</li>
-                                    <li><span class="fa-li"><i class="fa fa-check"></i></span>Non-IEEE Member - $200 USD (GHS3190)</li>
-                                    <li><span class="fa-li"><i class="fa fa-check"></i></span>Student Non-IEEE Member - $85 USD (GHS1360)</li>
+                                    <li><span class="fa-li"><i class="fa fa-check"></i></span>IEEE - $200 USD (GHS2400)</li>
+                                    <li><span class="fa-li"><i class="fa fa-check"></i></span>IEEE Student Member - $80 USD (GHS 960)</li>
+                                    <li><span class="fa-li"><i class="fa fa-check"></i></span>Non-IEEE Member - $110 USD (GHS3190)</li>
+                                    <li><span class="fa-li"><i class="fa fa-check"></i></span>Student Non-IEEE Member - $185 USD (GHS1360)</li>
                                 </ul>
                                 <div class="text-center">
-                                    <button id="purchaseBtnLate" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#accountDetailsModal">Purchase Late</button>
+                                    <button id="purchaseBtnLate" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#accountDetailsModal">Register Late</button>
                                 </div>
                             </div>
                         </div>
@@ -229,178 +229,210 @@
 
         <!-- Registration Form Section -->
         <section class="registration-form-section">
-            <div class="container">
-                    <div class="form-header">
-                        <h2>Registration Form</h2>
-                        <p>Please fill out all required fields to complete your registration</p>
+            <div class="container mt-5 mb-5">
+                <div class="row justify-content-center">
+                    <div class="col-lg-10">
+                        <div class="card">
+                            <h5 class="card-title text-muted text-uppercase text-center">ICSSID 2026 Registration Form</h5>
+                            <hr>
+
+                            <div class="card-body">
+                                <form id="registrationForm" method="POST" enctype="multipart/form-data">
+                                    <!-- Registration Information -->
+                                    <h5 class="mb-4">Registration Information</h5>
+
+                                    <div class="mb-3">
+                                        <label for="paperID" class="form-label">Paper ID:</label>
+                                        <input type="text" class="form-control" id="paperID" name="paperID" placeholder="Enter your Paper ID (if applicable)">
+                                    </div>
+
+                                    <div class="row mb-3">
+                                        <div class="col-md-6">
+                                            <label for="title" class="form-label">Paper Title:</label>
+                                            <input type="text" class="form-control" id="title" name="title" placeholder="Enter your paper title" required>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label for="designation" class="form-label">Designation:</label>
+                                            <input type="text" class="form-control" id="designation" name="designation" placeholder="Enter your designation" required>
+                                        </div>
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label for="participantName" class="form-label">Name of Corresponding Author/Participant:</label>
+                                        <input type="text" class="form-control" id="participantName" name="participantName" placeholder="Enter your name" required>
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label for="participantEmail" class="form-label">Email of Corresponding Author/Participant:</label>
+                                        <input type="email" class="form-control" id="participantEmail" name="participantEmail" placeholder="Enter your email" required>
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label class="form-label">Gender:</label>
+                                        <div>
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="radio" name="gender" id="male" value="Male" required>
+                                                <label class="form-check-label" for="male">Male</label>
+                                            </div>
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="radio" name="gender" id="female" value="Female" required>
+                                                <label class="form-check-label" for="female">Female</label>
+                                            </div>
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="radio" name="gender" id="other" value="Other" required>
+                                                <label class="form-check-label" for="other">Other</label>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label for="phoneNumber" class="form-label">Phone Number:</label>
+                                        <input type="tel" class="form-control" id="phoneNumber" name="phoneNumber" placeholder="Enter your contact number" required>
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label for="address" class="form-label">Address:</label>
+                                        <input type="text" class="form-control" id="address" name="address" placeholder="Enter your address" required>
+                                    </div>
+
+                                    <div class="row mb-3">
+                                        <div class="col-md-6">
+                                            <label for="city" class="form-label">City:</label>
+                                            <input type="text" class="form-control" id="city" name="city" placeholder="Enter your city" required>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label for="country" class="form-label">Country:</label>
+                                            <input type="text" class="form-control" id="country" name="country" placeholder="Enter your country" required>
+                                        </div>
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label for="institution" class="form-label">Institution Affiliation:</label>
+                                        <input type="text" class="form-control" id="institution" name="institution" placeholder="Enter your institution" required>
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label for="department" class="form-label">Department:</label>
+                                        <input type="text" class="form-control" id="department" name="department" placeholder="Enter your department" required>
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label class="form-label">Choose one:</label>
+                                        <div>
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="radio" name="role" id="author" value="Author" required>
+                                                <label class="form-check-label" for="author">Author</label>
+                                            </div>
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="radio" name="role" id="participant" value="Participant" required>
+                                                <label class="form-check-label" for="participant">Participant</label>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label for="coAuthors" class="form-label">Co-Author(s):</label>
+                                        <input type="text" class="form-control" id="coAuthors" name="coAuthors" placeholder="Enter co-authors' names (if any)">
+                                    </div>
+
+                                    <!-- Payment Information -->
+                                    <h5 class="mt-5 mb-4">Payment Information</h5>
+
+                                    <div class="mb-3">
+                                        <label for="transactionID" class="form-label">Transaction ID/Receipt No:</label>
+                                        <input type="text" class="form-control" id="transactionID" name="transactionID" placeholder="Enter your transaction ID or receipt number" required>
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label for="paymentDate" class="form-label">Date of Payment:</label>
+                                        <input type="date" class="form-control" id="paymentDate" name="paymentDate" required>
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label class="form-label">Type of Payment:</label>
+                                        <div>
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="radio" name="paymentType" id="swiftCode" value="Swift Code" required>
+                                                <label class="form-check-label" for="swiftCode">Swift Code</label>
+                                            </div>
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="radio" name="paymentType" id="wireTransfer" value="Wire Transfer" required>
+                                                <label class="form-check-label" for="wireTransfer">Wire Transfer</label>
+                                            </div>
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="radio" name="paymentType" id="bankInPerson" value="Bank (In-Person)" required>
+                                                <label class="form-check-label" for="bankInPerson">Bank (In-Person)</label>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label for="receiptUpload" class="form-label">Upload Receipt:</label>
+                                        <input class="form-control" type="file" id="receiptUpload" name="receiptUpload" accept=".pdf,.jpg,.jpeg,.png" required>
+                                    </div>
+
+                                    <div class="mb-4">
+                                        <label class="form-label">Would you like to present:</label>
+                                        <div>
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="radio" name="presentationMode" id="inPerson" value="In-Person" required>
+                                                <label class="form-check-label" for="inPerson">In-Person</label>
+                                            </div>
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="radio" name="presentationMode" id="online" value="Online/Virtual" required>
+                                                <label class="form-check-label" for="online">Online/Virtual</label>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="mb-4">
+                                        <label for="ieee_member" class="form-label">Are you an IEEE member?</label>
+                                        <select class="form-select" id="ieee_member" name="ieee_member" required onchange="toggleIeeeIdField()">
+                                            <option value="" selected>Select</option>
+                                            <option value="Yes">Yes</option>
+                                            <option value="No">No</option>
+                                        </select>
+                                    </div>
+
+                                    <!-- IEEE Membership ID Field (Initially Hidden) -->
+                                    <div class="mb-4" id="ieee_id_field" style="display: none;">
+                                        <label for="ieee_id" class="form-label">Enter your IEEE Membership ID</label>
+                                        <input type="text" class="form-control" id="ieee_id" name="ieee_id" placeholder="IEEE Membership ID">
+                                    </div>
+
+                                    <!-- Student Status -->
+                                    <div class="mb-4">
+                                        <label for="student_status" class="form-label">Are you a student?</label>
+                                        <select class="form-select" id="student_status" name="student_status" required onchange="toggleStudentFields()">
+                                            <option value="" selected>Select</option>
+                                            <option value="Yes">Yes</option>
+                                            <option value="No">No</option>
+                                        </select>
+                                    </div>
+
+                                    <!-- Additional Student Upload Fields (Initially Hidden) -->
+                                    <div id="student_fields" style="display: none;">
+                                        <div class="mb-4">
+                                            <label for="student_id_upload" class="form-label">Upload Your Student ID</label>
+                                            <input class="form-control" type="file" id="student_id_upload" name="student_id_upload" accept=".pdf,.jpg,.jpeg,.png">
+                                        </div>
+                                    </div>
+
+                                    <!-- Terms and Conditions -->
+                                    <div class="form-check mb-4">
+                                        <input class="form-check-input" type="checkbox" id="agreeTerms" name="agreeTerms" required>
+                                        <label class="form-check-label" for="agreeTerms">
+                                            I agree to the <a href="#" target="_blank">terms and conditions</a>.
+                                        </label>
+                                    </div>
+
+                                    <!-- Submit Button -->
+                                    <button type="submit" class="btn btn-primary w-100">Register</button>
+
+                                </form>
+                            </div>
+                        </div>
                     </div>
-                    
-                    <form class="registration-form" action="#" method="post" novalidate>
-                        <div class="form-section">
-                            <h3>Personal Information</h3>
-                            <div class="form-row">
-                                <div class="form-group">
-                                    <label for="firstName">First Name *</label>
-                                    <input type="text" id="firstName" name="firstName" required 
-                                           placeholder="Enter your first name"
-                                           aria-describedby="firstName-error">
-                                    <div class="error-message" id="firstName-error">Please enter your first name</div>
-                                </div>
-                                
-                                <div class="form-group">
-                                    <label for="lastName">Last Name *</label>
-                                    <input type="text" id="lastName" name="lastName" required 
-                                           placeholder="Enter your last name"
-                                           aria-describedby="lastName-error">
-                                    <div class="error-message" id="lastName-error">Please enter your last name</div>
-                                </div>
-                            </div>
-                            
-                            <div class="form-row">
-                                <div class="form-group">
-                                    <label for="email">Email Address *</label>
-                                    <input type="email" id="email" name="email" required 
-                                           placeholder="your.email@example.com"
-                                           aria-describedby="email-error">
-                                    <div class="error-message" id="email-error">Please enter a valid email address</div>
-                                </div>
-                                
-                                <div class="form-group">
-                                    <label for="phone">Phone Number</label>
-                                    <input type="tel" id="phone" name="phone" 
-                                           placeholder="+233 123 456 789"
-                                           aria-describedby="phone-error">
-                                    <div class="error-message" id="phone-error">Please enter a valid phone number</div>
-                                </div>
-                            </div>
-                            
-                            <div class="form-group">
-                                <label for="country">Country *</label>
-                                <select id="country" name="country" required aria-describedby="country-error">
-                                    <option value="">Select your country...</option>
-                                    <option value="ghana">Ghana</option>
-                                    <option value="nigeria">Nigeria</option>
-                                    <option value="south-africa">South Africa</option>
-                                    <option value="kenya">Kenya</option>
-                                    <option value="usa">United States</option>
-                                    <option value="uk">United Kingdom</option>
-                                    <option value="canada">Canada</option>
-                                    <option value="other">Other</option>
-                                </select>
-                                <div class="error-message" id="country-error">Please select your country</div>
-                            </div>
-                        </div>
-                        
-                        <div class="form-section">
-                            <h3>Professional Information</h3>
-                            <div class="form-group">
-                                <label for="affiliation">Institution/Organization *</label>
-                                <input type="text" id="affiliation" name="affiliation" required 
-                                       placeholder="University, Company, or Organization"
-                                       aria-describedby="affiliation-error">
-                                <div class="error-message" id="affiliation-error">Please enter your institution or organization</div>
-                            </div>
-                            
-                            <div class="form-row">
-                                <div class="form-group">
-                                    <label for="title">Job Title/Position</label>
-                                    <input type="text" id="title" name="title" 
-                                           placeholder="Professor, Student, Engineer, etc.">
-                                </div>
-                                
-                                <div class="form-group">
-                                    <label for="category">Registration Category *</label>
-                                    <select id="category" name="category" required aria-describedby="category-error">
-                                        <option value="">Select your category...</option>
-                                        <option value="ieee-member">IEEE Member ($100 early / $150 late)</option>
-                                        <option value="ieee-student">IEEE Student Member ($50 early / $60 late)</option>
-                                        <option value="non-ieee">Non-IEEE Member ($150 early / $200 late)</option>
-                                        <option value="student-non-ieee">Student Non-IEEE Member ($75 early / $85 late)</option>
-                                    </select>
-                                    <div class="error-message" id="category-error">Please select your registration category</div>
-                                </div>
-                            </div>
-                            
-                            <div class="form-group" id="ieee-membership-group" style="display: none;">
-                                <label for="ieee-number">IEEE Membership Number *</label>
-                                <input type="text" id="ieee-number" name="ieee-number" 
-                                       placeholder="Enter your IEEE membership number"
-                                       aria-describedby="ieee-number-error">
-                                <div class="error-message" id="ieee-number-error">Please enter your IEEE membership number</div>
-                                <small class="form-help">Required for IEEE member rates. Must be a valid current membership.</small>
-                            </div>
-                        </div>
-                        
-                        <div class="form-section">
-                            <h3>Conference Details</h3>
-                            <div class="form-row">
-                                <div class="form-group">
-                                    <label for="paperid">Paper Submission ID</label>
-                                    <input type="text" id="paperid" name="paperid" 
-                                           placeholder="Enter your paper ID if you submitted a paper">
-                                    <small class="form-help">Leave blank if you're attending without presenting</small>
-                                </div>
-                                
-                                <div class="form-group">
-                                    <label for="attendance">Attendance Type *</label>
-                                    <select id="attendance" name="attendance" required>
-                                        <option value="">Select attendance type...</option>
-                                        <option value="in-person">In-Person Attendance</option>
-                                        <option value="virtual">Virtual Attendance (if available)</option>
-                                    </select>
-                                </div>
-                            </div>
-                            
-                            <div class="form-group">
-                                <label for="dietary">Dietary Requirements & Accessibility</label>
-                                <textarea id="dietary" name="dietary" rows="3"
-                                          placeholder="Please specify any dietary requirements, allergies, or accessibility needs..."></textarea>
-                            </div>
-                        </div>
-                        
-                        <div class="form-section">
-                            <h3>Payment Information</h3>
-                            <div class="form-group">
-                                <label for="payment">Preferred Payment Method *</label>
-                                <select id="payment" name="payment" required aria-describedby="payment-error">
-                                    <option value="">Select payment method...</option>
-                                    <option value="creditcard">Credit/Debit Card (Online)</option>
-                                    <option value="banktransfer">Bank Transfer</option>
-                                    <option value="momo">Mobile Money (Ghana)</option>
-                                    <option value="invoice">Invoice (Institutional Payment)</option>
-                                </select>
-                                <div class="error-message" id="payment-error">Please select a payment method</div>
-                            </div>
-                            
-                            <div class="form-group checkbox-group">
-                                <label class="checkbox-label">
-                                    <input type="checkbox" id="terms" name="terms" required>
-                                    <span class="checkmark"></span>
-                                    I agree to the <a href="#" target="_blank">Terms and Conditions</a> and <a href="#" target="_blank">Privacy Policy</a> *
-                                </label>
-                            </div>
-                            
-                            <div class="form-group checkbox-group">
-                                <label class="checkbox-label">
-                                    <input type="checkbox" id="newsletter" name="newsletter">
-                                    <span class="checkmark"></span>
-                                    Subscribe to conference updates and future event notifications
-                                </label>
-                            </div>
-                        </div>
-                        
-                        <div class="form-actions">
-                            <div class="registration-summary">
-                                <p><strong>Next Steps:</strong> After submitting this form, you will receive a confirmation email with payment instructions. Your registration will be confirmed once payment is received.</p>
-                            </div>
-                            <button type="submit" class="btn btn-primary btn-lg">
-                                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
-                                    <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
-                                </svg>
-                                Submit Registration
-                            </button>
-                        </div>
-                    </form>
                 </div>
             </div>
         </section>
@@ -651,28 +683,10 @@
     <script>
         // Registration form validation and enhancement
         document.addEventListener('DOMContentLoaded', function() {
-            const form = document.querySelector('.registration-form');
+            const form = document.querySelector('#registrationForm');
             const successMessage = document.getElementById('success-message');
-            const categorySelect = document.getElementById('category');
-            const ieeeGroup = document.getElementById('ieee-membership-group');
-            const ieeeNumberInput = document.getElementById('ieee-number');
             
-            // Show/hide IEEE membership field based on category selection
-            categorySelect.addEventListener('change', function() {
-                const selectedCategory = this.value;
-                if (selectedCategory === 'ieee-member' || selectedCategory === 'ieee-student') {
-                    ieeeGroup.style.display = 'block';
-                    ieeeNumberInput.required = true;
-                } else {
-                    ieeeGroup.style.display = 'none';
-                    ieeeNumberInput.required = false;
-                    ieeeNumberInput.value = '';
-                    const formGroup = ieeeNumberInput.closest('.form-group');
-                    formGroup.classList.remove('error', 'success');
-                }
-            });
-            
-            // Real-time validation
+            // Real-time validation for all required inputs
             const inputs = form.querySelectorAll('input[required], select[required]');
             inputs.forEach(input => {
                 input.addEventListener('blur', validateField);
@@ -692,34 +706,43 @@
                 });
                 
                 if (isValid) {
-                    // Simulate form submission
-                    form.style.opacity = '0.5';
-                    form.style.pointerEvents = 'none';
-                    
-                    setTimeout(() => {
-                        form.style.display = 'none';
-                        successMessage.style.display = 'block';
-                        successMessage.scrollIntoView({ behavior: 'smooth' });
-                    }, 1000);
+                    // Show success message (simulate form submission)
+                    alert('Registration submitted successfully! You will receive a confirmation email shortly.');
+                    form.reset();
+                    // Reset conditional fields
+                    document.getElementById('ieee_id_field').style.display = 'none';
+                    document.getElementById('student_fields').style.display = 'none';
                 }
             });
             
             function validateField() {
-                const formGroup = this.closest('.form-group');
-                const errorMessage = formGroup.querySelector('.error-message');
+                const fieldContainer = this.closest('.mb-3, .mb-4') || this.parentElement;
+                let errorElement = fieldContainer.querySelector('.error-message');
                 
-                formGroup.classList.remove('error', 'success');
+                // Create error element if it doesn't exist
+                if (!errorElement) {
+                    errorElement = document.createElement('div');
+                    errorElement.className = 'error-message text-danger small mt-1';
+                    errorElement.style.display = 'none';
+                    this.parentElement.appendChild(errorElement);
+                }
+                
+                fieldContainer.classList.remove('error', 'success');
+                errorElement.style.display = 'none';
                 
                 if (this.required && !this.value.trim()) {
-                    formGroup.classList.add('error');
+                    fieldContainer.classList.add('error');
+                    errorElement.textContent = 'This field is required';
+                    errorElement.style.display = 'block';
                     return false;
                 }
                 
                 if (this.type === 'email' && this.value) {
                     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
                     if (!emailRegex.test(this.value)) {
-                        formGroup.classList.add('error');
-                        errorMessage.textContent = 'Please enter a valid email address';
+                        fieldContainer.classList.add('error');
+                        errorElement.textContent = 'Please enter a valid email address';
+                        errorElement.style.display = 'block';
                         return false;
                     }
                 }
@@ -727,46 +750,40 @@
                 if (this.type === 'tel' && this.value) {
                     const phoneRegex = /^[\+]?[1-9][\d]{0,15}$/;
                     if (!phoneRegex.test(this.value.replace(/[\s\-\(\)]/g, ''))) {
-                        formGroup.classList.add('error');
-                        errorMessage.textContent = 'Please enter a valid phone number';
+                        fieldContainer.classList.add('error');
+                        errorElement.textContent = 'Please enter a valid phone number';
+                        errorElement.style.display = 'block';
                         return false;
                     }
                 }
                 
                 // IEEE membership number validation
-                if (this.id === 'ieee-number' && this.value) {
+                if (this.id === 'ieee_id' && this.value) {
                     const ieeeRegex = /^\d{8,9}$/;
                     if (!ieeeRegex.test(this.value.replace(/\D/g, ''))) {
-                        formGroup.classList.add('error');
-                        errorMessage.textContent = 'IEEE membership number must be 8-9 digits';
+                        fieldContainer.classList.add('error');
+                        errorElement.textContent = 'IEEE membership number must be 8-9 digits';
+                        errorElement.style.display = 'block';
                         return false;
                     }
                 }
                 
                 if (this.value.trim()) {
-                    formGroup.classList.add('success');
+                    fieldContainer.classList.add('success');
                 }
                 
                 return true;
             }
             
             function clearErrors() {
-                const formGroup = this.closest('.form-group');
+                const fieldContainer = this.closest('.mb-3, .mb-4') || this.parentElement;
                 if (this.value.trim()) {
-                    formGroup.classList.remove('error');
-                }
-            }
-            
-            // Phone number formatting
-            const phoneInput = document.getElementById('phone');
-            if (phoneInput) {
-                phoneInput.addEventListener('input', function(e) {
-                    let value = e.target.value.replace(/\D/g, '');
-                    if (value.length >= 10) {
-                        value = value.replace(/(\d{3})(\d{3})(\d{4})/, '($1) $2-$3');
+                    fieldContainer.classList.remove('error');
+                    const errorElement = fieldContainer.querySelector('.error-message');
+                    if (errorElement) {
+                        errorElement.style.display = 'none';
                     }
-                    e.target.value = value;
-                });
+                }
             }
         });
         
@@ -825,6 +842,38 @@ Send confirmation to: payments@icssid2026.com
                 });
             }
         });
+        
+        // IEEE membership field toggle function
+        function toggleIeeeIdField() {
+            var ieeeMemberSelect = document.getElementById("ieee_member");
+            var ieeeIdField = document.getElementById("ieee_id_field");
+            var ieeeIdInput = document.getElementById("ieee_id");
+
+            if (ieeeMemberSelect.value === "Yes") {
+                ieeeIdField.style.display = "block";
+                ieeeIdInput.required = true; // Make IEEE ID required if Yes is selected
+            } else {
+                ieeeIdField.style.display = "none";
+                ieeeIdInput.required = false; // Remove required attribute if No is selected
+                ieeeIdInput.value = ''; // Clear the field
+            }
+        }
+
+        // Student fields toggle function
+        function toggleStudentFields() {
+            var studentStatusSelect = document.getElementById("student_status");
+            var studentFields = document.getElementById("student_fields");
+            var studentIdUpload = document.getElementById("student_id_upload");
+
+            if (studentStatusSelect.value === "Yes") {
+                studentFields.style.display = "block";
+                studentIdUpload.required = true; // Make the upload required
+            } else {
+                studentFields.style.display = "none";
+                studentIdUpload.required = false; // Remove required if "No" is selected
+                studentIdUpload.value = ''; // Clear the file input
+            }
+        }
     </script>
 </body>
 </html>

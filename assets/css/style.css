@@ -7553,3 +7553,157 @@ button:focus,
     padding: 1rem;
   }
 }
+
+/* Enhanced Form Styling */
+.registration-form-section .card {
+  border: none;
+  box-shadow: var(--shadow-elevated);
+  border-radius: var(--radius-lg);
+}
+
+.registration-form-section .card-title {
+  color: var(--charcoal);
+  font-weight: 600;
+  padding: 2rem 2rem 0;
+  margin-bottom: 0;
+}
+
+.registration-form-section .card-body {
+  padding: 2rem;
+}
+
+.registration-form-section .form-label {
+  color: var(--charcoal);
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.registration-form-section .form-control,
+.registration-form-section .form-select {
+  border: 2px solid #e9ecef;
+  border-radius: var(--radius);
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.registration-form-section .form-control:focus,
+.registration-form-section .form-select:focus {
+  border-color: var(--primary-green);
+  box-shadow: 0 0 0 0.2rem rgba(11, 107, 58, 0.1);
+  outline: none;
+}
+
+.registration-form-section .form-check-input {
+  border: 2px solid #e9ecef;
+  margin-top: 0.25rem;
+}
+
+.registration-form-section .form-check-input:checked {
+  background-color: var(--primary-green);
+  border-color: var(--primary-green);
+}
+
+.registration-form-section .form-check-input:focus {
+  box-shadow: 0 0 0 0.2rem rgba(11, 107, 58, 0.1);
+}
+
+.registration-form-section .form-check-label {
+  color: var(--charcoal);
+  font-weight: 500;
+}
+
+.registration-form-section h5 {
+  color: var(--primary-green);
+  font-weight: 600;
+  border-bottom: 2px solid var(--primary-green);
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.registration-form-section .btn-primary {
+  background-color: var(--primary-green);
+  border-color: var(--primary-green);
+  padding: 1rem 2rem;
+  font-weight: 600;
+  font-size: 1.1rem;
+  border-radius: var(--radius);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  transition: all 0.3s ease;
+}
+
+.registration-form-section .btn-primary:hover {
+  background-color: var(--secondary-green);
+  border-color: var(--secondary-green);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-elevated);
+}
+
+/* Conditional Fields Styling */
+#ieee_id_field {
+  background-color: #f0f8f4;
+  padding: 1.5rem;
+  border-radius: var(--radius);
+  border-left: 4px solid var(--primary-green);
+  margin-top: 1rem;
+}
+
+#student_fields {
+  background-color: #f0f8f4;
+  padding: 1.5rem;
+  border-radius: var(--radius);
+  border-left: 4px solid var(--gold-accent);
+  margin-top: 1rem;
+}
+
+/* Error States */
+.error .form-control,
+.error .form-select {
+  border-color: #dc3545;
+  box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.1);
+}
+
+.success .form-control,
+.success .form-select {
+  border-color: #28a745;
+  box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.1);
+}
+
+.error-message {
+  color: #dc3545;
+  font-size: 0.875rem;
+  margin-top: 0.25rem;
+  font-weight: 500;
+}
+
+/* File Upload Styling */
+.form-control[type="file"] {
+  padding: 0.5rem;
+}
+
+.form-control[type="file"]::-webkit-file-upload-button {
+  background-color: var(--primary-green);
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: var(--radius);
+  margin-right: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.form-control[type="file"]::-webkit-file-upload-button:hover {
+  background-color: var(--secondary-green);
+}
+
+/* Terms and Conditions */
+.form-check a {
+  color: var(--primary-green);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.form-check a:hover {
+  text-decoration: underline;
+}
