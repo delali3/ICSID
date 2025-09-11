@@ -6543,6 +6543,7 @@ button:focus,
 
 .cfp-deadline {
   margin-top: var(--spacing-xl);
+  width: 100vw;
 }
 
 .deadline-badge {
@@ -6791,6 +6792,77 @@ button:focus,
 .checklist-item svg {
   color: var(--primary-green);
   flex-shrink: 0;
+}
+
+/* Author Guidelines Section */
+.author-guidelines {
+  padding: var(--spacing-2xl) 0;
+  background: var(--white);
+}
+
+.guidelines-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xl);
+}
+
+.guideline-item {
+  display: flex;
+  gap: var(--spacing-lg);
+  align-items: flex-start;
+  background: var(--off-white);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-xl);
+  border-left: 4px solid var(--primary-green);
+  transition: all 0.3s ease;
+}
+
+.guideline-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.guideline-number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background: var(--primary-green);
+  color: var(--white);
+  border-radius: 50%;
+  font-weight: 700;
+  font-size: 1.2rem;
+  flex-shrink: 0;
+  margin-top: var(--spacing-xs);
+}
+
+.guideline-item .guideline-content h3 {
+  font-family: var(--font-heading);
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--charcoal);
+  margin-bottom: var(--spacing-md);
+}
+
+.guideline-item .guideline-content p {
+  margin-bottom: var(--spacing-sm);
+  line-height: 1.6;
+  color: var(--text-secondary);
+}
+
+.guideline-item .guideline-content p:last-child {
+  margin-bottom: 0;
+}
+
+.guideline-item .guideline-content a {
+  color: var(--primary-green);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.guideline-item .guideline-content a:hover {
+  text-decoration: underline;
 }
 
 .important-dates-section {
