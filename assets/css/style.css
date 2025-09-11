@@ -6543,7 +6543,10 @@ button:focus,
 
 .cfp-deadline {
   margin-top: var(--spacing-xl);
-  width: 100vw;
+  width: 100%;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
 }
 
 .deadline-badge {
@@ -6863,6 +6866,119 @@ button:focus,
 
 .guideline-item .guideline-content a:hover {
   text-decoration: underline;
+}
+
+/* Template Links */
+.template-links {
+  margin-top: var(--spacing-lg);
+  padding: var(--spacing-md);
+  background: rgba(11, 107, 58, 0.05);
+  border-radius: var(--radius-md);
+  border-left: 3px solid var(--primary-green);
+}
+
+.template-links p {
+  margin-bottom: var(--spacing-sm);
+  font-weight: 600;
+  color: var(--charcoal);
+}
+
+.template-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.template-links li {
+  margin-bottom: var(--spacing-xs);
+}
+
+.template-links li:last-child {
+  margin-bottom: 0;
+}
+
+.template-links a {
+  color: var(--primary-green);
+  text-decoration: none;
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+  transition: all 0.3s ease;
+}
+
+.template-links a:hover {
+  color: var(--gold-accent);
+  text-decoration: underline;
+}
+
+.template-links a::before {
+  content: '📄';
+  font-size: 1rem;
+}
+
+/* CMT Acknowledgment Section */
+.cmt-acknowledgment {
+  padding: var(--spacing-2xl) 0;
+  background: linear-gradient(135deg, var(--off-white) 0%, #f8fafb 100%);
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.acknowledgment-content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0 var(--spacing-lg);
+}
+
+.acknowledgment-content h2 {
+  font-family: var(--font-heading);
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--charcoal);
+  margin-bottom: var(--spacing-lg);
+  position: relative;
+}
+
+.acknowledgment-content h2::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 3px;
+  background: linear-gradient(90deg, var(--primary-green), var(--gold-accent));
+  border-radius: 2px;
+}
+
+.acknowledgment-text {
+  background: var(--white);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-xl);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  margin-bottom: var(--spacing-xl);
+  border-left: 4px solid var(--primary-green);
+}
+
+.acknowledgment-text p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: var(--text-secondary);
+  margin: 0;
+}
+
+.microsoft-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+}
+
+.microsoft-logo:hover {
+  opacity: 1;
 }
 
 .important-dates-section {
