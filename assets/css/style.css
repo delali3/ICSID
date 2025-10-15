@@ -6701,59 +6701,97 @@ button:focus,
 .cfp-hero {
   background: linear-gradient(135deg, var(--primary-green) 0%, var(--secondary-green) 100%);
   color: #ffffff !important;
-  padding: var(--spacing-2xl) 0;
+  padding: 5rem 0;
   text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.cfp-hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: 
+    radial-gradient(circle at 20% 80%, rgba(199, 160, 8, 0.1) 0%, transparent 50%),
+    radial-gradient(circle at 80% 20%, rgba(11, 107, 58, 0.15) 0%, transparent 50%);
+  pointer-events: none;
 }
 
 .cfp-hero-content {
-  max-width: 800px;
+  max-width: 900px;
   margin: 0 auto;
+  position: relative;
+  z-index: 1;
+  padding: 0 var(--spacing-md);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 .cfp-title {
   font-family: var(--font-heading);
-  font-size: clamp(2.5rem, 5vw, 4rem);
+  font-size: clamp(2.5rem, 5vw, 3.5rem);
   font-weight: 700;
-  margin-bottom: var(--spacing-md);
+  margin-bottom: var(--spacing-lg);
   line-height: 1.2;
   color: #ffffff !important;
-}
-
-.cfp-subtitle {
-  font-size: 1.25rem;
-  margin-bottom: var(--spacing-xl);
-  opacity: 0.95;
-  line-height: 1.5;
-  color: #ffffff !important;
-}
-
-.cfp-deadline {
-  margin-top: var(--spacing-xl);
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   text-align: center;
 }
 
-.deadline-badge {
+.cfp-subtitle {
+  font-size: clamp(1.1rem, 2vw, 1.35rem);
+  margin-bottom: var(--spacing-xl);
+  opacity: 0.95;
+  line-height: 1.6;
+  color: #ffffff !important;
+  max-width: 700px;
+  text-align: center;
+}
+
+.cfp-deadline {
+  margin-top: var(--spacing-md);
   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.deadline-badge {
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   gap: var(--spacing-sm);
-  background: rgba(255, 255, 255, 0.15);
+  background: rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(10px);
-  padding: var(--spacing-md) var(--spacing-lg);
+  padding: var(--spacing-md) var(--spacing-xl);
   border-radius: var(--radius-full);
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  border: 2px solid rgba(255, 255, 255, 0.3);
   font-size: 1.1rem;
   color: #ffffff !important;
   text-align: center;
   white-space: nowrap;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.deadline-badge:hover {
+  background: rgba(255, 255, 255, 0.25);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.deadline-badge svg {
+  flex-shrink: 0;
 }
 
 .deadline-badge strong {
   color: #ffffff !important;
+  font-weight: 600;
 }
 
 .cfp-overview {
@@ -8284,6 +8322,40 @@ button:focus,
     padding: 1rem;
     max-width: 250px;
     margin: 0 auto;
+  }
+}
+
+/* Call for Papers Mobile Responsive */
+@media (max-width: 768px) {
+  .cfp-hero {
+    padding: var(--spacing-xl) 0;
+  }
+
+  .cfp-title {
+    font-size: clamp(2rem, 8vw, 2.5rem);
+    margin-bottom: var(--spacing-sm);
+  }
+
+  .cfp-subtitle {
+    font-size: 1rem;
+    margin-bottom: var(--spacing-md);
+  }
+
+  .cfp-deadline {
+    margin-top: var(--spacing-md);
+  }
+
+  .deadline-badge {
+    padding: var(--spacing-sm) var(--spacing-md);
+    font-size: 0.9rem;
+    flex-direction: column;
+    gap: var(--spacing-xs);
+    white-space: normal;
+  }
+
+  .deadline-badge svg {
+    width: 16px;
+    height: 16px;
   }
 }
 
