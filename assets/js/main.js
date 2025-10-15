@@ -117,38 +117,42 @@ document.addEventListener('DOMContentLoaded', function() {
   let lastScrollTop = 0;
   let ticking = false;
   const header = document.querySelector('.header');
-  const headerTop = document.querySelector('.header-top');
-  
+  const headerTop = document.querySelector('.header-top') || document.querySelector('.header-info');
+
   function updateHeader() {
     const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
     const scrollDirection = scrollTop > lastScrollTop ? 'down' : 'up';
-    
+
     // Add/remove scrolled class for styling
     if (scrollTop > 50) {
       header.classList.add('scrolled');
-      
-      // Hide header-top on scroll down, show on scroll up
-      if (scrollDirection === 'down' && scrollTop > 200) {
-        headerTop.style.transform = 'translateY(-100%)';
-        headerTop.style.opacity = '0';
-      } else if (scrollDirection === 'up' || scrollTop <= 200) {
+
+      // Hide header-top on scroll down, show on scroll up (only if element exists)
+      if (headerTop) {
+        if (scrollDirection === 'down' && scrollTop > 200) {
+          headerTop.style.transform = 'translateY(-100%)';
+          headerTop.style.opacity = '0';
+        } else if (scrollDirection === 'up' || scrollTop <= 200) {
+          headerTop.style.transform = 'translateY(0)';
+          headerTop.style.opacity = '1';
+        }
+      }
+
+    } else {
+      header.classList.remove('scrolled');
+      if (headerTop) {
         headerTop.style.transform = 'translateY(0)';
         headerTop.style.opacity = '1';
       }
-      
-    } else {
-      header.classList.remove('scrolled');
-      headerTop.style.transform = 'translateY(0)';
-      headerTop.style.opacity = '1';
     }
-    
+
     // Add parallax effect to brand logo
     const brandLogo = document.querySelector('.brand-logo svg');
     if (brandLogo) {
       const offset = scrollTop * 0.1;
       brandLogo.style.transform = `translateY(${offset}px) rotate(${offset * 0.5}deg)`;
     }
-    
+
     lastScrollTop = scrollTop;
     ticking = false;
   }
@@ -235,14 +239,15 @@ document.addEventListener('DOMContentLoaded', function() {
   
   // Add texture animation to header top
   const headerTopShimmer = () => {
-    if (headerTop) {
+    const headerInfoElement = document.querySelector('.header-info');
+    if (headerInfoElement) {
       setTimeout(() => {
-        headerTop.style.setProperty('--shimmer-delay', '3s');
-        headerTop.classList.add('animate-shimmer');
+        headerInfoElement.style.setProperty('--shimmer-delay', '3s');
+        headerInfoElement.classList.add('animate-shimmer');
       }, 2000);
     }
   };
-  
+
   headerTopShimmer();
   
   // Homepage enhancements
