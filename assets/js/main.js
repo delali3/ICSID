@@ -259,13 +259,14 @@ document.addEventListener('DOMContentLoaded', function() {
   // Hero Slideshow Functionality
   const heroSlides = document.querySelectorAll('.hero-slide');
   const heroDots = document.querySelectorAll('.hero-dot');
-  const prevBtn = document.querySelector('.hero-nav-btn.prev');
-  const nextBtn = document.querySelector('.hero-nav-btn.next');
   const totalSlides = heroSlides.length;
   let currentSlide = 0;
   let slideshowInterval;
 
   function showSlide(index) {
+    // Ensure index is valid
+    if (index < 0 || index >= totalSlides) return;
+    
     // Remove active class from all slides and dots
     heroSlides.forEach(slide => slide.classList.remove('active'));
     heroDots.forEach(dot => dot.classList.remove('active'));
@@ -282,11 +283,6 @@ document.addEventListener('DOMContentLoaded', function() {
     showSlide(nextIndex);
   }
 
-  function prevSlide() {
-    const prevIndex = (currentSlide - 1 + totalSlides) % totalSlides;
-    showSlide(prevIndex);
-  }
-
   function startSlideshow() {
     slideshowInterval = setInterval(nextSlide, 5000); // Change slide every 5 seconds
   }
@@ -296,30 +292,29 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
   // Initialize slideshow
-  if (heroSlides.length > 0) {
+  if (heroSlides.length > 0 && heroDots.length > 0) {
+    console.log('Hero slideshow initialized with', heroSlides.length, 'slides and', heroDots.length, 'dots');
+    
     showSlide(0); // Show first slide
     startSlideshow();
 
-    // Navigation button event listeners
-    if (nextBtn) {
-      nextBtn.addEventListener('click', () => {
-        nextSlide();
-        stopSlideshow();
-        startSlideshow();
-      });
-    }
-
-    if (prevBtn) {
-      prevBtn.addEventListener('click', () => {
-        prevSlide();
-        stopSlideshow();
-        startSlideshow();
-      });
-    }
-
-    // Dot navigation event listeners
+    // Dot navigation event listeners - clicking a dot changes the background image
     heroDots.forEach((dot, index) => {
-      dot.addEventListener('click', () => {
+      // Add multiple event types for better compatibility
+      dot.addEventListener('click', function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        console.log('Dot clicked:', index);
+        showSlide(index);
+        stopSlideshow();
+        startSlideshow();
+      });
+      
+      // Add touch support for mobile
+      dot.addEventListener('touchend', function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        console.log('Dot touched:', index);
         showSlide(index);
         stopSlideshow();
         startSlideshow();
@@ -335,12 +330,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Add keyboard navigation for slideshow
     document.addEventListener('keydown', function(e) {
-      if (e.key === 'ArrowLeft') {
-        e.preventDefault();
-        prevSlide();
-        stopSlideshow();
-        startSlideshow();
-      } else if (e.key === 'ArrowRight') {
+      if (e.key === 'ArrowLeft' || e.key === 'ArrowRight') {
         e.preventDefault();
         nextSlide();
         stopSlideshow();
