@@ -703,63 +703,82 @@ a:focus {
 
 @media (max-width: 768px) {
   /* Announcement Bar */
+  .announcement-bar {
+    padding: 4px 0;
+  }
+
   .announcement-content {
-    font-size: 0.8rem;
-    gap: var(--spacing-xs);
+    font-size: 0.7rem;
+    gap: 4px;
   }
 
   .announcement-badge {
-    font-size: 0.65rem;
-    padding: 1px 6px;
+    font-size: 0.6rem;
+    padding: 1px 4px;
   }
 
-  /* Header Main */
+  /* Header Main - Make it compact */
   .header-main {
-    padding: var(--spacing-md) 0;
+    padding: var(--spacing-xs) 0;
   }
 
   .header-content {
     grid-template-columns: 1fr;
-    gap: var(--spacing-md);
+    gap: var(--spacing-xs);
   }
 
   .header-brand {
     justify-self: center;
   }
 
+  .brand-link {
+    gap: var(--spacing-xs);
+  }
+
+  .brand-icon svg {
+    width: 32px;
+    height: 32px;
+  }
+
   .brand-name {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 
   .brand-tagline {
-    font-size: 0.75rem;
+    font-size: 0.65rem;
   }
 
+  /* Hide meta info on mobile to save space */
   .header-meta {
-    flex-direction: column;
-    gap: var(--spacing-sm);
+    display: none;
   }
 
-  .meta-group {
-    width: 100%;
-    justify-content: center;
-  }
-
+  /* Make sponsors more compact */
   .header-sponsors {
     align-items: center;
   }
 
-  .sponsor-img {
-    height: 28px;
+  .sponsors-label {
+    font-size: 0.6rem;
   }
 
-  /* Navigation */
+  .sponsor-img {
+    height: 20px;
+  }
+
+  /* Navigation - More compact on mobile */
   .navbar {
+    position: relative;
+    z-index: 1001;
+  }
+
+  .navbar .container {
+    padding: var(--spacing-xs) var(--spacing-sm);
     position: relative;
   }
 
   .nav-list {
-    position: fixed;
+    position: absolute;
     top: 100%;
     left: 0;
     right: 0;
@@ -768,13 +787,16 @@ a:focus {
     gap: 0;
     max-height: 0;
     overflow: hidden;
-    transition: all 0.3s ease;
-    z-index: 1000;
+    transition: max-height 0.3s ease, opacity 0.3s ease;
+    z-index: 1002;
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+    opacity: 0;
   }
 
   .nav-list.open {
     max-height: 500px;
+    overflow-y: auto;
+    opacity: 1;
   }
 
   .nav-item {
@@ -784,8 +806,9 @@ a:focus {
 
   .nav-link {
     justify-content: center;
-    padding: var(--spacing-lg) var(--spacing-md);
+    padding: var(--spacing-md) var(--spacing-sm);
     border-bottom: none;
+    font-size: 0.9rem;
   }
 
   .dropdown-menu {
@@ -795,12 +818,23 @@ a:focus {
     background: rgba(0, 0, 0, 0.2);
     border-radius: 0;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
+    display: none;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+  }
+
+  .dropdown.active .dropdown-menu {
+    display: block;
+    max-height: 500px;
   }
 
   .dropdown-link {
     color: rgba(255, 255, 255, 0.9);
-    padding: var(--spacing-md) var(--spacing-lg);
+    padding: var(--spacing-sm) var(--spacing-md);
     text-align: center;
+    font-size: 0.85rem;
+    display: block;
   }
 
   .dropdown-link:hover {
@@ -813,9 +847,11 @@ a:focus {
   }
 
   .btn-register {
-    width: calc(100% - var(--spacing-xl));
-    margin: var(--spacing-md);
+    width: calc(100% - var(--spacing-lg));
+    margin: var(--spacing-sm);
+    padding: var(--spacing-sm) var(--spacing-md);
     justify-content: center;
+    font-size: 0.9rem;
   }
 
   .mobile-toggle {

@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
   // Mobile Navigation Toggle
   const navbarToggle = document.querySelector('.mobile-toggle');
-  const navbarMenu = document.querySelector('.nav-menu');
+  const navbarMenu = document.querySelector('.nav-list');
   
   function toggleMobileMenu() {
     const isExpanded = navbarToggle.getAttribute('aria-expanded') === 'true';
@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
     navbarMenu.classList.toggle('open', newState);
     
     // Animate toggle lines
-    const toggleLines = navbarToggle.querySelectorAll('.hamburger-line');
+    const toggleLines = navbarToggle.querySelectorAll('.toggle-line');
     if (newState) {
       toggleLines[0].style.transform = 'rotate(45deg) translate(5px, 5px)';
       toggleLines[1].style.opacity = '0';
@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', function() {
         navbarToggle.setAttribute('aria-expanded', 'false');
         navbarMenu.classList.remove('open');
         // Reset toggle lines
-        const toggleLines = navbarToggle.querySelectorAll('.hamburger-line');
+        const toggleLines = navbarToggle.querySelectorAll('.toggle-line');
         toggleLines.forEach(line => {
           line.style.transform = 'none';
           line.style.opacity = '1';
@@ -51,13 +51,25 @@ document.addEventListener('DOMContentLoaded', function() {
   // Smooth scrolling for anchor links
   document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
+      const href = this.getAttribute('href');
+      // Skip if href is just "#" or empty
+      if (!href || href === '#' || href.length <= 1) {
+        e.preventDefault();
+        return;
+      }
+      
       e.preventDefault();
-      const target = document.querySelector(this.getAttribute('href'));
-      if (target) {
-        target.scrollIntoView({
-          behavior: 'smooth',
-          block: 'start'
-        });
+      try {
+        const target = document.querySelector(href);
+        if (target) {
+          target.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+          });
+        }
+      } catch (error) {
+        // Invalid selector, do nothing
+        console.warn('Invalid selector:', href);
       }
     });
   });

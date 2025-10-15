@@ -22,147 +22,146 @@
 
     <!-- Header -->
     <header class="header" role="banner">
-        <!-- Top Info Bar -->
-        <div class="header-info">
+        <!-- Announcement Bar -->
+        <div class="announcement-bar">
             <div class="container">
-                <div class="info-content">
-                    <div class="conference-info">
-                        <span class="info-badge">
-                            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
-                                <path d="M19 3h-1V1h-2v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V8h14v11zM7 10h5v5H7z"/>
-                            </svg>
-                            June 18-20, 2026
-                        </span>
-                        <span class="info-badge">
-                            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
-                                <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
-                            </svg>
-                            UMaT, Ghana
-                        </span>
-                    </div>
-                    <div class="contact-actions">
-                        <a href="mailto:info@ICSSID2026.com" class="contact-link">
-                            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
-                                <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
-                            </svg>
-                            Contact Us
+                <div class="announcement-content">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                    </svg>
+                    <span class="announcement-text">Early Bird Registration Now Open - Save 20%!</span>
+                    <span class="announcement-badge">Limited Time</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Header -->
+        <div class="header-main">
+            <div class="container">
+                <div class="header-content">
+                    <!-- Logo & Branding -->
+                    <div class="header-brand">
+                        <a href="/" class="brand-link">
+                            <div class="brand-icon">
+                                <svg width="50" height="50" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <defs>
+                                        <linearGradient id="headerGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                            <stop offset="0%" style="stop-color:#0B6B3A"/>
+                                            <stop offset="100%" style="stop-color:#C7A008"/>
+                                        </linearGradient>
+                                    </defs>
+                                    <circle cx="50" cy="50" r="45" fill="url(#headerGradient)" opacity="0.1"/>
+                                    <circle cx="50" cy="50" r="45" stroke="url(#headerGradient)" stroke-width="3" fill="none"/>
+                                    <path d="M25 35h50v6H25z" fill="url(#headerGradient)"/>
+                                    <path d="M30 45h40v6H30z" fill="url(#headerGradient)"/>
+                                    <path d="M35 55h30v6H35z" fill="url(#headerGradient)"/>
+                                    <circle cx="50" cy="25" r="8" fill="url(#headerGradient)"/>
+                                    <path d="M42 65h16v8H42z" fill="url(#headerGradient)"/>
+                                </svg>
+                            </div>
+                            <div class="brand-info">
+                                <h1 class="brand-name">ICSSID 2026</h1>
+                                <p class="brand-tagline">Sustainable Science & Infrastructure</p>
+                            </div>
                         </a>
-                        <div class="social-links">
-                            <a href="#" class="social-link" aria-label="Twitter">
-                                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
-                                    <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"/>
+                    </div>
+
+                    <!-- Conference Info -->
+                    <div class="header-meta">
+                        <div class="meta-group">
+                            <div class="meta-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M19 3h-1V1h-2v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V8h14v11zM7 10h5v5H7z"/>
                                 </svg>
-                            </a>
-                            <a href="#" class="social-link" aria-label="LinkedIn">
-                                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
-                                    <path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/>
-                                    <circle cx="4" cy="4" r="2"/>
+                            </div>
+                            <div class="meta-text">
+                                <span class="meta-label">Conference Dates</span>
+                                <span class="meta-value">June 18-20, 2026</span>
+                            </div>
+                        </div>
+                        <div class="meta-group">
+                            <div class="meta-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
                                 </svg>
-                            </a>
+                            </div>
+                            <div class="meta-text">
+                                <span class="meta-label">Location</span>
+                                <span class="meta-value">UMaT, Ghana</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Sponsors -->
+                    <div class="header-sponsors">
+                        <span class="sponsors-label">Supported by</span>
+                        <div class="sponsors-logos">
+                            <img src="assets/images/sponsors/ieee-ghana-section.png" alt="IEEE Ghana" class="sponsor-img">
+                            <img src="assets/images/sponsors/ieee-main.png" alt="IEEE" class="sponsor-img">
                         </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <!-- Main Navigation -->
+        <!-- Navigation Bar -->
         <nav class="navbar" role="navigation" aria-label="Main navigation">
             <div class="container">
-                <!-- Brand -->
-                <div class="navbar-brand">
-                    <a href="/" class="brand-link">
-                        <div class="brand-logo">
-                            <svg width="48" height="48" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <defs>
-                                    <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-                                        <stop offset="0%" style="stop-color:#0B6B3A"/>
-                                        <stop offset="100%" style="stop-color:#C7A008"/>
-                                    </linearGradient>
-                                </defs>
-                                <circle cx="50" cy="50" r="45" fill="url(#logoGradient)" opacity="0.1"/>
-                                <circle cx="50" cy="50" r="45" stroke="url(#logoGradient)" stroke-width="3" fill="none"/>
-                                <path d="M25 35h50v6H25z" fill="url(#logoGradient)"/>
-                                <path d="M30 45h40v6H30z" fill="url(#logoGradient)"/>
-                                <path d="M35 55h30v6H35z" fill="url(#logoGradient)"/>
-                                <circle cx="50" cy="25" r="8" fill="url(#logoGradient)"/>
-                                <path d="M42 65h16v8H42z" fill="url(#logoGradient)"/>
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="/" class="nav-link active">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/>
                             </svg>
-                        </div>
-                        <div class="brand-content">
-                            <h1 class="brand-title">ICSSID 2026</h1>
-                            <!-- <p class="brand-tagline">International Conference on Sustainability Science &amp; Infrastructure</p> -->
-                        </div>
-                    </a>
-                </div>
-
-                <!-- Mobile Menu Toggle -->
-                <button class="mobile-toggle" aria-expanded="false" aria-controls="main-menu" aria-label="Toggle navigation menu">
-                    <span class="hamburger-line"></span>
-                    <span class="hamburger-line"></span>
-                    <span class="hamburger-line"></span>
-                </button>
-
-                <!-- Navigation Menu -->
-                <div class="nav-menu" id="main-menu">
-                    <ul class="nav-list" role="menubar">
-                        <li class="nav-item">
-                            <a href="/" class="nav-link active" role="menuitem" aria-current="page">Home</a>
-                        </li>
-                        
-                        <!-- Conference Info Dropdown -->
-                        <li class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" role="menuitem" aria-expanded="false" aria-haspopup="true">
-                                Conference
-                                <svg class="dropdown-icon" width="12" height="12" viewBox="0 0 24 24" fill="currentColor">
-                                    <path d="M7 10l5 5 5-5z"/>
-                                </svg>
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a href="about.html" class="dropdown-link">About</a></li>
-                                <li><a href="themes.html" class="dropdown-link">Themes</a></li>
-                                <li><a href="keydates.html" class="dropdown-link">Key Dates</a></li>
-                                <li><a href="committees.html" class="dropdown-link">Committees</a></li>
-                            </ul>
-                        </li>
-                        
-                        <li class="nav-item">
-                            <a href="call-for-papers.html" class="nav-link" role="menuitem">Call&nbsp;for&nbsp;Papers</a>
-                        </li>
-                        
-                        <!-- <li class="nav-item">
-                            <a href="registration.html" class="nav-link" role="menuitem">Registration</a>
-                        </li> -->
-                        
-                        <!-- Venue & Travel Dropdown -->
-                        <li class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" role="menuitem" aria-expanded="false" aria-haspopup="true">
-                                Venue&nbsp;&amp;&nbsp;Travel
-                                <svg class="dropdown-icon" width="12" height="12" viewBox="0 0 24 24" fill="currentColor">
-                                    <path d="M7 10l5 5 5-5z"/>
-                                </svg>
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a href="venue.html" class="dropdown-link">Venue</a></li>
-                                <li><a href="hotels.html" class="dropdown-link">Hotels</a></li>
-                            </ul>
-                        </li>
-                        
-                        <li class="nav-item">
-                            <a href="contact.html" class="nav-link" role="menuitem">Contact</a>
-                        </li>
-                    </ul>
-                    
-                    <!-- CTA Buttons in Navigation -->
-                    <div class="nav-actions">
-                        <a href="registration.html" class="nav-cta nav-cta-primary">
+                            <span>Home</span>
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle">
+                            <span>Conference</span>
+                            <svg class="dropdown-icon" width="12" height="12" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M7 10l5 5 5-5z"/>
+                            </svg>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="about.html" class="dropdown-link">About Conference</a></li>
+                            <li><a href="themes.html" class="dropdown-link">Themes & Topics</a></li>
+                            <li><a href="keydates.html" class="dropdown-link">Important Dates</a></li>
+                            <li><a href="committees.html" class="dropdown-link">Committees</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="call-for-papers.html" class="nav-link">
+                            <span>Call for Papers</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="hotels.html" class="nav-link">
+                            <span>Travel & Venue</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">
+                            <span>Contact</span>
+                        </a>
+                    </li>
+                    <li class="nav-item nav-cta">
+                        <a href="registration.html" class="btn-register">
                             <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
                                 <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6z"/>
                                 <polyline points="14,2 14,8 20,8"/>
                             </svg>
-                            Register
+                            <span>Register Now</span>
                         </a>
-                    </div>
-                </div>
+                    </li>
+                </ul>
+
+                <!-- Mobile Toggle -->
+                <button class="mobile-toggle" aria-expanded="false" aria-controls="main-menu" aria-label="Toggle navigation">
+                    <span class="toggle-line"></span>
+                    <span class="toggle-line"></span>
+                    <span class="toggle-line"></span>
+                </button>
             </div>
         </nav>
     </header>
