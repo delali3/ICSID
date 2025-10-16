@@ -166,7 +166,7 @@
       "requirements": [
         "Create account on submission portal",
         "Review submission guidelines",
-        "Prepare abstract (250-500 words)",
+        "Prepare abstract (250-300 words)",
         "Identify appropriate conference theme"
       ],
       "status": "completed"
@@ -176,10 +176,10 @@
       "title": "Abstract Submission",
       "description": "Submit paper abstract for initial review",
       "requirements": [
-        "Abstract must be 250-500 words",
+        "Abstract must be 250-300 words",
         "Include research objectives and methodology",
         "Follow IEEE formatting guidelines",
-        "Submit through online portal only"
+        "Submit through conference email only"
       ],
       "status": "upcoming"
     },
