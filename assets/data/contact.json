@@ -2,7 +2,7 @@
   "conference": {
     "name": "ICSSID 2026",
     "fullName": "International Conference on Sustainable Science and Infrastructure Development",
-    "email": "info@ICSSID2026.com",
+    "email": "emmartey@ieee.org",
     "phone": "+233 24 965 3242",
     "website": "https://ICSSID2026.com",
     "address": {
@@ -18,7 +18,7 @@
     {
       "name": "Prof Richard K. Amankwah,",
       "title": "Conference Chair",
-      "email": "chair@ICSSID2026.com",
+      "email": "emmartey@ieee.org",
       "phone": "+233 24 965 3242",
       "department": "Sustainable Research and Innovation Department",
       "institution": "University of Mines and Technology"
@@ -26,7 +26,7 @@
     {
       "name": "Prof Issaka Yakubu",
       "title": "Program Chair",
-      "email": "program@ICSSID2026.com",
+      "email": "emmartey@ieee.org",
       "phone": "+233 24 965 3242",
       "department": "Civil Engineering",
       "institution": "University of Mines and Technology"
@@ -34,7 +34,7 @@
     {
       "name": "Dr Ezekiel Mensah Martey",
       "title": "Local Organizing Committee Chair",
-      "email": "local@ICSSID2026.com",
+      "email": "emmartey@ieee.org",
       "phone": "+233 24 965 3242",
       "department": "Conference Management",
       "institution": "University of Mines and Technology"
@@ -43,37 +43,37 @@
   "departments": [
     {
       "name": "General Inquiries",
-      "email": "info@ICSSID2026.com",
+      "email": "emmartey@ieee.org",
       "description": "General questions about the conference, registration, and participation",
       "responseTime": "Within 24-48 hours"
     },
     {
       "name": "Technical Support",
-      "email": "tech@ICSSID2026.com",
+      "email": "emmartey@ieee.org",
       "description": "Website issues, online registration problems, and technical assistance",
       "responseTime": "Within 12-24 hours"
     },
     {
       "name": "Paper Submissions",
-      "email": "papers@ICSSID2026.com",
+      "email": "emmartey@ieee.org",
       "description": "Abstract and paper submission questions, review process inquiries",
       "responseTime": "Within 24-48 hours"
     },
     {
       "name": "Registration & Payments",
-      "email": "registration@ICSSID2026.com",
+      "email": "emmartey@ieee.org",
       "description": "Registration fees, payment issues, and confirmation letters",
       "responseTime": "Within 24-48 hours"
     },
     {
       "name": "Venue & Accommodation",
-      "email": "venue@ICSSID2026.com",
+      "email": "emmartey@ieee.org",
       "description": "Venue information, hotel bookings, and local arrangements",
       "responseTime": "Within 24-48 hours"
     },
     {
       "name": "Sponsorship & Exhibition",
-      "email": "sponsors@ICSSID2026.com",
+      "email": "emmartey@ieee.org",
       "description": "Sponsorship opportunities, exhibition spaces, and partnership inquiries",
       "responseTime": "Within 48-72 hours"
     }
