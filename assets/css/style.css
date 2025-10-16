@@ -6716,8 +6716,16 @@ button:focus,
   bottom: 0;
   background: 
     radial-gradient(circle at 20% 80%, rgba(199, 160, 8, 0.1) 0%, transparent 50%),
-    radial-gradient(circle at 80% 20%, rgba(11, 107, 58, 0.15) 0%, transparent 50%);
+    radial-gradient(circle at 80% 20%, rgba(11, 107, 58, 0.15) 0%, transparent 50%),
+    url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.03'%3E%3Ccircle cx='30' cy='30' r='2'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
   pointer-events: none;
+  animation: float 20s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  33% { transform: translateY(-10px) rotate(1deg); }
+  66% { transform: translateY(5px) rotate(-1deg); }
 }
 
 .cfp-hero-content {
@@ -6730,6 +6738,18 @@ button:focus,
   flex-direction: column;
   align-items: center;
   text-align: center;
+  animation: fadeInUp 1s ease-out;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .cfp-title {
@@ -6742,6 +6762,7 @@ button:focus,
   text-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   width: 100%;
   text-align: center;
+  animation: fadeInUp 1s ease-out 0.2s both;
 }
 
 .cfp-subtitle {
@@ -6752,6 +6773,50 @@ button:focus,
   color: #ffffff !important;
   max-width: 700px;
   text-align: center;
+  animation: fadeInUp 1s ease-out 0.4s both;
+}
+
+.cfp-stats {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: var(--spacing-xl);
+  margin-bottom: var(--spacing-xl);
+  flex-wrap: wrap;
+  animation: fadeInUp 1s ease-out 0.6s both;
+}
+
+.stat-item {
+  text-align: center;
+  padding: var(--spacing-md);
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: var(--radius-lg);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  min-width: 120px;
+  transition: all 0.3s ease;
+}
+
+.stat-item:hover {
+  transform: translateY(-5px);
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.stat-number {
+  font-size: clamp(2rem, 4vw, 2.5rem);
+  font-weight: 700;
+  color: #ffffff !important;
+  line-height: 1;
+  margin-bottom: var(--spacing-xs);
+}
+
+.stat-label {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.9) !important;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
 }
 
 .cfp-deadline {
@@ -6777,6 +6842,59 @@ button:focus,
   white-space: nowrap;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
+  animation: fadeInUp 1s ease-out 0.8s both;
+}
+
+.cfp-actions {
+  margin-top: var(--spacing-xl);
+  display: flex;
+  gap: var(--spacing-md);
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  animation: fadeInUp 1s ease-out 1s both;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--spacing-sm);
+  padding: var(--spacing-md) var(--spacing-xl);
+  border-radius: var(--radius-lg);
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border: 2px solid transparent;
+  white-space: nowrap;
+}
+
+.btn-primary {
+  background: #ffffff;
+  color: var(--primary-green) !important;
+  border-color: #ffffff;
+  box-shadow: 0 4px 15px rgba(255, 255, 255, 0.2);
+}
+
+.btn-primary:hover {
+  background: rgba(255, 255, 255, 0.9);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(255, 255, 255, 0.3);
+}
+
+.btn-outline {
+  background: transparent;
+  color: #ffffff !important;
+  border-color: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(10px);
+}
+
+.btn-outline:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: #ffffff;
+  transform: translateY(-2px);
 }
 
 .deadline-badge:hover {
@@ -8353,11 +8471,36 @@ button:focus,
     white-space: normal;
   }
 
-  .deadline-badge svg {
-    width: 16px;
-    height: 16px;
+  .cfp-stats {
+    gap: var(--spacing-md);
+    margin-bottom: var(--spacing-lg);
   }
-}
+
+  .stat-item {
+    min-width: 100px;
+    padding: var(--spacing-sm);
+  }
+
+  .stat-number {
+    font-size: clamp(1.5rem, 6vw, 2rem);
+  }
+
+  .stat-label {
+    font-size: 0.8rem;
+  }
+
+  .cfp-actions {
+    flex-direction: column;
+    gap: var(--spacing-sm);
+    margin-top: var(--spacing-lg);
+  }
+
+  .btn {
+    width: 100%;
+    max-width: 280px;
+    padding: var(--spacing-md);
+    font-size: 1rem;
+  }
 
 /* Legacy Bootstrap grid support (keeping for compatibility) */
 
