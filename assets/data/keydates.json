@@ -235,127 +235,175 @@
   "schedule": [
     {
       "date": "June 18, 2026",
-      "theme": "Sustainability & Innovation",
+      "day": "Day 1",
       "events": [
         {
           "time": "08:00 - 09:00",
-          "title": "Registration & Welcome Coffee",
+          "title": "Arrival & Registration",
           "description": "Registration desk opens and networking breakfast",
           "speaker": null
         },
         {
-          "time": "09:00 - 09:30",
+          "time": "09:00 - 09:20",
           "title": "Opening Ceremony",
           "description": "Welcome address and conference overview",
           "speaker": "Conference Chair"
         },
         {
-          "time": "09:30 - 10:30",
-          "title": "Keynote: Sustainable Infrastructure for Future Generations",
-          "description": "Exploring innovative approaches to sustainable infrastructure development",
-          "speaker": "Dr. Sarah Johnson, World Bank"
+          "time": "09:20 - 09:30",
+          "title": "Cultural Dance",
+          "description": "Cultural performance",
+          "speaker": null
         },
         {
-          "time": "10:30 - 11:00",
+          "time": "09:30 - 10:15",
+          "title": "Keynote Address",
+          "description": "Keynote speech",
+          "speaker": "Hon. Julius Debrah (Chief of Staff)"
+        },
+        {
+          "time": "10:15 - 11:00",
+          "title": "Special Address",
+          "description": "Special address",
+          "speaker": "Hon. Haruna Iddrisu (Minister of Education)"
+        },
+        {
+          "time": "11:00 - 13:00",
+          "title": "Address",
+          "description": "Address by Regional Minister",
+          "speaker": "Hon. Joseph Nelson (Regional Minister)"
+        },
+        {
+          "time": "11:30 - 12:00",
           "title": "Coffee Break & Networking",
           "description": "Refreshments and informal networking",
           "speaker": null
         },
         {
-          "time": "11:00 - 12:30",
-          "title": "Technical Session 1: Green Infrastructure Solutions",
-          "description": "Presentations on sustainable infrastructure technologies",
-          "speaker": "Session Chair: Prof. Michael Chen"
-        },
-        {
-          "time": "12:30 - 14:00",
-          "title": "Lunch & Poster Session",
-          "description": "Networking lunch and poster presentations",
+          "time": "12:00 - 14:00",
+          "title": "Technical Session 1",
+          "description": "Technical Session 1",
           "speaker": null
         },
         {
-          "time": "14:00 - 15:30",
-          "title": "Technical Session 2: Innovation in Construction",
-          "description": "Emerging technologies in construction and building",
-          "speaker": "Session Chair: Dr. Maria Rodriguez"
-        },
-        {
-          "time": "15:30 - 16:00",
-          "title": "Afternoon Break",
-          "description": "Refreshments and networking",
+          "time": "14:00 - 14:30",
+          "title": "Lunch",
+          "description": "Lunch break",
           "speaker": null
         },
         {
-          "time": "16:00 - 17:30",
-          "title": "Panel Discussion: Policy & Implementation",
-          "description": "Discussion on policy frameworks for sustainable development",
-          "speaker": "Panel Moderator: Prof. David Thompson"
+          "time": "14:30 - 16:30",
+          "title": "Technical Session 2",
+          "description": "Technical Session 2",
+          "speaker": null
         },
         {
-          "time": "18:00 - 20:00",
-          "title": "Welcome Reception",
-          "description": "Cocktail reception and cultural performance",
+          "time": "16:30 - 17:00",
+          "title": "Supper",
+          "description": "Evening refreshments",
           "speaker": null
         }
       ]
     },
     {
       "date": "June 19, 2026",
-      "theme": "Infrastructure & Technology",
+      "day": "Day 2",
       "events": [
         {
           "time": "08:30 - 09:00",
-          "title": "Morning Coffee",
+          "title": "Breakfast and networking",
           "description": "Breakfast and networking",
           "speaker": null
         },
         {
-          "time": "09:00 - 10:00",
-          "title": "Keynote: Digital Transformation in Infrastructure",
-          "description": "How technology is reshaping infrastructure development",
-          "speaker": "Prof. James Wilson, MIT"
+          "time": "09:00 - 09:40",
+          "title": "Address",
+          "description": "Address by CEO of GRDA",
+          "speaker": "Dr. Frederick Appoh (CEO, GRDA)"
         },
         {
-          "time": "10:00 - 10:30",
-          "title": "Coffee Break",
-          "description": "Refreshments and networking",
+          "time": "09:40 - 10:20",
+          "title": "Panel Discussion",
+          "description": "Panel Discussion",
           "speaker": null
         },
         {
-          "time": "10:30 - 12:00",
-          "title": "Technical Session 3: Smart Cities & IoT",
-          "description": "Internet of Things applications in urban infrastructure",
-          "speaker": "Session Chair: Dr. Lisa Park"
-        },
-        {
-          "time": "12:00 - 13:30",
-          "title": "Lunch & Awards Ceremony",
-          "description": "Lunch and recognition of outstanding contributions",
+          "time": "10:20 - 12:00",
+          "title": "Technical Session 3",
+          "description": "Technical Session 3",
           "speaker": null
         },
         {
-          "time": "13:30 - 15:00",
-          "title": "Technical Session 4: Climate Resilience",
-          "description": "Building infrastructure resilient to climate change",
-          "speaker": "Session Chair: Prof. Ahmed Hassan"
+          "time": "12:00 - 12:30",
+          "title": "Lunch",
+          "description": "Lunch break",
+          "speaker": null
         },
         {
-          "time": "15:00 - 15:30",
-          "title": "Afternoon Break",
-          "description": "Final refreshments and networking",
+          "time": "12:30 - 14:30",
+          "title": "Technical Session 4",
+          "description": "Technical Session 4",
+          "speaker": null
+        },
+        {
+          "time": "14:30 - 15:00",
+          "title": "Coffee Break & Networking",
+          "description": "Coffee break and networking",
+          "speaker": null
+        },
+        {
+          "time": "15:00 - 16:30",
+          "title": "Technical Session 5",
+          "description": "Technical Session 5",
+          "speaker": null
+        },
+        {
+          "time": "16:30 - 17:00",
+          "title": "Closing Session",
+          "description": "Closing Session",
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "date": "June 20, 2026",
+      "day": "Day 3",
+      "events": [
+        {
+          "time": "08:30 - 09:00",
+          "title": "Breakfast and networking",
+          "description": "Breakfast and networking",
+          "speaker": null
+        },
+        {
+          "time": "09:00 - 12:00",
+          "title": "Virtual Session",
+          "description": "Virtual Session",
+          "speaker": null
+        },
+        {
+          "time": "12:00 - 12:20",
+          "title": "Lunch",
+          "description": "Lunch break",
+          "speaker": null
+        },
+        {
+          "time": "12:20 - 15:30",
+          "title": "Virtual Session",
+          "description": "Virtual Session",
           "speaker": null
         },
         {
           "time": "15:30 - 17:00",
-          "title": "Closing Session & Future Directions",
-          "description": "Conference summary and future research directions",
-          "speaker": "Conference Chair"
+          "title": "Dinner/Awards",
+          "description": "Dinner and Awards Ceremony",
+          "speaker": null
         },
         {
           "time": "17:00 - 17:30",
           "title": "Closing Ceremony",
-          "description": "Farewell and announcement of ICSSID 2027",
-          "speaker": "Conference Organizing Committee"
+          "description": "Closing Ceremony",
+          "speaker": null
         }
       ]
     }
