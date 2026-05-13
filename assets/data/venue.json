@@ -1,87 +1,84 @@
 {
-  "name": "University of Mines and Technology - Sustainable Research and Innovation Department",
-  "shortName": "UMaT-SRID",
+  "name": "Akroma Plaza Hotel",
+  "shortName": "Akroma Hotel",
   "address": {
-    "street": "Essikado Campus",
+    "street": "Adjacent Takoradi Motor Traffic Main Police Station, Chapel Hill",
     "city": "Sekondi-Takoradi",
     "region": "Western Region",
     "country": "Ghana",
-    "postalCode": "00233"
+    "postalCode": ""
   },
-  "coordinates": {
-    "latitude": 4.9147,
-    "longitude": -1.7644
-  },
-  "description": "The University of Mines and Technology (UMaT) is Ghana's premier mining and technology university, renowned for excellence in education, research, and innovation. The Sustainable Research and Innovation Department (SRID) focuses on cutting-edge research in sustainability science, infrastructure development, and emerging technologies.",
+  "mapQuery": "Akroma Plaza Hotel, Chapel Hill, Sekondi-Takoradi, Ghana",
+  "description": "Akroma Plaza Hotel is situated in the Chapel Hill area of Takoradi, close to the city centre, airport, harbour, and Market Circle. The hotel provides a convenient conference setting with event facilities, hospitality services, guest rooms, restaurant, gym, pool, and business-friendly amenities.",
   "facilities": [
     {
-      "name": "Main Auditorium",
-      "capacity": 500,
-      "description": "State-of-the-art auditorium with modern AV equipment, perfect for keynote presentations and plenary sessions",
-      "amenities": ["Projectors", "Sound System", "Microphones", "Stage Lighting", "Wi-Fi"]
+      "name": "Conference and Events Spaces",
+      "capacity": "Event-scale",
+      "description": "Flexible event spaces suitable for keynote sessions, panel discussions, workshops, and conference gatherings",
+      "amenities": ["Event Logistics", "Catering Access", "Wi-Fi", "Hospitality Support"]
     },
     {
-      "name": "Conference Rooms",
-      "capacity": 100,
-      "description": "Multiple well-equipped conference rooms for parallel sessions and workshops",
-      "amenities": ["Whiteboards", "Projectors", "Video Conferencing", "Wi-Fi", "Catering Access"]
+      "name": "Meeting Rooms",
+      "capacity": "Breakout-ready",
+      "description": "Indoor meeting areas for parallel sessions, committee meetings, and smaller technical discussions",
+      "amenities": ["Wi-Fi", "Presentation Support", "Refreshment Access", "Air Conditioning"]
     },
     {
-      "name": "Exhibition Hall",
-      "capacity": 200,
-      "description": "Spacious hall for poster presentations, exhibitions, and networking events",
-      "amenities": ["Display Boards", "Power Outlets", "Wi-Fi", "Refreshment Area"]
+      "name": "Restaurant and Catering",
+      "capacity": "On-site",
+      "description": "On-site restaurant and catering support for coffee breaks, meals, and hosted conference functions",
+      "amenities": ["Local Cuisine", "Continental Cuisine", "Bar Service", "Room Service"]
     },
     {
-      "name": "Research Laboratories",
-      "capacity": 50,
-      "description": "Advanced laboratories for technical demonstrations and hands-on workshops",
-      "amenities": ["Equipment Access", "Safety Gear", "Technical Support", "Wi-Fi"]
+      "name": "Guest and Business Amenities",
+      "capacity": "Hotel-wide",
+      "description": "Hotel amenities that support delegates throughout the conference period",
+      "amenities": ["Guest Rooms", "Business Center", "Gym", "Swimming Pool", "Parking"]
     }
   ],
   "transportation": {
     "airport": {
       "name": "Takoradi Airport (TKD)",
-      "distance": "15 km",
-      "travelTime": "20-30 minutes by taxi",
-      "services": ["Taxi", "Ride-sharing", "Airport Shuttle"]
+      "distance": "About 7 minutes away",
+      "travelTime": "Approximately 7 minutes by car",
+      "services": ["Taxi", "Ride-sharing", "Hotel pickup on request"]
     },
     "publicTransport": {
-      "bus": "Local bus services connect the city center to UMaT campus",
-      "taxi": "Widely available taxi services throughout the city",
-      "rideSharing": "Uber and Bolt operate in Takoradi"
+      "bus": "Local transport is available from Takoradi city centre and Market Circle",
+      "taxi": "Taxis are widely available throughout Takoradi and Chapel Hill",
+      "rideSharing": "Ride-hailing services operate in Takoradi"
     },
     "parking": {
       "available": true,
-      "description": "On-campus parking available for all attendees",
-      "cost": "Free for conference participants"
+      "description": "Hotel parking is available for guests and conference participants",
+      "cost": "Available on site"
     }
   },
   "nearbyAttractions": [
     {
       "name": "Takoradi Harbour",
       "description": "One of West Africa's busiest ports, offering scenic views and maritime history",
-      "distance": "8 km"
+      "distance": "About 5 minutes by car"
     },
     {
-      "name": "Ananta Village Resort",
-      "description": "Cultural village showcasing Ghanaian traditions and heritage",
-      "distance": "12 km"
+      "name": "Market Circle",
+      "description": "A central commercial landmark in Takoradi with shops, services, and local activity",
+      "distance": "About 4 minutes by car"
     },
     {
-      "name": "Busua Beach",
-      "description": "Beautiful beach known for surfing and coastal relaxation",
-      "distance": "25 km"
+      "name": "Bisa Aberwa Museum",
+      "description": "A cultural museum and heritage destination within easy reach of central Takoradi",
+      "distance": "About 6 minutes by car"
     },
     {
-      "name": "Cape Coast Castle",
-      "description": "UNESCO World Heritage Site with rich historical significance",
-      "distance": "45 km"
+      "name": "Takoradi Beach Road Area",
+      "description": "A business and leisure corridor with access to dining and coastal destinations",
+      "distance": "Nearby"
     }
   ],
   "accommodation": {
-    "onCampus": false,
-    "description": "While UMaT does not provide on-campus accommodation, numerous hotels are available within short distances. See our hotels page for recommended options."
+    "onCampus": true,
+    "description": "Akroma Plaza Hotel provides on-site accommodation. Additional hotel options are also available in Sekondi-Takoradi; see our hotels page for recommended options."
   },
   "contact": {
     "venueManager": "Conference Venue Coordinator",
@@ -91,10 +88,10 @@
   },
   "accessibility": {
     "wheelchair": true,
-    "description": "The venue is wheelchair accessible with ramps, elevators, and accessible restrooms"
+    "description": "The hotel offers delegate-friendly access and hospitality support; participants with specific accessibility needs should contact the conference team in advance."
   },
   "catering": {
     "available": true,
-    "description": "On-site catering services available for coffee breaks, lunches, and special events"
+    "description": "On-site restaurant and catering services are available for coffee breaks, lunches, and special events"
   }
 }

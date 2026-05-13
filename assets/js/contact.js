@@ -44,7 +44,7 @@ function loadConferenceInfo(conference) {
           ${conference.address.organization}<br>
           ${conference.address.street}<br>
           ${conference.address.city}, ${conference.address.region}<br>
-          ${conference.address.country} ${conference.address.postalCode}
+          ${conference.address.country}${conference.address.postalCode ? ` ${conference.address.postalCode}` : ''}
         </div>
       </div>
     </div>

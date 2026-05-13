@@ -1,5 +1,15 @@
 [
   {
+    "name": "Akroma Plaza Hotel",
+    "distance_km_from_venue": 0,
+    "price_category": "$$$",
+    "rating": 4.2,
+    "amenities": ["Wi-Fi", "Breakfast", "Restaurant", "Pool", "Gym", "Conference Rooms"],
+    "website": "https://www.google.com/maps/search/?api=1&query=Akroma%20Plaza%20Hotel%20Takoradi%20Ghana",
+    "notes": "Conference venue hotel with on-site accommodation and event facilities.",
+    "image": "assets/images/akroma-hotel.svg"
+  },
+  {
     "name": "Takoradi Royal Hotel",
     "distance_km_from_venue": 3.2,
     "price_category": "$$",

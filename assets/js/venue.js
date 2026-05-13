@@ -11,7 +11,7 @@ async function initVenue(){
     updateContactInfo(venue.contact);
 
     // Initialize map if container exists
-    initMap(venue.coordinates);
+    initMap(venue);
 
   } catch (error) {
     console.error('Error loading venue data:', error);
@@ -33,7 +33,7 @@ function updateVenueInfo(venue) {
         <address>
           ${venue.address.street}<br>
           ${venue.address.city}, ${venue.address.region}<br>
-          ${venue.address.country} ${venue.address.postalCode}
+          ${venue.address.country}${venue.address.postalCode ? ` ${venue.address.postalCode}` : ''}
         </address>
       </div>
       <div class="venue-description">
@@ -127,19 +127,25 @@ function updateContactInfo(contact) {
   `;
 }
 
-function initMap(coordinates) {
+function initMap(venue) {
   const mapContainer = document.getElementById('venue-map');
   if (!mapContainer) return;
 
-  // Create a simple map placeholder with coordinates
+  const address = `${venue.address.street}, ${venue.address.city}, ${venue.address.region}, ${venue.address.country}`;
+  const mapQuery = encodeURIComponent(venue.mapQuery || address);
+  const coordinates = venue.coordinates;
+  const coordinateMarkup = coordinates
+    ? `<p><strong>Coordinates:</strong> ${Math.abs(coordinates.latitude)}&deg;${coordinates.latitude >= 0 ? 'N' : 'S'}, ${Math.abs(coordinates.longitude)}&deg;${coordinates.longitude >= 0 ? 'E' : 'W'}</p>`
+    : '';
+
   mapContainer.innerHTML = `
     <div class="map-placeholder">
       <div class="map-content">
         <h4>Venue Location</h4>
-        <p><strong>Coordinates:</strong> ${coordinates.latitude}°N, ${coordinates.longitude}°W</p>
-        <p><strong>Address:</strong> University of Mines and Technology, Sekondi-Takoradi, Ghana</p>
+        ${coordinateMarkup}
+        <p><strong>Address:</strong> ${address}</p>
         <div class="map-actions">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3974.9547324602877!2d-1.7186027227442664!3d4.9471811822113105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sUMaT%20Essikado%20Campus%20(Railways%20School)!5e0!3m2!1sen!2sgh!4v1756922782761!5m2!1sen!2sgh" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <iframe src="https://www.google.com/maps?q=${mapQuery}&output=embed" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
       </div>
     </div>

@@ -1,0 +1,26 @@
+<svg width="1200" height="680" viewBox="0 0 1200 680" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Akroma Hotel venue illustration</title>
+  <desc id="desc">A clean illustration of a modern conference hotel in Takoradi.</desc>
+  <rect width="1200" height="680" fill="#eef4f0"/>
+  <rect y="452" width="1200" height="228" fill="#d9e6df"/>
+  <path d="M0 452h1200v42H0z" fill="#c7d6cf"/>
+  <path d="M142 172h916v280H142z" fill="#f8fbf9"/>
+  <path d="M194 116h812v80H194z" fill="#0B6B3A"/>
+  <path d="M242 196h716v256H242z" fill="#ffffff"/>
+  <path d="M194 116h812v30H194z" fill="#C7A008"/>
+  <path d="M286 250h112v70H286zM442 250h112v70H442zM646 250h112v70H646zM802 250h112v70H802z" fill="#b8d5cc"/>
+  <path d="M286 352h112v70H286zM442 352h112v70H442zM646 352h112v70H646zM802 352h112v70H802z" fill="#b8d5cc"/>
+  <path d="M520 352h160v100H520z" fill="#0B6B3A"/>
+  <path d="M590 352h20v100h-20z" fill="#f3faf6"/>
+  <path d="M492 452h216v36H492z" fill="#C7A008"/>
+  <path d="M166 452h868v36H166z" fill="#173b2a"/>
+  <path d="M126 488h948v58H126z" fill="#ffffff"/>
+  <path d="M126 546h948v28H126z" fill="#0B6B3A"/>
+  <path d="M250 488h700v58H250z" fill="#f5f8f5"/>
+  <circle cx="276" cy="572" r="54" fill="#0B6B3A" opacity=".18"/>
+  <circle cx="924" cy="572" r="54" fill="#0B6B3A" opacity=".18"/>
+  <path d="M276 516v112M226 580h100M924 516v112M874 580h100" stroke="#0B6B3A" stroke-width="10" stroke-linecap="round"/>
+  <path d="M382 540h436" stroke="#C7A008" stroke-width="8" stroke-linecap="round"/>
+  <text x="600" y="166" text-anchor="middle" font-family="Arial, sans-serif" font-size="44" font-weight="700" fill="#ffffff">AKROMA HOTEL</text>
+  <text x="600" y="628" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#173b2a">Conference Venue - Sekondi-Takoradi</text>
+</svg>
