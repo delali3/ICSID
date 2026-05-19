@@ -7,66 +7,46 @@
     "amenities": ["Wi-Fi", "Breakfast", "Restaurant", "Pool", "Gym", "Conference Rooms"],
     "website": "https://www.google.com/maps/search/?api=1&query=Akroma%20Plaza%20Hotel%20Takoradi%20Ghana",
     "notes": "Conference venue hotel with on-site accommodation and event facilities.",
-    "image": "assets/images/akroma-hotel.svg"
+    "image": "assets/images/hotels/akroma-plaza.jpg"
   },
   {
-    "name": "Takoradi Royal Hotel",
-    "distance_km_from_venue": 3.2,
+    "name": "Alliance Hotel by Eagles",
+    "distance_km_from_venue": 2.4,
+    "price_category": "$$$",
+    "rating": 4.1,
+    "amenities": ["Wi-Fi", "Restaurant", "Gym", "Airport Shuttle", "Conference Rooms"],
+    "website": "https://www.alliancebyeagles.com/",
+    "notes": "Four-star hotel on Beach Road with modern rooms, meeting rooms, and conference facilities.",
+    "image": "assets/images/hotels/alliance-hotel-by-eagles.jpg"
+  },
+  {
+    "name": "Raybow International Hotel",
+    "distance_km_from_venue": 3.1,
+    "price_category": "$$$",
+    "rating": 4.0,
+    "amenities": ["Wi-Fi", "Breakfast", "Restaurant", "Pool", "Airport Shuttle"],
+    "website": "https://raybowhotel.com/",
+    "notes": "Beach Road hotel with suites, restaurant, pool, and business-friendly amenities.",
+    "image": "assets/images/hotels/raybow-international-hotel.jpg"
+  },
+  {
+    "name": "Stellar Lodge",
+    "distance_km_from_venue": 1.6,
     "price_category": "$$",
-    "rating": 4.3,
-    "amenities": ["Wi-Fi", "Breakfast", "Airport Shuttle"],
-    "website": "https://example.com/takoradi-royal",
-    "notes": "Ask for conference rate; limited shuttle seats.",
-    "image": "assets/images/takoradi-royal-hotel.svg"
+    "rating": 3.9,
+    "amenities": ["Wi-Fi", "Breakfast", "Restaurant", "Pool", "Gym"],
+    "website": "https://www.tripadvisor.com/Hotel_Review-g1015897-d1577164-Reviews-Stellar_Lodge-Sekondi_Takoradi_Western_Region.html",
+    "notes": "Chapel Hill Road lodge near the airport and port with rooms, suites, restaurant, gym, and pool.",
+    "image": "assets/images/hotels/stellar-lodge.jpg"
   },
   {
-    "name": "Sekondi Beachfront Lodge",
+    "name": "Anaji Royal Hotel",
     "distance_km_from_venue": 5.8,
     "price_category": "$$",
-    "rating": 4.1,
-    "amenities": ["Wi-Fi", "Breakfast"],
-    "website": "https://example.com/sekondi-beachfront",
-    "notes": "Quiet area; 15–20 mins to venue by taxi.",
-    "image": "assets/images/sekondi-beachfront-lodge.svg"
-  },
-  {
-    "name": "Harbor View Suites",
-    "distance_km_from_venue": 7.5,
-    "price_category": "$$$",
-    "rating": 4.5,
-    "amenities": ["Wi-Fi", "Breakfast", "Gym", "Pool"],
-    "website": "https://example.com/harbor-view",
-    "notes": "Business-friendly; request early check-in if arriving same day.",
-    "image": "assets/images/harbor-view-suites.svg"
-  },
-  {
-    "name": "Golden Palm Resort",
-    "distance_km_from_venue": 4.1,
-    "price_category": "$$$",
-    "rating": 4.6,
-    "amenities": ["Wi-Fi", "Breakfast", "Pool", "Spa", "Conference Rooms"],
-    "website": "https://example.com/golden-palm",
-    "notes": "Premium location with conference facilities.",
-    "image": "assets/images/golden-palm-resort.svg"
-  },
-  {
-    "name": "Coastal Inn Takoradi",
-    "distance_km_from_venue": 2.8,
-    "price_category": "$",
-    "rating": 3.9,
-    "amenities": ["Wi-Fi", "Parking"],
-    "website": "https://example.com/coastal-inn",
-    "notes": "Budget-friendly option, basic amenities.",
-    "image": "assets/images/coastal-inn-takoradi.svg"
-  },
-  {
-    "name": "Atlantic Business Hotel",
-    "distance_km_from_venue": 6.2,
-    "price_category": "$$",
-    "rating": 4.2,
-    "amenities": ["Wi-Fi", "Breakfast", "Business Center", "Gym"],
-    "website": "https://example.com/atlantic-business",
-    "notes": "Popular with business travelers and conference attendees.",
-    "image": "assets/images/atlantic-business-hotel.svg"
+    "rating": 3.8,
+    "amenities": ["Wi-Fi", "Breakfast", "Restaurant", "Parking", "Air Conditioning"],
+    "website": "https://www.expedia.com/Sekondi-Takoradi-Hotels-Anaji-Royal-Hotel.h31954232.Hotel-Information",
+    "notes": "Anaji area hotel with breakfast, restaurant, parking, laundry facilities, and in-room Wi-Fi.",
+    "image": "assets/images/hotels/anaji-royal-hotel.jpg"
   }
 ]
