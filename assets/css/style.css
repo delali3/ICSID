@@ -1951,6 +1951,114 @@ section {
   margin-top: var(--spacing-sm);
 }
 
+.venue-page-header {
+  position: relative;
+  min-height: 380px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  color: var(--white);
+  background: var(--charcoal);
+}
+
+.venue-page-header::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(31, 41, 55, 0.64) 0%,
+    rgba(11, 107, 58, 0.82) 100%
+  );
+  z-index: 1;
+}
+
+.venue-page-header .container {
+  position: relative;
+  z-index: 2;
+}
+
+.venue-page-slides,
+.venue-page-slide {
+  position: absolute;
+  inset: 0;
+}
+
+.venue-page-slide {
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+  animation: venueHeaderFade 14s infinite;
+  transform: scale(1.02);
+}
+
+.venue-page-slide:nth-child(2) {
+  animation-delay: 7s;
+}
+
+.venue-page-header .breadcrumb,
+.venue-page-header .breadcrumb-link,
+.venue-page-header .breadcrumb-current,
+.venue-page-header .breadcrumb-separator,
+.venue-page-header .page-title,
+.venue-page-header .page-subtitle {
+  color: var(--white);
+}
+
+.venue-page-header .breadcrumb {
+  margin-bottom: var(--spacing-md);
+  justify-content: center;
+}
+
+.venue-page-header .breadcrumb-link {
+  text-decoration-color: rgba(255, 255, 255, 0.55);
+}
+
+.venue-page-header .page-title {
+  max-width: 760px;
+  font-size: clamp(2.4rem, 6vw, 4.5rem);
+  margin-bottom: var(--spacing-sm);
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.venue-page-header .page-subtitle {
+  max-width: 720px;
+  font-size: clamp(1rem, 2vw, 1.25rem);
+  line-height: 1.65;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+@keyframes venueHeaderFade {
+  0%,
+  42% {
+    opacity: 1;
+  }
+
+  50%,
+  92% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .venue-page-slide {
+    animation: none;
+  }
+
+  .venue-page-slide:first-child {
+    opacity: 1;
+  }
+}
+
 /* Hotels Page Styles */
 .hotels-section {
   padding: var(--spacing-2xl) 0;
