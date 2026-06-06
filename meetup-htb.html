@@ -79,6 +79,44 @@
             margin-bottom: 0.25rem;
         }
 
+        .hb-grid {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 1.25rem;
+            margin-top: 1.25rem;
+        }
+
+        .hb-card {
+            border: 1px solid #d1e8db;
+            border-radius: 8px;
+            overflow: hidden;
+            background: #f8faf9;
+        }
+
+        .hb-card img {
+            width: 100%;
+            aspect-ratio: 1 / 1;
+            object-fit: cover;
+            display: block;
+        }
+
+        .hb-card-body {
+            padding: 1rem;
+        }
+
+        .hb-card-body h3 {
+            color: #0b6b3a;
+            font-size: 1.05rem;
+            font-weight: 700;
+            margin: 0 0 0.25rem;
+        }
+
+        .hb-card-body p {
+            margin: 0;
+            color: #4b5563;
+            line-height: 1.5;
+        }
+
         .committee-table {
             width: 100%;
             border-collapse: collapse;
@@ -130,6 +168,12 @@
         .meetup-body {
             background: #f8faf9;
             padding-bottom: 3rem;
+        }
+
+        @media (max-width: 640px) {
+            .hb-grid {
+                grid-template-columns: 1fr;
+            }
         }
     </style>
 </head>
@@ -328,6 +372,27 @@
                     <li>Accessing IEEE funding and grants for community projects</li>
                     <li>Impact measurement and sustainability strategies</li>
                 </ul>
+            </div>
+
+            <!-- HTB Facilitators -->
+            <div class="meetup-section">
+                <h2>HTB Facilitators</h2>
+                <div class="hb-grid">
+                    <article class="hb-card">
+                        <img src="assets/images/hb/1.webp" alt="Julianna Pichardo de la Rosa">
+                        <div class="hb-card-body">
+                            <h3>Julianna Pichardo de la Rosa</h3>
+                            <p>Humanitarian Technologies Board facilitator</p>
+                        </div>
+                    </article>
+                    <article class="hb-card">
+                        <img src="assets/images/hb/2.webp" alt="Brittany Chubbuck">
+                        <div class="hb-card-body">
+                            <h3>Brittany Chubbuck</h3>
+                            <p>Humanitarian Technologies Board facilitator</p>
+                        </div>
+                    </article>
+                </div>
             </div>
 
             <!-- Target Audience -->

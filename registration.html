@@ -1,921 +1,1438 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registration | ICSSID 2026 - International Conference on Sustainability Science &amp; Infrastructure</title>
-    <meta name="description"
-        content="Register for ICSSID 2026 conference. Early bird rates available until June 1, 2026. Student discounts and group rates offered.">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Registration | ICSSID 2026 - International Conference on Sustainability
+      Science &amp; Infrastructure
+    </title>
+    <meta
+      name="description"
+      content="Register for ICSSID 2026 conference. Early bird rates available until June 1, 2026. Student discounts and group rates offered."
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
     <!-- EmailJS SDK -->
     <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
-</head>
+  </head>
 
-<body>
+  <body>
     <!-- Skip Link -->
     <a href="#main-content" class="skip-link">Skip to main content</a>
 
     <!-- Header -->
     <header class="header" role="banner">
-        <!-- Announcement Bar -->
-        <div class="announcement-bar">
-            <div class="container">
-                <div class="announcement-content">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
-                        <path
-                            d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" />
-                    </svg>
-                    <span class="announcement-text">Conference ID: 69485X | Early Bird Registration Now Open - Save 20%!</span>
-                    <span class="announcement-badge">Limited Time</span>
-                </div>
-            </div>
+      <!-- Announcement Bar -->
+      <div class="announcement-bar">
+        <div class="container">
+          <div class="announcement-content">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
+              />
+            </svg>
+            <span class="announcement-text"
+              >Conference ID: 69485X | Early Bird Registration Now Open - Save
+              20%!</span
+            >
+            <span class="announcement-badge">Limited Time</span>
+          </div>
         </div>
+      </div>
 
-        <!-- Main Header -->
-        <div class="header-main">
-            <div class="container">
-                <div class="header-content">
-                    <!-- Logo & Branding -->
-                    <div class="header-brand">
-                        <a href="/" class="brand-link">
-                            <div class="brand-icon">
-                                <svg width="50" height="50" viewBox="0 0 100 100" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <defs>
-                                        <linearGradient id="headerGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-                                            <stop offset="0%" style="stop-color:#0B6B3A" />
-                                            <stop offset="100%" style="stop-color:#C7A008" />
-                                        </linearGradient>
-                                    </defs>
-                                    <circle cx="50" cy="50" r="45" fill="url(#headerGradient)" opacity="0.1" />
-                                    <circle cx="50" cy="50" r="45" stroke="url(#headerGradient)" stroke-width="3"
-                                        fill="none" />
-                                    <path d="M25 35h50v6H25z" fill="url(#headerGradient)" />
-                                    <path d="M30 45h40v6H30z" fill="url(#headerGradient)" />
-                                    <path d="M35 55h30v6H35z" fill="url(#headerGradient)" />
-                                    <circle cx="50" cy="25" r="8" fill="url(#headerGradient)" />
-                                    <path d="M42 65h16v8H42z" fill="url(#headerGradient)" />
-                                </svg>
-                            </div>
-                            <div class="brand-info">
-                                <h1 class="brand-name">ICSSID 2026</h1>
-                                <p class="brand-tagline">Sustainable Science & Infrastructure</p>
-                            </div>
-                        </a>
-                    </div>
-
-                    <!-- Conference Info -->
-                    <div class="header-meta">
-                        <div class="meta-group">
-                            <div class="meta-icon">
-                                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-                                    <path
-                                        d="M19 3h-1V1h-2v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V8h14v11zM7 10h5v5H7z" />
-                                </svg>
-                            </div>
-                            <div class="meta-text">
-                                <span class="meta-label">Conference Dates</span>
-                                <span class="meta-value">June 18-20, 2026</span>
-                            </div>
-                        </div>
-                        <div class="meta-group">
-                            <div class="meta-icon">
-                                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-                                    <path
-                                        d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
-                                </svg>
-                            </div>
-                            <div class="meta-text">
-                                <span class="meta-label">Location</span>
-                                <span class="meta-value">Akroma Hotel, Ghana</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Sponsors -->
-                    <div class="header-sponsors">
-                        <span class="sponsors-label">Supported by</span>
-                        <div class="sponsors-logos">
-                            <img src="assets/images/sponsors/ieee-ghana-section.png" alt="IEEE Ghana"
-                                class="sponsor-img">
-                            <img src="assets/images/sponsors/ieee-main.png" alt="IEEE" class="sponsor-img">
-                        </div>
-                    </div>
+      <!-- Main Header -->
+      <div class="header-main">
+        <div class="container">
+          <div class="header-content">
+            <!-- Logo & Branding -->
+            <div class="header-brand">
+              <a href="/" class="brand-link">
+                <div class="brand-icon">
+                  <svg
+                    width="50"
+                    height="50"
+                    viewBox="0 0 100 100"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <defs>
+                      <linearGradient
+                        id="headerGradient"
+                        x1="0%"
+                        y1="0%"
+                        x2="100%"
+                        y2="100%"
+                      >
+                        <stop offset="0%" style="stop-color: #0b6b3a" />
+                        <stop offset="100%" style="stop-color: #c7a008" />
+                      </linearGradient>
+                    </defs>
+                    <circle
+                      cx="50"
+                      cy="50"
+                      r="45"
+                      fill="url(#headerGradient)"
+                      opacity="0.1"
+                    />
+                    <circle
+                      cx="50"
+                      cy="50"
+                      r="45"
+                      stroke="url(#headerGradient)"
+                      stroke-width="3"
+                      fill="none"
+                    />
+                    <path d="M25 35h50v6H25z" fill="url(#headerGradient)" />
+                    <path d="M30 45h40v6H30z" fill="url(#headerGradient)" />
+                    <path d="M35 55h30v6H35z" fill="url(#headerGradient)" />
+                    <circle cx="50" cy="25" r="8" fill="url(#headerGradient)" />
+                    <path d="M42 65h16v8H42z" fill="url(#headerGradient)" />
+                  </svg>
                 </div>
+                <div class="brand-info">
+                  <h1 class="brand-name">ICSSID 2026</h1>
+                  <p class="brand-tagline">
+                    Sustainable Science & Infrastructure
+                  </p>
+                </div>
+              </a>
             </div>
+
+            <!-- Conference Info -->
+            <div class="header-meta">
+              <div class="meta-group">
+                <div class="meta-icon">
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="M19 3h-1V1h-2v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V8h14v11zM7 10h5v5H7z"
+                    />
+                  </svg>
+                </div>
+                <div class="meta-text">
+                  <span class="meta-label">Conference Dates</span>
+                  <span class="meta-value">June 18-20, 2026</span>
+                </div>
+              </div>
+              <div class="meta-group">
+                <div class="meta-icon">
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"
+                    />
+                  </svg>
+                </div>
+                <div class="meta-text">
+                  <span class="meta-label">Location</span>
+                  <span class="meta-value">Akroma Hotel, Ghana</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Sponsors -->
+            <div class="header-sponsors">
+              <span class="sponsors-label">Supported by</span>
+              <div class="sponsors-logos">
+                <img
+                  src="assets/images/sponsors/ieee-ghana-section.png"
+                  alt="IEEE Ghana"
+                  class="sponsor-img"
+                />
+                <img
+                  src="assets/images/sponsors/ieee-main.png"
+                  alt="IEEE"
+                  class="sponsor-img"
+                />
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
 
-        <!-- Navigation Bar -->
-        <nav class="navbar" role="navigation" aria-label="Main navigation">
-            <div class="container">
-                <ul class="nav-list">
-                    <li class="nav-item">
-                        <a href="/" class="nav-link active">
-                            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
-                                <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z" />
-                            </svg>
-                            <span>Home</span>
-                        </a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle">
-                            <span>Conference</span>
-                            <svg class="dropdown-icon" width="12" height="12" viewBox="0 0 24 24" fill="currentColor">
-                                <path d="M7 10l5 5 5-5z" />
-                            </svg>
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a href="about.html" class="dropdown-link">About Conference</a></li>
-                            <li><a href="themes.html" class="dropdown-link">Themes & Topics</a></li>
-                            <li><a href="keydates.html" class="dropdown-link">Important Dates</a></li>
-                            <li><a href="committees.html" class="dropdown-link">Committees</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a href="https://cmt3.research.microsoft.com/ICSSID2026" class="nav-link">
-                            <span>Call for Papers</span>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="hotels.html" class="nav-link">
-                            <span>Hotels</span>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="meetup-htb.html" class="nav-link">
-                            <span>Meetup &amp; HTB</span>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="contact.html" class="nav-link">
-                            <span>Contact</span>
-                        </a>
-                    </li>
-                    <li class="nav-item nav-cta">
-                        <a href="registration.html" class="btn-register">
-                            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
-                                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6z" />
-                                <polyline points="14,2 14,8 20,8" />
-                            </svg>
-                            <span>Register Now</span>
-                        </a>
-                    </li>
-                </ul>
+      <!-- Navigation Bar -->
+      <nav class="navbar" role="navigation" aria-label="Main navigation">
+        <div class="container">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="/" class="nav-link active">
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                >
+                  <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z" />
+                </svg>
+                <span>Home</span>
+              </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a href="#" class="nav-link dropdown-toggle">
+                <span>Conference</span>
+                <svg
+                  class="dropdown-icon"
+                  width="12"
+                  height="12"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                >
+                  <path d="M7 10l5 5 5-5z" />
+                </svg>
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a href="about.html" class="dropdown-link"
+                    >About Conference</a
+                  >
+                </li>
+                <li>
+                  <a href="themes.html" class="dropdown-link"
+                    >Themes & Topics</a
+                  >
+                </li>
+                <li>
+                  <a href="keydates.html" class="dropdown-link"
+                    >Important Dates</a
+                  >
+                </li>
+                <li>
+                  <a href="committees.html" class="dropdown-link">Committees</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a
+                href="https://cmt3.research.microsoft.com/ICSSID2026"
+                class="nav-link"
+              >
+                <span>Call for Papers</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="hotels.html" class="nav-link">
+                <span>Hotels</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="meetup-htb.html" class="nav-link">
+                <span>Meetup &amp; HTB</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link">
+                <span>Contact</span>
+              </a>
+            </li>
+            <li class="nav-item nav-cta">
+              <a href="registration.html" class="btn-register">
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6z"
+                  />
+                  <polyline points="14,2 14,8 20,8" />
+                </svg>
+                <span>Register Now</span>
+              </a>
+            </li>
+          </ul>
 
-                <!-- Mobile Toggle -->
-                <button class="mobile-toggle" aria-expanded="false" aria-controls="main-menu"
-                    aria-label="Toggle navigation">
-                    <span class="toggle-line"></span>
-                    <span class="toggle-line"></span>
-                    <span class="toggle-line"></span>
-                </button>
-            </div>
-        </nav>
+          <!-- Mobile Toggle -->
+          <button
+            class="mobile-toggle"
+            aria-expanded="false"
+            aria-controls="main-menu"
+            aria-label="Toggle navigation"
+          >
+            <span class="toggle-line"></span>
+            <span class="toggle-line"></span>
+            <span class="toggle-line"></span>
+          </button>
+        </div>
+      </nav>
     </header>
-
 
     <!-- Main Content -->
     <main id="main-content">
-        <!-- Registration Hero -->
-        <section class="registration-hero">
-            <div class="container">
-                <div class="registration-hero-content">
-                    <h1>Conference Registration</h1>
-                    <p>Join researchers, practitioners, and policymakers from around the world at ICSSID 2026</p>
-                    <div class="registration-deadline">
-                        <strong>Early Bird Deadline:</strong> June 1, 2026 (Save up to 30%)
-                    </div>
-                </div>
+      <!-- Registration Hero -->
+      <section class="registration-hero">
+        <div class="container">
+          <div class="registration-hero-content">
+            <h1>Conference Registration</h1>
+            <p>
+              Join researchers, practitioners, and policymakers from around the
+              world at ICSSID 2026
+            </p>
+            <div class="registration-deadline">
+              <strong>Early Bird Deadline:</strong> June 1, 2026 (Save up to
+              30%)
             </div>
-        </section>
-
-        <!-- Registration Pricing -->
-        <section class="registration-pricing">
-            <div class="container">
-                <h2>Registration Fees</h2>
-                <div class="row">
-                    <!-- Early Registration -->
-                    <div class="col-lg-6">
-                        <div class="card mb-5 mb-lg-0">
-                            <div class="card-body">
-                                <h5 class="card-title text-muted text-uppercase text-center">Early Registration (up to
-                                    1<sup>st</sup> of June 2026)</h5>
-                                <hr>
-                                <ul class="fa-ul">
-                                    <li><span class="fa-li"><i class="fa fa-check"></i></span>IEEE Member- $130 USD</li>
-                                    <li><span class="fa-li"><i class="fa fa-check"></i></span>Non-IEEE Member - $200 USD
-                                    </li>
-                                    <li><span class="fa-li"><i class="fa fa-check"></i></span>IEEE Student Member - $70
-                                        USD</li>
-                                    <li><span class="fa-li"><i class="fa fa-check"></i></span>Student Non-IEEE Member -
-                                        $100 USD</li>
-                                    <!-- paticipant -->
-                                    <!-- <li><span class="fa-li"><i class="fa fa-check"></i></span>Participant IEEE Member - $150 USD</li> -->
-                                </ul>
-                                <div class="text-center">
-                                    <button id="purchaseBtnEarly" class="btn btn-primary" data-bs-toggle="modal"
-                                        data-bs-target="#accountDetailsModal">Register Early</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Late Registration -->
-                    <div class="col-lg-6">
-                        <div class="card mb-5 mb-lg-0">
-                            <div class="card-body">
-                                <h5 class="card-title text-muted text-uppercase text-center">Late Registration (from
-                                    2<sup>nd</sup> of June 2026)</h5>
-                                <hr>
-                                <ul class="fa-ul">
-                                    <li><span class="fa-li"><i class="fa fa-check"></i></span>IEEE Member - $200 USD
-                                    </li>
-                                    <li><span class="fa-li"><i class="fa fa-check"></i></span>Non-IEEE Member - $285 USD
-                                    </li>
-                                    <li><span class="fa-li"><i class="fa fa-check"></i></span>IEEE Student Member - $100
-                                        USD</li>
-                                    <li><span class="fa-li"><i class="fa fa-check"></i></span>Student Non-IEEE Member -
-                                        $185 USD</li>
-                                </ul>
-                                <div class="text-center">
-                                    <button id="purchaseBtnLate" class="btn btn-primary" data-bs-toggle="modal"
-                                        data-bs-target="#accountDetailsModal">Register Late</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="pricing-notes">
-                    <p><strong>Early Bird Rates:</strong> Available until June 1, 2026</p>
-                    <p><strong>IEEE Members:</strong> Must provide valid IEEE membership number</p>
-                    <p><strong>Students:</strong> Valid student ID required for student rates</p>
-                    <p><strong>Currency:</strong> Payments accepted in USD or GHS (Ghana Cedis) at current exchange
-                        rates</p>
-                </div>
-            </div>
-        </section>
-
-        <!-- Registration Form Section -->
-        <section class="registration-form-section">
-            <div class="container mt-5 mb-5">
-                <div class="row justify-content-center">
-                    <div class="col-lg-10">
-                        <div class="card">
-                            <h5 class="card-title text-muted text-uppercase text-center">ICSSID 2026 Registration Form
-                            </h5>
-                            <hr>
-
-                            <div class="card-body">
-                                <form id="registrationForm" method="POST" enctype="multipart/form-data">
-                                    <!-- Registration Information -->
-                                    <h5 class="mb-4">Registration Information</h5>
-
-                                    <div class="mb-3">
-                                        <label for="paperID" class="form-label">Paper ID:</label>
-                                        <input type="text" class="form-control" id="paperID" name="paperID"
-                                            placeholder="Enter your Paper ID (if applicable)">
-                                    </div>
-
-                                    <div class="row mb-3">
-                                        <div class="col-md-6">
-                                            <label for="title" class="form-label">Paper Title:</label>
-                                            <input type="text" class="form-control" id="title" name="title"
-                                                placeholder="Enter your paper title" required>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <label for="designation" class="form-label">Designation:</label>
-                                            <input type="text" class="form-control" id="designation" name="designation"
-                                                placeholder="Enter your designation" required>
-                                        </div>
-                                    </div>
-
-                                    <div class="mb-3">
-                                        <label for="participantName" class="form-label">Name of Corresponding
-                                            Author/Participant:</label>
-                                        <input type="text" class="form-control" id="participantName"
-                                            name="participantName" placeholder="Enter your name" required>
-                                    </div>
-
-                                    <div class="mb-3">
-                                        <label for="participantEmail" class="form-label">Email of Corresponding
-                                            Author/Participant:</label>
-                                        <input type="email" class="form-control" id="participantEmail"
-                                            name="participantEmail" placeholder="Enter your email" required>
-                                    </div>
-
-                                    <div class="mb-3">
-                                        <label class="form-label">Gender:</label>
-                                        <div>
-                                            <div class="form-check form-check-inline">
-                                                <input class="form-check-input" type="radio" name="gender" id="male"
-                                                    value="Male" required>
-                                                <label class="form-check-label" for="male">Male</label>
-                                            </div>
-                                            <div class="form-check form-check-inline">
-                                                <input class="form-check-input" type="radio" name="gender" id="female"
-                                                    value="Female" required>
-                                                <label class="form-check-label" for="female">Female</label>
-                                            </div>
-                                            <div class="form-check form-check-inline">
-                                                <input class="form-check-input" type="radio" name="gender" id="other"
-                                                    value="Other" required>
-                                                <label class="form-check-label" for="other">Other</label>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="mb-3">
-                                        <label for="phoneNumber" class="form-label">Phone Number:</label>
-                                        <input type="tel" class="form-control" id="phoneNumber" name="phoneNumber"
-                                            placeholder="Enter your contact number" required>
-                                    </div>
-
-                                    <div class="mb-3">
-                                        <label for="address" class="form-label">Address:</label>
-                                        <input type="text" class="form-control" id="address" name="address"
-                                            placeholder="Enter your address" required>
-                                    </div>
-
-                                    <div class="row mb-3">
-                                        <div class="col-md-6">
-                                            <label for="city" class="form-label">City:</label>
-                                            <input type="text" class="form-control" id="city" name="city"
-                                                placeholder="Enter your city" required>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <label for="country" class="form-label">Country:</label>
-                                            <input type="text" class="form-control" id="country" name="country"
-                                                placeholder="Enter your country" required>
-                                        </div>
-                                    </div>
-
-                                    <div class="mb-3">
-                                        <label for="institution" class="form-label">Institution Affiliation:</label>
-                                        <input type="text" class="form-control" id="institution" name="institution"
-                                            placeholder="Enter your institution" required>
-                                    </div>
-
-                                    <div class="mb-3">
-                                        <label for="department" class="form-label">Department:</label>
-                                        <input type="text" class="form-control" id="department" name="department"
-                                            placeholder="Enter your department" required>
-                                    </div>
-
-                                    <div class="mb-3">
-                                        <label class="form-label">Choose one:</label>
-                                        <div>
-                                            <div class="form-check form-check-inline">
-                                                <input class="form-check-input" type="radio" name="role" id="author"
-                                                    value="Author" required>
-                                                <label class="form-check-label" for="author">Author</label>
-                                            </div>
-                                            <div class="form-check form-check-inline">
-                                                <input class="form-check-input" type="radio" name="role"
-                                                    id="participant" value="Participant" required>
-                                                <label class="form-check-label" for="participant">Participant</label>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="mb-3">
-                                        <label for="coAuthors" class="form-label">Co-Author(s):</label>
-                                        <input type="text" class="form-control" id="coAuthors" name="coAuthors"
-                                            placeholder="Enter co-authors' names (if any)">
-                                    </div>
-
-                                    <!-- Payment Information -->
-                                    <h5 class="mt-5 mb-4">Payment Information</h5>
-
-                                    <div class="mb-3">
-                                        <label for="transactionID" class="form-label">Transaction ID/Receipt No:</label>
-                                        <input type="text" class="form-control" id="transactionID" name="transactionID"
-                                            placeholder="Enter your transaction ID or receipt number" required>
-                                    </div>
-
-                                    <div class="mb-3">
-                                        <label for="paymentDate" class="form-label">Date of Payment:</label>
-                                        <input type="date" class="form-control" id="paymentDate" name="paymentDate"
-                                            required>
-                                    </div>
-
-                                    <div class="mb-3">
-                                        <label class="form-label">Type of Payment:</label>
-                                        <div>
-                                            <div class="form-check form-check-inline">
-                                                <input class="form-check-input" type="radio" name="paymentType"
-                                                    id="swiftCode" value="Swift Code" required>
-                                                <label class="form-check-label" for="swiftCode">Swift Code</label>
-                                            </div>
-                                            <div class="form-check form-check-inline">
-                                                <input class="form-check-input" type="radio" name="paymentType"
-                                                    id="wireTransfer" value="Wire Transfer" required>
-                                                <label class="form-check-label" for="wireTransfer">Wire Transfer</label>
-                                            </div>
-                                            <div class="form-check form-check-inline">
-                                                <input class="form-check-input" type="radio" name="paymentType"
-                                                    id="bankInPerson" value="Bank (In-Person)" required>
-                                                <label class="form-check-label" for="bankInPerson">Bank
-                                                    (In-Person)</label>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="mb-3">
-                                        <label for="receiptUpload" class="form-label">Upload Receipt:</label>
-                                        <input class="form-control" type="file" id="receiptUpload" name="receiptUpload"
-                                            accept=".pdf,.jpg,.jpeg,.png" required>
-                                    </div>
-
-                                    <div class="mb-4">
-                                        <label class="form-label">Would you like to present:</label>
-                                        <div>
-                                            <div class="form-check form-check-inline">
-                                                <input class="form-check-input" type="radio" name="presentationMode"
-                                                    id="inPerson" value="In-Person" required>
-                                                <label class="form-check-label" for="inPerson">In-Person</label>
-                                            </div>
-                                            <div class="form-check form-check-inline">
-                                                <input class="form-check-input" type="radio" name="presentationMode"
-                                                    id="online" value="Online/Virtual" required>
-                                                <label class="form-check-label" for="online">Online/Virtual</label>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="mb-4">
-                                        <label for="ieee_member" class="form-label">Are you an IEEE member?</label>
-                                        <select class="form-select" id="ieee_member" name="ieee_member" required
-                                            onchange="toggleIeeeIdField()">
-                                            <option value="" selected>Select</option>
-                                            <option value="Yes">Yes</option>
-                                            <option value="No">No</option>
-                                        </select>
-                                    </div>
-
-                                    <!-- IEEE Membership ID Field (Initially Hidden) -->
-                                    <div class="mb-4" id="ieee_id_field" style="display: none;">
-                                        <label for="ieee_id" class="form-label">Enter your IEEE Membership ID</label>
-                                        <input type="text" class="form-control" id="ieee_id" name="ieee_id"
-                                            placeholder="IEEE Membership ID">
-                                    </div>
-
-                                    <!-- Student Status -->
-                                    <div class="mb-4">
-                                        <label for="student_status" class="form-label">Are you a student?</label>
-                                        <select class="form-select" id="student_status" name="student_status" required
-                                            onchange="toggleStudentFields()">
-                                            <option value="" selected>Select</option>
-                                            <option value="Yes">Yes</option>
-                                            <option value="No">No</option>
-                                        </select>
-                                    </div>
-
-                                    <!-- Additional Student Upload Fields (Initially Hidden) -->
-                                    <div id="student_fields" style="display: none;">
-                                        <div class="mb-4">
-                                            <label for="student_id_upload" class="form-label">Upload Your Student
-                                                ID</label>
-                                            <input class="form-control" type="file" id="student_id_upload"
-                                                name="student_id_upload" accept=".pdf,.jpg,.jpeg,.png">
-                                        </div>
-                                    </div>
-
-                                    <!-- Terms and Conditions -->
-                                    <div class="form-check mb-4">
-                                        <input class="form-check-input" type="checkbox" id="agreeTerms"
-                                            name="agreeTerms" required>
-                                        <label class="form-check-label" for="agreeTerms">
-                                            I agree to the <a href="#" target="_blank">terms and conditions</a>.
-                                        </label>
-                                    </div>
-
-                                    <!-- Submit Button -->
-                                    <button type="submit" class="btn btn-primary w-100">Register</button>
-
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Payment Information -->
-        <section class="payment-info-section">
-            <div class="container">
-                <h2>Payment Information</h2>
-                <div class="payment-methods">
-                    <div class="payment-method">
-                        <h3>Bank Transfer</h3>
-                        <div class="payment-details">
-                            <p><strong>Bank:</strong> GCB Bank</p>
-                            <p><strong>Account Name:</strong> UMaT SRID</p>
-                            <p><strong>Account Number:</strong> 4051130003631</p>
-                            <p><strong>Swift Code:</strong> GHCBGHAC</p>
-                            <p><strong>Bank Code:</strong> 040</p>
-                            <p><small>Please include your registration ID in the reference</small></p>
-                        </div>
-                    </div>
-
-                    <div class="payment-method">
-                        <h3>Online Payment</h3>
-                        <div class="payment-details">
-                            <p>Credit/Debit card payments will be processed securely through our payment gateway. You
-                                will be redirected to complete payment after form submission.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Success / Error Banners -->
-        <div id="success-message" style="display:none;" class="container mt-4 mb-5">
-            <div class="alert alert-success d-flex align-items-start gap-3 p-4 rounded-3 shadow-sm" role="alert">
-                <i class="fa fa-check-circle fa-2x text-success mt-1"></i>
-                <div>
-                    <h4 class="alert-heading mb-1">Registration Submitted Successfully!</h4>
-                    <p class="mb-0">Thank you for registering for <strong>ICSSID 2026</strong>. A notification has been
-                        sent to the conference team. You will be contacted once your payment is verified.</p>
-                </div>
-            </div>
+          </div>
         </div>
-        <div id="error-message" style="display:none;" class="container mt-4 mb-5">
-            <div class="alert alert-danger d-flex align-items-start gap-3 p-4 rounded-3 shadow-sm" role="alert">
-                <i class="fa fa-exclamation-circle fa-2x text-danger mt-1"></i>
-                <div>
-                    <h4 class="alert-heading mb-1">Submission Failed</h4>
-                    <p class="mb-2" id="error-detail">There was a problem submitting your registration. Please try again
-                        or contact us at <a href="mailto:icssid2026@gmail.com">icssid2026@gmail.com</a>.</p>
+      </section>
+
+      <!-- Registration Pricing -->
+      <section class="registration-pricing">
+        <div class="container">
+          <h2>Registration Fees</h2>
+          <div class="row">
+            <!-- Early Registration -->
+            <div class="col-lg-6">
+              <div class="card mb-5 mb-lg-0">
+                <div class="card-body">
+                  <h5 class="card-title text-muted text-uppercase text-center">
+                    Early Registration (up to 1<sup>st</sup> of June 2026)
+                  </h5>
+                  <hr />
+                  <ul class="fa-ul">
+                    <li>
+                      <span class="fa-li"><i class="fa fa-check"></i></span>IEEE
+                      Member - $130 USD (GHS 1,560)
+                    </li>
+                    <li>
+                      <span class="fa-li"><i class="fa fa-check"></i></span
+                      >Non-IEEE Member - $200 USD (GHS 2,400)
+                    </li>
+                    <li>
+                      <span class="fa-li"><i class="fa fa-check"></i></span>IEEE
+                      Student Member - $70 USD (GHS 840)
+                    </li>
+                    <li>
+                      <span class="fa-li"><i class="fa fa-check"></i></span
+                      >Student Non-IEEE Member - $100 USD (GHS 1,200)
+                    </li>
+                    <!-- paticipant -->
+                    <!-- <li><span class="fa-li"><i class="fa fa-check"></i></span>Participant IEEE Member - $150 USD</li> -->
+                  </ul>
+                  <div class="text-center">
+                    <button
+                      id="purchaseBtnEarly"
+                      class="btn btn-primary"
+                      data-bs-toggle="modal"
+                      data-bs-target="#accountDetailsModal"
+                    >
+                      Register Early
+                    </button>
+                  </div>
                 </div>
+              </div>
             </div>
+
+            <!-- Late Registration -->
+            <div class="col-lg-6">
+              <div class="card mb-5 mb-lg-0">
+                <div class="card-body">
+                  <h5 class="card-title text-muted text-uppercase text-center">
+                    Late Registration (from 2<sup>nd</sup> of June 2026)
+                  </h5>
+                  <hr />
+                  <ul class="fa-ul">
+                    <li>
+                      <span class="fa-li"><i class="fa fa-check"></i></span>IEEE
+                      Member - $200 USD (GHS 2,400)
+                    </li>
+                    <li>
+                      <span class="fa-li"><i class="fa fa-check"></i></span
+                      >Non-IEEE Member - $285 USD (GHS 3,420)
+                    </li>
+                    <li>
+                      <span class="fa-li"><i class="fa fa-check"></i></span>IEEE
+                      Student Member - $100 USD (GHS 1,200)
+                    </li>
+                    <li>
+                      <span class="fa-li"><i class="fa fa-check"></i></span
+                      >Student Non-IEEE Member - $185 USD (GHS 2,220)
+                    </li>
+                  </ul>
+                  <div class="text-center">
+                    <button
+                      id="purchaseBtnLate"
+                      class="btn btn-primary"
+                      data-bs-toggle="modal"
+                      data-bs-target="#accountDetailsModal"
+                    >
+                      Register Late
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="pricing-notes">
+            <p>
+              <strong>Early Bird Rates:</strong> Available until June 1, 2026
+            </p>
+            <p>
+              <strong>IEEE Members:</strong> Must provide valid IEEE membership
+              number
+            </p>
+            <p>
+              <strong>Students:</strong> Valid student ID required for student
+              rates
+            </p>
+            <p>
+              <strong>Currency:</strong> Payments accepted in USD or GHS (Ghana
+              Cedis) at a rate of GHS 12 per USD
+            </p>
+          </div>
         </div>
+      </section>
+
+      <!-- Registration Form Section -->
+      <section class="registration-form-section">
+        <div class="container mt-5 mb-5">
+          <div class="row justify-content-center">
+            <div class="col-lg-10">
+              <div class="card">
+                <h5 class="card-title text-muted text-uppercase text-center">
+                  ICSSID 2026 Registration Form
+                </h5>
+                <hr />
+
+                <div class="card-body">
+                  <form
+                    id="registrationForm"
+                    method="POST"
+                    enctype="multipart/form-data"
+                  >
+                    <!-- Registration Information -->
+                    <h5 class="mb-4">Registration Information</h5>
+
+                    <div class="mb-3">
+                      <label for="paperID" class="form-label">Paper ID:</label>
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="paperID"
+                        name="paperID"
+                        placeholder="Enter your Paper ID (if applicable)"
+                      />
+                    </div>
+
+                    <div class="row mb-3">
+                      <div class="col-md-6">
+                        <label for="title" class="form-label"
+                          >Paper Title:</label
+                        >
+                        <input
+                          type="text"
+                          class="form-control"
+                          id="title"
+                          name="title"
+                          placeholder="Enter your paper title"
+                          required
+                        />
+                      </div>
+                      <div class="col-md-6">
+                        <label for="designation" class="form-label"
+                          >Designation:</label
+                        >
+                        <input
+                          type="text"
+                          class="form-control"
+                          id="designation"
+                          name="designation"
+                          placeholder="Enter your designation"
+                          required
+                        />
+                      </div>
+                    </div>
+
+                    <div class="mb-3">
+                      <label for="participantName" class="form-label"
+                        >Name of Corresponding Author/Participant:</label
+                      >
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="participantName"
+                        name="participantName"
+                        placeholder="Enter your name"
+                        required
+                      />
+                    </div>
+
+                    <div class="mb-3">
+                      <label for="participantEmail" class="form-label"
+                        >Email of Corresponding Author/Participant:</label
+                      >
+                      <input
+                        type="email"
+                        class="form-control"
+                        id="participantEmail"
+                        name="participantEmail"
+                        placeholder="Enter your email"
+                        required
+                      />
+                    </div>
+
+                    <div class="mb-3">
+                      <label class="form-label">Gender:</label>
+                      <div>
+                        <div class="form-check form-check-inline">
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="gender"
+                            id="male"
+                            value="Male"
+                            required
+                          />
+                          <label class="form-check-label" for="male"
+                            >Male</label
+                          >
+                        </div>
+                        <div class="form-check form-check-inline">
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="gender"
+                            id="female"
+                            value="Female"
+                            required
+                          />
+                          <label class="form-check-label" for="female"
+                            >Female</label
+                          >
+                        </div>
+                        <div class="form-check form-check-inline">
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="gender"
+                            id="other"
+                            value="Other"
+                            required
+                          />
+                          <label class="form-check-label" for="other"
+                            >Other</label
+                          >
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="mb-3">
+                      <label for="phoneNumber" class="form-label"
+                        >Phone Number:</label
+                      >
+                      <input
+                        type="tel"
+                        class="form-control"
+                        id="phoneNumber"
+                        name="phoneNumber"
+                        placeholder="Enter your contact number"
+                        required
+                      />
+                    </div>
+
+                    <div class="mb-3">
+                      <label for="address" class="form-label">Address:</label>
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="address"
+                        name="address"
+                        placeholder="Enter your address"
+                        required
+                      />
+                    </div>
+
+                    <div class="row mb-3">
+                      <div class="col-md-6">
+                        <label for="city" class="form-label">City:</label>
+                        <input
+                          type="text"
+                          class="form-control"
+                          id="city"
+                          name="city"
+                          placeholder="Enter your city"
+                          required
+                        />
+                      </div>
+                      <div class="col-md-6">
+                        <label for="country" class="form-label">Country:</label>
+                        <input
+                          type="text"
+                          class="form-control"
+                          id="country"
+                          name="country"
+                          placeholder="Enter your country"
+                          required
+                        />
+                      </div>
+                    </div>
+
+                    <div class="mb-3">
+                      <label for="institution" class="form-label"
+                        >Institution Affiliation:</label
+                      >
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="institution"
+                        name="institution"
+                        placeholder="Enter your institution"
+                        required
+                      />
+                    </div>
+
+                    <div class="mb-3">
+                      <label for="department" class="form-label"
+                        >Department:</label
+                      >
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="department"
+                        name="department"
+                        placeholder="Enter your department"
+                        required
+                      />
+                    </div>
+
+                    <div class="mb-3">
+                      <label class="form-label">Choose one:</label>
+                      <div>
+                        <div class="form-check form-check-inline">
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="role"
+                            id="author"
+                            value="Author"
+                            required
+                          />
+                          <label class="form-check-label" for="author"
+                            >Author</label
+                          >
+                        </div>
+                        <div class="form-check form-check-inline">
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="role"
+                            id="participant"
+                            value="Participant"
+                            required
+                          />
+                          <label class="form-check-label" for="participant"
+                            >Participant</label
+                          >
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="mb-3">
+                      <label for="coAuthors" class="form-label"
+                        >Co-Author(s):</label
+                      >
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="coAuthors"
+                        name="coAuthors"
+                        placeholder="Enter co-authors' names (if any)"
+                      />
+                    </div>
+
+                    <!-- Payment Information -->
+                    <h5 class="mt-5 mb-4">Payment Information</h5>
+
+                    <div class="mb-3">
+                      <label for="transactionID" class="form-label"
+                        >Transaction ID/Receipt No:</label
+                      >
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="transactionID"
+                        name="transactionID"
+                        placeholder="Enter your transaction ID or receipt number"
+                        required
+                      />
+                    </div>
+
+                    <div class="mb-3">
+                      <label for="paymentDate" class="form-label"
+                        >Date of Payment:</label
+                      >
+                      <input
+                        type="date"
+                        class="form-control"
+                        id="paymentDate"
+                        name="paymentDate"
+                        required
+                      />
+                    </div>
+
+                    <div class="mb-3">
+                      <label class="form-label">Type of Payment:</label>
+                      <div>
+                        <div class="form-check form-check-inline">
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="paymentType"
+                            id="swiftCode"
+                            value="Swift Code"
+                            required
+                          />
+                          <label class="form-check-label" for="swiftCode"
+                            >Swift Code</label
+                          >
+                        </div>
+                        <div class="form-check form-check-inline">
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="paymentType"
+                            id="wireTransfer"
+                            value="Wire Transfer"
+                            required
+                          />
+                          <label class="form-check-label" for="wireTransfer"
+                            >Wire Transfer</label
+                          >
+                        </div>
+                        <div class="form-check form-check-inline">
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="paymentType"
+                            id="bankInPerson"
+                            value="Bank (In-Person)"
+                            required
+                          />
+                          <label class="form-check-label" for="bankInPerson"
+                            >Bank (In-Person)</label
+                          >
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="mb-3">
+                      <label for="receiptUpload" class="form-label"
+                        >Upload Receipt:</label
+                      >
+                      <input
+                        class="form-control"
+                        type="file"
+                        id="receiptUpload"
+                        name="receiptUpload"
+                        accept=".pdf,.jpg,.jpeg,.png"
+                        required
+                      />
+                    </div>
+
+                    <div class="mb-4">
+                      <label class="form-label"
+                        >Would you like to present:</label
+                      >
+                      <div>
+                        <div class="form-check form-check-inline">
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="presentationMode"
+                            id="inPerson"
+                            value="In-Person"
+                            required
+                          />
+                          <label class="form-check-label" for="inPerson"
+                            >In-Person</label
+                          >
+                        </div>
+                        <div class="form-check form-check-inline">
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="presentationMode"
+                            id="online"
+                            value="Online/Virtual"
+                            required
+                          />
+                          <label class="form-check-label" for="online"
+                            >Online/Virtual</label
+                          >
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="mb-4">
+                      <label for="ieee_member" class="form-label"
+                        >Are you an IEEE member?</label
+                      >
+                      <select
+                        class="form-select"
+                        id="ieee_member"
+                        name="ieee_member"
+                        required
+                        onchange="toggleIeeeIdField()"
+                      >
+                        <option value="" selected>Select</option>
+                        <option value="Yes">Yes</option>
+                        <option value="No">No</option>
+                      </select>
+                    </div>
+
+                    <!-- IEEE Membership ID Field (Initially Hidden) -->
+                    <div class="mb-4" id="ieee_id_field" style="display: none">
+                      <label for="ieee_id" class="form-label"
+                        >Enter your IEEE Membership ID</label
+                      >
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="ieee_id"
+                        name="ieee_id"
+                        placeholder="IEEE Membership ID"
+                      />
+                    </div>
+
+                    <!-- Student Status -->
+                    <div class="mb-4">
+                      <label for="student_status" class="form-label"
+                        >Are you a student?</label
+                      >
+                      <select
+                        class="form-select"
+                        id="student_status"
+                        name="student_status"
+                        required
+                        onchange="toggleStudentFields()"
+                      >
+                        <option value="" selected>Select</option>
+                        <option value="Yes">Yes</option>
+                        <option value="No">No</option>
+                      </select>
+                    </div>
+
+                    <!-- Additional Student Upload Fields (Initially Hidden) -->
+                    <div id="student_fields" style="display: none">
+                      <div class="mb-4">
+                        <label for="student_id_upload" class="form-label"
+                          >Upload Your Student ID</label
+                        >
+                        <input
+                          class="form-control"
+                          type="file"
+                          id="student_id_upload"
+                          name="student_id_upload"
+                          accept=".pdf,.jpg,.jpeg,.png"
+                        />
+                      </div>
+                    </div>
+
+                    <!-- Terms and Conditions -->
+                    <div class="form-check mb-4">
+                      <input
+                        class="form-check-input"
+                        type="checkbox"
+                        id="agreeTerms"
+                        name="agreeTerms"
+                        required
+                      />
+                      <label class="form-check-label" for="agreeTerms">
+                        I agree to the
+                        <a href="#" target="_blank">terms and conditions</a>.
+                      </label>
+                    </div>
+
+                    <!-- Submit Button -->
+                    <button type="submit" class="btn btn-primary w-100">
+                      Register
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Payment Information -->
+      <section class="payment-info-section">
+        <div class="container">
+          <h2>Payment Information</h2>
+          <div class="payment-methods">
+            <div class="payment-method">
+              <h3>Bank Transfer</h3>
+              <div class="payment-details">
+                <p><strong>Bank:</strong> GCB Bank</p>
+                <p><strong>Account Name:</strong> UMaT SRID</p>
+                <p><strong>Account Number:</strong> 4051130003631</p>
+                <p><strong>Swift Code:</strong> GHCBGHAC</p>
+                <p><strong>Bank Code:</strong> 040</p>
+                <p>
+                  <small
+                    >Please include your registration ID in the reference</small
+                  >
+                </p>
+              </div>
+            </div>
+
+            <div class="payment-method">
+              <h3>Online Payment</h3>
+              <div class="payment-details">
+                <p>
+                  Credit/Debit card payments will be processed securely through
+                  our payment gateway. You will be redirected to complete
+                  payment after form submission.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Success / Error Banners -->
+      <div
+        id="success-message"
+        style="display: none"
+        class="container mt-4 mb-5"
+      >
+        <div
+          class="alert alert-success d-flex align-items-start gap-3 p-4 rounded-3 shadow-sm"
+          role="alert"
+        >
+          <i class="fa fa-check-circle fa-2x text-success mt-1"></i>
+          <div>
+            <h4 class="alert-heading mb-1">
+              Registration Submitted Successfully!
+            </h4>
+            <p class="mb-0">
+              Thank you for registering for <strong>ICSSID 2026</strong>. A
+              notification has been sent to the conference team. You will be
+              contacted once your payment is verified.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div id="error-message" style="display: none" class="container mt-4 mb-5">
+        <div
+          class="alert alert-danger d-flex align-items-start gap-3 p-4 rounded-3 shadow-sm"
+          role="alert"
+        >
+          <i class="fa fa-exclamation-circle fa-2x text-danger mt-1"></i>
+          <div>
+            <h4 class="alert-heading mb-1">Submission Failed</h4>
+            <p class="mb-2" id="error-detail">
+              There was a problem submitting your registration. Please try again
+              or contact us at
+              <a href="mailto:icssid2026@gmail.com">icssid2026@gmail.com</a>.
+            </p>
+          </div>
+        </div>
+      </div>
     </main>
 
     <!-- Footer -->
     <footer class="footer" role="contentinfo">
-        <div class="container">
-            <!-- Main Footer Content -->
-            <div class="footer-main">
-                <!-- Footer Brand Section -->
-                <div class="footer-brand">
-                    <div class="footer-logo">
-                        <svg width="60" height="60" viewBox="0 0 100 100" fill="none"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <circle cx="50" cy="50" r="48" stroke="currentColor" stroke-width="3" fill="none" />
-                            <path d="M30 40h40v8H30z" fill="currentColor" />
-                            <path d="M35 52h30v8H35z" fill="currentColor" />
-                            <path d="M40 64h20v8H40z" fill="currentColor" />
-                            <circle cx="50" cy="28" r="6" fill="currentColor" />
-                        </svg>
-                    </div>
-                    <div class="footer-brand-content">
-                        <h3 class="footer-title">ICSSID 2026</h3>
-                        <p class="footer-tagline">International Conference on Sustainable Science and Infrastructure
-                            Development</p>
-                        <p class="footer-description">Advancing research and practice for a sustainable and resilient
-                            future through interdisciplinary collaboration.</p>
-                    </div>
-                </div>
-
-                <!-- Footer Navigation -->
-                <div class="footer-nav">
-                    <div class="footer-nav-grid">
-                        <!-- Conference Links -->
-                        <div class="footer-nav-column">
-                            <h4 class="footer-nav-title">Conference</h4>
-                            <ul class="footer-nav-list">
-                                <li><a href="about.html">About ICSSID</a></li>
-                                <li><a href="themes.html">Conference Themes</a></li>
-                                <li><a href="keydates.html">Key Dates</a></li>
-                                <li><a href="call-for-papers.html">Call for Papers</a></li>
-                                <li><a href="committees.html">Committees</a></li>
-                            </ul>
-                        </div>
-
-                        <!-- Participation Links -->
-                        <div class="footer-nav-column">
-                            <h4 class="footer-nav-title">Participation</h4>
-                            <ul class="footer-nav-list">
-                                <li><a href="registration.html">Registration</a></li>
-                                <li><a href="venue.html">Venue & Location</a></li>
-                                <li><a href="hotels.html">Accommodation</a></li>
-                                <li><a href="contact.html">Contact Us</a></li>
-                                <li><a href="#travel-info">Travel Information</a></li>
-                            </ul>
-                        </div>
-
-                        <!-- Quick Contact -->
-                        <div class="footer-nav-column">
-                            <h4 class="footer-nav-title">Quick Contact</h4>
-                            <div class="footer-contact-list">
-                                <div class="footer-contact-item">
-                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
-                                        <path
-                                            d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
-                                    </svg>
-                                    <a href="mailto:icssid2026@gmail.com">icssid2026@gmail.com</a>
-                                </div>
-                                <div class="footer-contact-item">
-                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
-                                        <path
-                                            d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z" />
-                                    </svg>
-                                    <a href="tel:+233249653242">+233 24 965 3242</a>
-                                </div>
-                                <div class="footer-contact-item">
-                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
-                                        <path
-                                            d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
-                                    </svg>
-                                    <span>Akroma Hotel, Sekondi-Takoradi, Ghana</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+      <div class="container">
+        <!-- Main Footer Content -->
+        <div class="footer-main">
+          <!-- Footer Brand Section -->
+          <div class="footer-brand">
+            <div class="footer-logo">
+              <svg
+                width="60"
+                height="60"
+                viewBox="0 0 100 100"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle
+                  cx="50"
+                  cy="50"
+                  r="48"
+                  stroke="currentColor"
+                  stroke-width="3"
+                  fill="none"
+                />
+                <path d="M30 40h40v8H30z" fill="currentColor" />
+                <path d="M35 52h30v8H35z" fill="currentColor" />
+                <path d="M40 64h20v8H40z" fill="currentColor" />
+                <circle cx="50" cy="28" r="6" fill="currentColor" />
+              </svg>
             </div>
-
-            <!-- Conference Info Bar -->
-            <div class="footer-info-bar">
-                <div class="conference-details">
-                    <div class="conference-date">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-                            <path
-                                d="M19 3h-1V1h-2v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V8h14v11zM7 10h5v5H7z" />
-                        </svg>
-                        <time datetime="2026-06-18"><strong>June 18-20, 2026</strong></time>
-                    </div>
-                    <div class="conference-venue">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-                            <path
-                                d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
-                        </svg>
-                        <span>Akroma Plaza Hotel, Ghana</span>
-                    </div>
-                </div>
-
-                <div class="footer-social">
-                    <span class="social-label">Follow ICSSID:</span>
-                    <div class="social-links">
-                        <a href="#" class="social-link" aria-label="Follow on Twitter" title="Twitter">
-                            <i class="fa-brands fa-twitter"></i>
-                        </a>
-                        <a href="#" class="social-link" aria-label="Connect on LinkedIn" title="LinkedIn">
-                            <i class="fa-brands fa-linkedin"></i>
-                        </a>
-                        <a href="#" class="social-link" aria-label="Join Facebook" title="Facebook">
-                            <i class="fa-brands fa-facebook"></i>
-                        </a>
-                        <a href="#" class="social-link" aria-label="Subscribe to YouTube" title="YouTube">
-                            <i class="fa-brands fa-youtube"></i>
-                        </a>
-                    </div>
-                </div>
+            <div class="footer-brand-content">
+              <h3 class="footer-title">ICSSID 2026</h3>
+              <p class="footer-tagline">
+                International Conference on Sustainable Science and
+                Infrastructure Development
+              </p>
+              <p class="footer-description">
+                Advancing research and practice for a sustainable and resilient
+                future through interdisciplinary collaboration.
+              </p>
             </div>
+          </div>
 
-            <!-- Footer Bottom -->
-            <div class="footer-bottom">
-                <div class="footer-bottom-content">
-                    <div class="footer-copyright">
-                        <p>&copy; 2026 ICSSID - International Conference on Sustainable Science and Infrastructure
-                            Development. All rights reserved.</p>
-                    </div>
-                    <div class="footer-legal-links">
-                        <a href="#privacy">Privacy Policy</a>
-                        <span class="separator">•</span>
-                        <a href="#terms">Terms of Service</a>
-                        <span class="separator">•</span>
-                        <a href="#accessibility">Accessibility</a>
-                        <span class="separator">•</span>
-                        <a href="contact.html">Contact</a>
-                    </div>
+          <!-- Footer Navigation -->
+          <div class="footer-nav">
+            <div class="footer-nav-grid">
+              <!-- Conference Links -->
+              <div class="footer-nav-column">
+                <h4 class="footer-nav-title">Conference</h4>
+                <ul class="footer-nav-list">
+                  <li><a href="about.html">About ICSSID</a></li>
+                  <li><a href="themes.html">Conference Themes</a></li>
+                  <li><a href="keydates.html">Key Dates</a></li>
+                  <li><a href="call-for-papers.html">Call for Papers</a></li>
+                  <li><a href="committees.html">Committees</a></li>
+                </ul>
+              </div>
+
+              <!-- Participation Links -->
+              <div class="footer-nav-column">
+                <h4 class="footer-nav-title">Participation</h4>
+                <ul class="footer-nav-list">
+                  <li><a href="registration.html">Registration</a></li>
+                  <li><a href="venue.html">Venue & Location</a></li>
+                  <li><a href="hotels.html">Accommodation</a></li>
+                  <li><a href="contact.html">Contact Us</a></li>
+                  <li><a href="#travel-info">Travel Information</a></li>
+                </ul>
+              </div>
+
+              <!-- Quick Contact -->
+              <div class="footer-nav-column">
+                <h4 class="footer-nav-title">Quick Contact</h4>
+                <div class="footer-contact-list">
+                  <div class="footer-contact-item">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                    >
+                      <path
+                        d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"
+                      />
+                    </svg>
+                    <a href="mailto:icssid2026@gmail.com"
+                      >icssid2026@gmail.com</a
+                    >
+                  </div>
+                  <div class="footer-contact-item">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                    >
+                      <path
+                        d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"
+                      />
+                    </svg>
+                    <a href="tel:+233249653242">+233 24 965 3242</a>
+                  </div>
+                  <div class="footer-contact-item">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                    >
+                      <path
+                        d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"
+                      />
+                    </svg>
+                    <span>Akroma Hotel, Sekondi-Takoradi, Ghana</span>
+                  </div>
                 </div>
+              </div>
             </div>
+          </div>
         </div>
+
+        <!-- Conference Info Bar -->
+        <div class="footer-info-bar">
+          <div class="conference-details">
+            <div class="conference-date">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <path
+                  d="M19 3h-1V1h-2v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V8h14v11zM7 10h5v5H7z"
+                />
+              </svg>
+              <time datetime="2026-06-18"
+                ><strong>June 18-20, 2026</strong></time
+              >
+            </div>
+            <div class="conference-venue">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <path
+                  d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"
+                />
+              </svg>
+              <span>Akroma Plaza Hotel, Ghana</span>
+            </div>
+          </div>
+
+          <div class="footer-social">
+            <span class="social-label">Follow ICSSID:</span>
+            <div class="social-links">
+              <a
+                href="#"
+                class="social-link"
+                aria-label="Follow on Twitter"
+                title="Twitter"
+              >
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+              <a
+                href="#"
+                class="social-link"
+                aria-label="Connect on LinkedIn"
+                title="LinkedIn"
+              >
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
+              <a
+                href="#"
+                class="social-link"
+                aria-label="Join Facebook"
+                title="Facebook"
+              >
+                <i class="fa-brands fa-facebook"></i>
+              </a>
+              <a
+                href="#"
+                class="social-link"
+                aria-label="Subscribe to YouTube"
+                title="YouTube"
+              >
+                <i class="fa-brands fa-youtube"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+          <div class="footer-bottom-content">
+            <div class="footer-copyright">
+              <p>
+                &copy; 2026 ICSSID - International Conference on Sustainable
+                Science and Infrastructure Development. All rights reserved.
+              </p>
+            </div>
+            <div class="footer-legal-links">
+              <a href="#privacy">Privacy Policy</a>
+              <span class="separator">•</span>
+              <a href="#terms">Terms of Service</a>
+              <span class="separator">•</span>
+              <a href="#accessibility">Accessibility</a>
+              <span class="separator">•</span>
+              <a href="contact.html">Contact</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </footer>
 
     <!-- Account Details Modal -->
-    <div class="modal fade" id="accountDetailsModal" tabindex="-1" role="dialog"
-        aria-labelledby="accountDetailsModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="accountDetailsModalLabel">Payment Account Details</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <div class="payment-account-details">
-                        <div class="alert alert-info">
-                            <strong>Payment Instructions:</strong> Please use the following account details to complete
-                            your registration payment.
-                        </div>
+    <div
+      class="modal fade"
+      id="accountDetailsModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="accountDetailsModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="accountDetailsModalLabel">
+              Payment Account Details
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="payment-account-details">
+              <div class="alert alert-info">
+                <strong>Payment Instructions:</strong> Please use the following
+                account details to complete your registration payment.
+              </div>
 
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="payment-method-detail">
-                                    <h6><i class="fa fa-university"></i> Bank Transfer (USD)</h6>
-                                    <div class="account-info">
-                                        <p><strong>Bank Name:</strong> GCB Bank</p>
-                                        <p><strong>Account Name:</strong> UMaT SRID</p>
-                                        <p><strong>Account Number:</strong> 4051130003631</p>
-                                        <p><strong>Swift Code:</strong> GHCBGHAC</p>
-                                        <p><strong>Bank Code:</strong> 040</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="payment-notes mt-4">
-                            <div class="alert alert-warning">
-                                <h6><i class="fa fa-exclamation-triangle"></i> Important Notes:</h6>
-                                <ul class="mb-0">
-                                    <li>Please include your full name and email address in the payment reference</li>
-                                    <li>IEEE members must provide valid membership number during registration</li>
-                                    <li>Students must provide valid student ID for student rates</li>
-                                    <li>Send payment confirmation to: <strong>icssid2026@gmail.com</strong></li>
-                                    <li>Registration is confirmed only after payment verification</li>
-                                </ul>
-                            </div>
-                        </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="payment-method-detail">
+                    <h6>
+                      <i class="fa fa-university"></i> Bank Transfer (USD)
+                    </h6>
+                    <div class="account-info">
+                      <p><strong>Bank Name:</strong> GCB Bank</p>
+                      <p><strong>Account Name:</strong> UMaT SRID</p>
+                      <p><strong>Account Number:</strong> 4051130003631</p>
+                      <p><strong>Swift Code:</strong> GHCBGHAC</p>
+                      <p><strong>Bank Code:</strong> 040</p>
                     </div>
+                  </div>
                 </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary" onclick="copyAccountDetails()">
-                        <i class="fa fa-copy"></i> Copy Account Details
-                    </button>
+              </div>
+
+              <div class="payment-notes mt-4">
+                <div class="alert alert-warning">
+                  <h6>
+                    <i class="fa fa-exclamation-triangle"></i> Important Notes:
+                  </h6>
+                  <ul class="mb-0">
+                    <li>
+                      Please include your full name and email address in the
+                      payment reference
+                    </li>
+                    <li>
+                      IEEE members must provide valid membership number during
+                      registration
+                    </li>
+                    <li>
+                      Students must provide valid student ID for student rates
+                    </li>
+                    <li>
+                      Send payment confirmation to:
+                      <strong>icssid2026@gmail.com</strong>
+                    </li>
+                    <li>
+                      Registration is confirmed only after payment verification
+                    </li>
+                  </ul>
                 </div>
+              </div>
             </div>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button
+              type="button"
+              class="btn btn-primary"
+              onclick="copyAccountDetails()"
+            >
+              <i class="fa fa-copy"></i> Copy Account Details
+            </button>
+          </div>
         </div>
+      </div>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/main.js"></script>
     <script>
-        // ─── EmailJS Configuration ────────────────────────────────────────────────
-        // Replace these three values with your own from https://www.emailjs.com/
-        const EMAILJS_PUBLIC_KEY = '_9sETUMdU4bxNUVjL';   // Account > API Keys
-        const EMAILJS_SERVICE_ID = 'service_3ju5p47';   // Email Services tab
-        const EMAILJS_TEMPLATE_ID = 'template_a3k9hhp';  // Email Templates tab
-        // ─────────────────────────────────────────────────────────────────────────
+      // ─── EmailJS Configuration ────────────────────────────────────────────────
+      // Replace these three values with your own from https://www.emailjs.com/
+      const EMAILJS_PUBLIC_KEY = "_9sETUMdU4bxNUVjL"; // Account > API Keys
+      const EMAILJS_SERVICE_ID = "service_3ju5p47"; // Email Services tab
+      const EMAILJS_TEMPLATE_ID = "template_a3k9hhp"; // Email Templates tab
+      // ─────────────────────────────────────────────────────────────────────────
 
-        emailjs.init({ publicKey: EMAILJS_PUBLIC_KEY });
+      emailjs.init({ publicKey: EMAILJS_PUBLIC_KEY });
 
-        document.addEventListener('DOMContentLoaded', function () {
-            const form = document.querySelector('#registrationForm');
-            const submitBtn = form.querySelector('button[type="submit"]');
-            const successBanner = document.getElementById('success-message');
-            const errorBanner = document.getElementById('error-message');
-            const errorDetail = document.getElementById('error-detail');
+      document.addEventListener("DOMContentLoaded", function () {
+        const form = document.querySelector("#registrationForm");
+        const submitBtn = form.querySelector('button[type="submit"]');
+        const successBanner = document.getElementById("success-message");
+        const errorBanner = document.getElementById("error-message");
+        const errorDetail = document.getElementById("error-detail");
 
-            // ── Real-time validation ──────────────────────────────────────────────
-            const inputs = form.querySelectorAll('input[required], select[required]');
-            inputs.forEach(input => {
-                input.addEventListener('blur', validateField);
-                input.addEventListener('input', clearErrors);
-            });
-
-            // ── Form submission ───────────────────────────────────────────────────
-            form.addEventListener('submit', async function (e) {
-                e.preventDefault();
-
-                // Validate all visible required fields
-                let isValid = true;
-                form.querySelectorAll('input[required], select[required]').forEach(input => {
-                    if (!validateField.call(input)) isValid = false;
-                });
-                if (!isValid) return;
-
-                // Show loading state
-                submitBtn.disabled = true;
-                submitBtn.innerHTML = '<span class="spinner-border spinner-border-sm me-2" role="status"></span>Submitting...';
-
-                // Build template parameters (map to your EmailJS template variables)
-                const params = {
-                    // ── Registration info
-                    paper_id: form.paperID.value.trim() || 'N/A',
-                    paper_title: form.title.value.trim(),
-                    designation: form.designation.value.trim(),
-                    participant_name: form.participantName.value.trim(),
-                    participant_email: form.participantEmail.value.trim(),
-                    gender: form.gender.value,
-                    phone: form.phoneNumber.value.trim(),
-                    address: form.address.value.trim(),
-                    city: form.city.value.trim(),
-                    country: form.country.value.trim(),
-                    institution: form.institution.value.trim(),
-                    department: form.department.value.trim(),
-                    role: form.role.value,
-                    co_authors: form.coAuthors.value.trim() || 'N/A',
-                    // ── Payment info
-                    transaction_id: form.transactionID.value.trim(),
-                    payment_date: form.paymentDate.value,
-                    payment_type: form.paymentType.value,
-                    presentation_mode: form.presentationMode.value,
-                    ieee_member: form.ieee_member.value,
-                    ieee_id: (form.ieee_id.value.trim()) || 'N/A',
-                    student_status: form.student_status.value,
-                    // ── Meta
-                    submitted_at: new Date().toLocaleString('en-GB', { timeZone: 'Africa/Accra' }),
-                    reply_to: form.participantEmail.value.trim(),
-                };
-
-                try {
-                    await emailjs.send(EMAILJS_SERVICE_ID, EMAILJS_TEMPLATE_ID, params);
-
-                    // Success
-                    form.closest('section').style.display = 'none';
-                    successBanner.style.display = 'block';
-                    successBanner.scrollIntoView({ behavior: 'smooth', block: 'center' });
-                    form.reset();
-                    document.getElementById('ieee_id_field').style.display = 'none';
-                    document.getElementById('student_fields').style.display = 'none';
-
-                } catch (error) {
-                    console.error('EmailJS error:', error);
-                    errorDetail.innerHTML = `There was a problem submitting your registration (${error.text || error.status || 'unknown error'}). Please try again or email us directly at <a href="mailto:icssid2026@gmail.com">icssid2026@gmail.com</a>.`;
-                    errorBanner.style.display = 'block';
-                    errorBanner.scrollIntoView({ behavior: 'smooth', block: 'center' });
-
-                    // Restore button
-                    submitBtn.disabled = false;
-                    submitBtn.innerHTML = 'Register';
-                }
-            });
-
-            // ── Field validation helpers ──────────────────────────────────────────
-            function validateField() {
-                const fieldContainer = this.closest('.mb-3, .mb-4') || this.parentElement;
-                let errorElement = fieldContainer.querySelector('.error-message');
-
-                if (!errorElement) {
-                    errorElement = document.createElement('div');
-                    errorElement.className = 'error-message text-danger small mt-1';
-                    errorElement.style.display = 'none';
-                    this.parentElement.appendChild(errorElement);
-                }
-
-                fieldContainer.classList.remove('error', 'success');
-                errorElement.style.display = 'none';
-
-                if (this.required && !this.value.trim()) {
-                    fieldContainer.classList.add('error');
-                    errorElement.textContent = 'This field is required';
-                    errorElement.style.display = 'block';
-                    return false;
-                }
-
-                if (this.type === 'email' && this.value) {
-                    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-                    if (!emailRegex.test(this.value)) {
-                        fieldContainer.classList.add('error');
-                        errorElement.textContent = 'Please enter a valid email address';
-                        errorElement.style.display = 'block';
-                        return false;
-                    }
-                }
-
-                if (this.type === 'tel' && this.value) {
-                    const phoneRegex = /^[\+]?[1-9][\d]{0,15}$/;
-                    if (!phoneRegex.test(this.value.replace(/[\s\-\(\)]/g, ''))) {
-                        fieldContainer.classList.add('error');
-                        errorElement.textContent = 'Please enter a valid phone number';
-                        errorElement.style.display = 'block';
-                        return false;
-                    }
-                }
-
-                if (this.id === 'ieee_id' && this.value) {
-                    const ieeeRegex = /^\d{8,9}$/;
-                    if (!ieeeRegex.test(this.value.replace(/\D/g, ''))) {
-                        fieldContainer.classList.add('error');
-                        errorElement.textContent = 'IEEE membership number must be 8-9 digits';
-                        errorElement.style.display = 'block';
-                        return false;
-                    }
-                }
-
-                if (this.value.trim()) fieldContainer.classList.add('success');
-                return true;
-            }
-
-            function clearErrors() {
-                const fieldContainer = this.closest('.mb-3, .mb-4') || this.parentElement;
-                if (this.value.trim()) {
-                    fieldContainer.classList.remove('error');
-                    const errorElement = fieldContainer.querySelector('.error-message');
-                    if (errorElement) errorElement.style.display = 'none';
-                }
-            }
+        // ── Real-time validation ──────────────────────────────────────────────
+        const inputs = form.querySelectorAll(
+          "input[required], select[required]",
+        );
+        inputs.forEach((input) => {
+          input.addEventListener("blur", validateField);
+          input.addEventListener("input", clearErrors);
         });
 
-        // Modal functionality for account details
-        function copyAccountDetails() {
-            const accountText = `
+        // ── Form submission ───────────────────────────────────────────────────
+        form.addEventListener("submit", async function (e) {
+          e.preventDefault();
+
+          // Validate all visible required fields
+          let isValid = true;
+          form
+            .querySelectorAll("input[required], select[required]")
+            .forEach((input) => {
+              if (!validateField.call(input)) isValid = false;
+            });
+          if (!isValid) return;
+
+          // Show loading state
+          submitBtn.disabled = true;
+          submitBtn.innerHTML =
+            '<span class="spinner-border spinner-border-sm me-2" role="status"></span>Submitting...';
+
+          // Build template parameters (map to your EmailJS template variables)
+          const params = {
+            // ── Registration info
+            paper_id: form.paperID.value.trim() || "N/A",
+            paper_title: form.title.value.trim(),
+            designation: form.designation.value.trim(),
+            participant_name: form.participantName.value.trim(),
+            participant_email: form.participantEmail.value.trim(),
+            gender: form.gender.value,
+            phone: form.phoneNumber.value.trim(),
+            address: form.address.value.trim(),
+            city: form.city.value.trim(),
+            country: form.country.value.trim(),
+            institution: form.institution.value.trim(),
+            department: form.department.value.trim(),
+            role: form.role.value,
+            co_authors: form.coAuthors.value.trim() || "N/A",
+            // ── Payment info
+            transaction_id: form.transactionID.value.trim(),
+            payment_date: form.paymentDate.value,
+            payment_type: form.paymentType.value,
+            presentation_mode: form.presentationMode.value,
+            ieee_member: form.ieee_member.value,
+            ieee_id: form.ieee_id.value.trim() || "N/A",
+            student_status: form.student_status.value,
+            // ── Meta
+            submitted_at: new Date().toLocaleString("en-GB", {
+              timeZone: "Africa/Accra",
+            }),
+            reply_to: form.participantEmail.value.trim(),
+          };
+
+          try {
+            await emailjs.send(EMAILJS_SERVICE_ID, EMAILJS_TEMPLATE_ID, params);
+
+            // Success
+            form.closest("section").style.display = "none";
+            successBanner.style.display = "block";
+            successBanner.scrollIntoView({
+              behavior: "smooth",
+              block: "center",
+            });
+            form.reset();
+            document.getElementById("ieee_id_field").style.display = "none";
+            document.getElementById("student_fields").style.display = "none";
+          } catch (error) {
+            console.error("EmailJS error:", error);
+            errorDetail.innerHTML = `There was a problem submitting your registration (${error.text || error.status || "unknown error"}). Please try again or email us directly at <a href="mailto:icssid2026@gmail.com">icssid2026@gmail.com</a>.`;
+            errorBanner.style.display = "block";
+            errorBanner.scrollIntoView({ behavior: "smooth", block: "center" });
+
+            // Restore button
+            submitBtn.disabled = false;
+            submitBtn.innerHTML = "Register";
+          }
+        });
+
+        // ── Field validation helpers ──────────────────────────────────────────
+        function validateField() {
+          const fieldContainer =
+            this.closest(".mb-3, .mb-4") || this.parentElement;
+          let errorElement = fieldContainer.querySelector(".error-message");
+
+          if (!errorElement) {
+            errorElement = document.createElement("div");
+            errorElement.className = "error-message text-danger small mt-1";
+            errorElement.style.display = "none";
+            this.parentElement.appendChild(errorElement);
+          }
+
+          fieldContainer.classList.remove("error", "success");
+          errorElement.style.display = "none";
+
+          if (this.required && !this.value.trim()) {
+            fieldContainer.classList.add("error");
+            errorElement.textContent = "This field is required";
+            errorElement.style.display = "block";
+            return false;
+          }
+
+          if (this.type === "email" && this.value) {
+            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            if (!emailRegex.test(this.value)) {
+              fieldContainer.classList.add("error");
+              errorElement.textContent = "Please enter a valid email address";
+              errorElement.style.display = "block";
+              return false;
+            }
+          }
+
+          if (this.type === "tel" && this.value) {
+            const phoneRegex = /^[\+]?[1-9][\d]{0,15}$/;
+            if (!phoneRegex.test(this.value.replace(/[\s\-\(\)]/g, ""))) {
+              fieldContainer.classList.add("error");
+              errorElement.textContent = "Please enter a valid phone number";
+              errorElement.style.display = "block";
+              return false;
+            }
+          }
+
+          if (this.id === "ieee_id" && this.value) {
+            const ieeeRegex = /^\d{8,9}$/;
+            if (!ieeeRegex.test(this.value.replace(/\D/g, ""))) {
+              fieldContainer.classList.add("error");
+              errorElement.textContent =
+                "IEEE membership number must be 8-9 digits";
+              errorElement.style.display = "block";
+              return false;
+            }
+          }
+
+          if (this.value.trim()) fieldContainer.classList.add("success");
+          return true;
+        }
+
+        function clearErrors() {
+          const fieldContainer =
+            this.closest(".mb-3, .mb-4") || this.parentElement;
+          if (this.value.trim()) {
+            fieldContainer.classList.remove("error");
+            const errorElement = fieldContainer.querySelector(".error-message");
+            if (errorElement) errorElement.style.display = "none";
+          }
+        }
+      });
+
+      // Modal functionality for account details
+      function copyAccountDetails() {
+        const accountText = `
                 ICSSID 2026 Conference Payment Details
 
                 Bank Transfer:
@@ -930,73 +1447,75 @@
                 Send confirmation to: icssid2026@gmail.com
             `;
 
-            navigator.clipboard.writeText(accountText).then(function () {
-                alert('Account details copied to clipboard!');
-            }, function (err) {
-                console.error('Could not copy text: ', err);
-                // Fallback for older browsers
-                const textArea = document.createElement('textarea');
-                textArea.value = accountText;
-                document.body.appendChild(textArea);
-                textArea.select();
-                document.execCommand('copy');
-                document.body.removeChild(textArea);
-                alert('Account details copied to clipboard!');
-            });
+        navigator.clipboard.writeText(accountText).then(
+          function () {
+            alert("Account details copied to clipboard!");
+          },
+          function (err) {
+            console.error("Could not copy text: ", err);
+            // Fallback for older browsers
+            const textArea = document.createElement("textarea");
+            textArea.value = accountText;
+            document.body.appendChild(textArea);
+            textArea.select();
+            document.execCommand("copy");
+            document.body.removeChild(textArea);
+            alert("Account details copied to clipboard!");
+          },
+        );
+      }
+
+      // Purchase button handlers
+      document.addEventListener("DOMContentLoaded", function () {
+        const purchaseBtnEarly = document.getElementById("purchaseBtnEarly");
+        const purchaseBtnLate = document.getElementById("purchaseBtnLate");
+
+        if (purchaseBtnEarly) {
+          purchaseBtnEarly.addEventListener("click", function () {
+            // You can add specific logic for early registration here
+            console.log("Early registration selected");
+          });
         }
 
-        // Purchase button handlers
-        document.addEventListener('DOMContentLoaded', function () {
-            const purchaseBtnEarly = document.getElementById('purchaseBtnEarly');
-            const purchaseBtnLate = document.getElementById('purchaseBtnLate');
-
-            if (purchaseBtnEarly) {
-                purchaseBtnEarly.addEventListener('click', function () {
-                    // You can add specific logic for early registration here
-                    console.log('Early registration selected');
-                });
-            }
-
-            if (purchaseBtnLate) {
-                purchaseBtnLate.addEventListener('click', function () {
-                    // You can add specific logic for late registration here
-                    console.log('Late registration selected');
-                });
-            }
-        });
-
-        // IEEE membership field toggle function
-        function toggleIeeeIdField() {
-            var ieeeMemberSelect = document.getElementById("ieee_member");
-            var ieeeIdField = document.getElementById("ieee_id_field");
-            var ieeeIdInput = document.getElementById("ieee_id");
-
-            if (ieeeMemberSelect.value === "Yes") {
-                ieeeIdField.style.display = "block";
-                ieeeIdInput.required = true; // Make IEEE ID required if Yes is selected
-            } else {
-                ieeeIdField.style.display = "none";
-                ieeeIdInput.required = false; // Remove required attribute if No is selected
-                ieeeIdInput.value = ''; // Clear the field
-            }
+        if (purchaseBtnLate) {
+          purchaseBtnLate.addEventListener("click", function () {
+            // You can add specific logic for late registration here
+            console.log("Late registration selected");
+          });
         }
+      });
 
-        // Student fields toggle function
-        function toggleStudentFields() {
-            var studentStatusSelect = document.getElementById("student_status");
-            var studentFields = document.getElementById("student_fields");
-            var studentIdUpload = document.getElementById("student_id_upload");
+      // IEEE membership field toggle function
+      function toggleIeeeIdField() {
+        var ieeeMemberSelect = document.getElementById("ieee_member");
+        var ieeeIdField = document.getElementById("ieee_id_field");
+        var ieeeIdInput = document.getElementById("ieee_id");
 
-            if (studentStatusSelect.value === "Yes") {
-                studentFields.style.display = "block";
-                studentIdUpload.required = true; // Make the upload required
-            } else {
-                studentFields.style.display = "none";
-                studentIdUpload.required = false; // Remove required if "No" is selected
-                studentIdUpload.value = ''; // Clear the file input
-            }
+        if (ieeeMemberSelect.value === "Yes") {
+          ieeeIdField.style.display = "block";
+          ieeeIdInput.required = true; // Make IEEE ID required if Yes is selected
+        } else {
+          ieeeIdField.style.display = "none";
+          ieeeIdInput.required = false; // Remove required attribute if No is selected
+          ieeeIdInput.value = ""; // Clear the field
         }
+      }
+
+      // Student fields toggle function
+      function toggleStudentFields() {
+        var studentStatusSelect = document.getElementById("student_status");
+        var studentFields = document.getElementById("student_fields");
+        var studentIdUpload = document.getElementById("student_id_upload");
+
+        if (studentStatusSelect.value === "Yes") {
+          studentFields.style.display = "block";
+          studentIdUpload.required = true; // Make the upload required
+        } else {
+          studentFields.style.display = "none";
+          studentIdUpload.required = false; // Remove required if "No" is selected
+          studentIdUpload.value = ""; // Clear the file input
+        }
+      }
     </script>
-</body>
-
+  </body>
 </html>
